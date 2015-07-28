@@ -1,0 +1,222 @@
+**************************************************
+******************Specifications******************
+***********************Draft**********************
+**************************************************
+
+**************************************************
+*   Main task
+**************************************************
+   Launch all tasks
+
+
+**************************************************
+*   Acquisition of data task
+**************************************************
+
+   Initialization of the A/D converter // Sample frequency: 1 kHz (TBC)
+   Waiting for acquisition (interrupt-based)
+   Read the value from the input channel
+   Convert to current value in A
+   Store it to the buffer
+   if buffer is full // Buffer is full when a period of the signal has been sampled (20 ms)
+      calcul the instant power using FFT
+      flush the buffer
+      update the globale variable "globalInstCurrentLast" (mutex TBC)
+      update the globale variable "globalInstPowerLast" (mutex TBC)
+      Send signal "Values updated"
+   end if
+
+   uint8_t getInstantVoltage(void); // return a hardcoded value of 230 (because +230Vac)
+   uint8_t getInstantCurrent(uint8_t channel);
+   uint32_t getInstantPower(uint8_t channel); // return value in w
+
+
+Energy measurement
+   Note: The interval of energy measurement is set by default to 5 min.
+
+   uint32_t getEnergyCounter(void);
+   bool updateCounterValue(uint32_t value);
+   bool resetCounterValue();
+
+Memory management
+   Note: The memory will hold some metadata at the begining of his space:
+         * pointer to the next free space
+         * percent of space use
+         * interval of energy measurement
+         * TBD
+   bool resetAll(void);
+   bool addValue(uint32_t timestamp, uint32_t data);
+   bool getAllValues(TEnergy *buff);
+   bool getValuesFrom(TEnergy *buff, uint32_t timestamp);
+
+**************************************************
+*   Command Handler task
+**************************************************
+This task will wait for commands from the mobile
+app. and will notify other tasks.
+
+Algo.:
+   Initialization of the UART interface (8N1 115200)
+   connected to the Bluetooth interface.
+
+   Wait for a command
+   Switch the command
+      setRelayOn:
+         if getRelayStatus() = Off
+            Calls the function setRelayOn();
+            Send to the mobile app. the returned code
+         else
+            Send to the mobile app.: "Relay already On\n\r"
+         endif
+
+      setRelayOff:
+         if getRelayStatus() = On
+            Calls the function setRelayOff();
+            Send to the mobile app. the returned code
+         else
+            Send to the mobile app.: "Relay already Off\n\r"
+         endif
+
+      getRelayStatus:
+         Calls the function getRelayStatus();
+         Send to the mobile app. the returned status
+
+      getTempInside:
+         Calls the function getTempInsideValue();
+         Send to the mobile app. the returned value
+
+      liveMode:
+         // In live mode, the device sends every x seconds (TBD) the
+         // instant power value (in W) to the mobile app.
+
+#1       getInstantPower(channel)
+         sendInstantPower(value)
+         wait for x seconds
+         Goto #1
+
+      getInstantVoltage: // V
+         uint8_t instVoltage = getInstantVoltage();
+         sendInstVoltage(instVoltage);
+
+      getInstantCurrent: // A
+         uint8_t instCurrent = getInstantCurrent();
+         sendInstCurrent(instCurrent);
+
+      getInstantPower: // W
+         uint32_t instPower = getInstantPower();
+         sendInstPower(instPower);
+
+      getEnergyCounter: // Wh
+         uint32_t energyCounter = getEnergyCounter();
+         sendEnergyCounter(energyCounter);
+
+      Unknown command:
+         Send to the mobile app.: "Unknown command has been received\n\r"
+   End Switch
+
+Prototypes:
+   bool setRelayOn(void);
+   bool setRelayOff(void);
+   bool statusRelay(void); //true = On and false = Off
+
+   float getTempInsideValue(void);
+
+
+**************************************************
+*   Sending data over the Bluetooth module (via UART)
+**************************************************
+   bool sendInstVoltage(uint8_t InstVoltage);
+   bool sendInstCurrent(uint8_t InstCurrent);
+   bool sendInstPower(uint32_t InstPower);
+
+   // bool sendEnergyLastInterval(uint32_t value);
+   bool sendEnergyCounter(uint 32 value);
+
+   bool sendDID(void);
+
+   bool sendTempValue(void);
+
+**************************************************
+*   Details of trames
+**************************************************
+General trame:
+-----------------------------------------------------------
+|   Flag   |  Num. of | byte 1 | byte 2 |  ...   | byte n |
+|          |   bytes  |        |
+-----------------------------------------------------------
+|   0x7E   |   0x..   |  0x..  |  0x..  |  0x..  |  0x..  |
+| (1 byte) | (1 byte) |        |        |        |        |
+-----------------------------------------------------------
+
+From the mobile app. to the device
+
+Open the relay:
+   0x7E 0x08 0x72 0x65 0x6C 0x61 0x79 0x20 0x6F 0x6E // "relay on"
+Response from the device to the mobile app.:
+   0x7E 0x0B 0x72 0x65 0x6C 0x61 0x79 0x20 0x6F 0x6E 0x20 0x6F 0x6B // "relay on ok"
+   0x7E 0x0C 0x72 0x65 0x6C 0x61 0x79 0x20 0x6F 0x6E 0x20 0x6E 0x6F 0x6B // "relay on nok"
+
+
+Close the relay:
+   0x7E 0x09 0x72 0x65 0x6C 0x61 0x79 0x20 0x6F 0x66 0x66 // "relay off"
+Response from the device to the mobile app.:
+   0x7E 0x0C 0x72 0x65 0x6C 0x61 0x79 0x20 0x6F 0x66 0x66 0x20 0x6F 0x6B // "relay off ok"
+   0x7E 0x0D 0x72 0x65 0x6C 0x61 0x79 0x20 0x6F 0x66 0x66 0x20 0x6E 0x6F 0x6B // "relay off nok"
+
+
+Status of the relay:
+   0x7E 0x0C 0x72 0x65 0x6C 0x61 0x79 0x20 0x73 0x74 0x61 0x74 0x75 0x73 // "relay status"
+Response from the device to the mobile app.:
+   0x7E 0x0F 0x72 0x65 0x6C 0x61 0x79 0x20 0x73 0x74 0x61 0x74 0x75 0x73 0x20 0x6F 0x6E // "relay status on"
+   0x7E 0x10 0x72 0x65 0x6C 0x61 0x79 0x20 0x73 0x74 0x61 0x74 0x75 0x73 0x20 0x6F 0x66 0x66 // "relay status off"
+
+
+Get the temperature inside the device:
+   0x7E 0x0b 0x74 0x65 0x6D 0x70 0x20 0x69 0x6E 0x73 0x69 0x64 0x65 // "temp inside"
+Response from the device to the mobile app. (example 35.6 deg. Celsius):
+   0x7E 0x12 0x74 0x65 0x6D 0x70 0x20 0x69 0x6E 0x73 0x69 0x64 0x65 0x20 0x2D 0x20 0x33 0x35 0x2E 0x36 // "temp inside - 35.6"
+
+
+Live mode:
+   0x7E 0x09 0x6C 0x69 0x76 0x65 0x20 0x6D 0x6F 0x64 0x65 // "live mode - x" means: "Please send me instant power (in W) every x seconds"
+Response from the device to the mobile app. every x seconds (example 1000 W):
+   0x7E 0x14 0x6C 0x69 0x76 0x65 0x20 0x6D 0x6F 0x64 0x65 0x20 0x2D 0x20 0x78 0x20 0x2D 0x20 0x31 0x30 0x30 0x30 // "live mode - x - 1000"
+
+
+getInstantVoltage:
+   0x7E 0x11 0x67 0x65 0x74 0x49 0x6E 0x73 0x74 0x61 0x6E 0x74 0x56 0x6F 0x6C 0x74 0x61 0x67 0x65 0x1F 0x1F // "getInstantVoltage"
+Response from the device to the mobile app. (example +230 Vac):
+   0x7E 0x11 0x67 0x65 0x74 0x49 0x6E 0x73 0x74 0x61 0x6E 0x74 0x56 0x6F 0x6C 0x74 0x61 0x67 0x65 0x1F 0x1F 0x20 0x2D 0x20 0x32 0x33 0x30 // "getInstantVoltage - 230"
+
+getInstantCurrent:
+   0x7E 0x011 0x67 0x65 0x74 0x49 0x6E 0x73 0x74 0x61 0x6E 0x74 0x43 0x75 0x72 0x72 0x65 0x6E 0x74 // 0x7E 0x11"getInstantCurrent"
+getInstantPower:
+   0x7E 0x0F 0x67 0x65 0x74 0x49 0x6E 0x73 0x74 0x61 0x6E 0x74 0x50 0x6F 0x77 0x65 0x72 // 0x7E 0x0F "getInstantPower"
+getEnergyCounter:
+   0x7E 0x10 0x67 0x65 0x74 0x45 0x6E 0x65 0x72 0x67 0x79 0x43 0x6F 0x75 0x6E 0x74 0x65 0x72 // 0x7E 0x10 "getEnergyCounter"
+
+**************************************************
+*   Data logger (Piotr Woznica)
+**************************************************
+For now lets assume that:
+   * We have a global variable (uint32_t) indicating the value of the global energy counter (kWh)
+   named "energyCounter" declared in the main file.
+   * We have a global variable (uint32_t) indicating the current timestamp named "timestamp" declared
+   in the main file too.
+   * Both global variables must be accessed only using mutex named respectively mutEnergyCounter and
+   mutTimestamp (See http://www.freertos.org/Real-time-embedded-RTOS-mutexes.html)
+   * Both global variables will be updated by a task responsible for maintaining the timestamp and the
+   task responsible to integrate the power over the time.
+   
+   Name of this task: dataLoggerTask
+   Description: At regular interval (i.e. 5 min.) this task save the value of energyCounter to the EEPROM
+   memory associated with the current timestamp.
+   Suggestion: We can reserved the first 4 bytes of the EEPROM memory to contain the adress of the next
+   available location where to save data. Moreover, please create a new layer (header/source files) that
+   rely on EEPROM and I2C drivers. It should containe methods like i. e. eraseMemory(), addValue(), getAllValues(),
+   getValueAt(), getValuesFrom(), ...
+   
+   Please note that this layer should be independent of the EEPROM memory we will use. You can check from now use the main.c file in this repo and add your own task and layer.
+   
+   Good luck!!
+   For more information, please ask.
