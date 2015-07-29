@@ -15,9 +15,10 @@ void initSystemBasics(void)
 	UART_Init(LPC_UART0, &UART_ConfigStruct);
 	UART_IntConfig(LPC_UART0, UART_INTCFG_RBR, ENABLE);
 
-	xQueue = xQueueCreate(SIZE_QUEUE, sizeof(uint8_t));
+	xQueueInput = xQueueCreate(SIZE_QUEUE, sizeof(uint8_t));
+	xQueueOutput = xQueueCreate(SIZE_QUEUE, sizeof(uint8_t));
 #ifdef DEBUG_MODE
-	if(xQueue == 0) {
+	if(xQueueInput == 0 && xQueueOutput == 0) {
 		UART_Send(LPC_UART0, error, strlen(error), NONE_BLOCKING);
 	}else {
 		UART_Send(LPC_UART0, success, strlen(success), NONE_BLOCKING);

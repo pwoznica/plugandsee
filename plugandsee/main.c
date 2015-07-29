@@ -28,8 +28,8 @@ static SemaphoreHandle_t mutEnergyCounter;
 uint32_t timestamp = 0;
 static SemaphoreHandle_t mutTimestamp;
 
-
-QueueHandle_t xQueue;
+QueueHandle_t xQueueInput;
+QueueHandle_t xQueueOutput;
 
 int main(void)
 {

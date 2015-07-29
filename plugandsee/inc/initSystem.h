@@ -20,7 +20,8 @@
 
 #define SIZE_QUEUE							(64) // TBC
 
-extern QueueHandle_t xQueue;
+extern QueueHandle_t xQueueInput;
+extern QueueHandle_t xQueueOutput;
 
 void initSystemBasics(void);
 
