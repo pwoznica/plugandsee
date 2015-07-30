@@ -11,7 +11,7 @@ C_SRCS += \
 ../src/system_LPC177x_8x.c \
 ../src/taskDataAcquisition.c \
 ../src/taskDataLogger.c \
-../src/taskUpdateTimestamp.c 
+../src/updateTimestampTask.c 
 
 OBJS += \
 ./src/commandsHandlerTask.o \
@@ -21,7 +21,7 @@ OBJS += \
 ./src/system_LPC177x_8x.o \
 ./src/taskDataAcquisition.o \
 ./src/taskDataLogger.o \
-./src/taskUpdateTimestamp.o 
+./src/updateTimestampTask.o 
 
 C_DEPS += \
 ./src/commandsHandlerTask.d \
@@ -31,7 +31,7 @@ C_DEPS += \
 ./src/system_LPC177x_8x.d \
 ./src/taskDataAcquisition.d \
 ./src/taskDataLogger.d \
-./src/taskUpdateTimestamp.d 
+./src/updateTimestampTask.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

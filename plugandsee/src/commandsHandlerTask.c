@@ -42,7 +42,11 @@ void commandsHandlerTask(void *pvParameters) {
 						if(strcmp(&buff[1], "relay status\r\n")) {
 							relayStatus();
 						} else {
-							// TODO - Continue the implementation of the commands handler
+							if(strcmp(&buff[1], "temp inside\r\n")) {
+								tempInside();
+							} else {
+								// TODO - Continue the implementation of the commands handler
+							}
 						}
 					}
 				}
@@ -81,4 +85,8 @@ void relayStatus(void) { // TODO - Add a physical relay
 	} else {
 		xQueueSend(xQueueOutput, "relay status on\r\n", (TickType_t) 10);
 	}
+}
+
+void tempInside(void) { // TODO - Add a physical temperature sensor
+	xQueueSend(xQueueOutput, "temp inside - 35.6\r\n", (TickType_t) 10);
 }

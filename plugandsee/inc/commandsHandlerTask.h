@@ -22,4 +22,6 @@ void relayOn(void);
 void relayOff(void);
 void relayStatus(void);
 
+void tempInside(void);
+
 #endif /* _TASKCOMMANDSHANDLER_H_ */

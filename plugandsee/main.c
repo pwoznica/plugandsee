@@ -13,10 +13,10 @@
 
 #include "taskDataAcquisition.h"
 #include "taskDataLogger.h"
-#include "taskUpdateTimestamp.h"
 
 #include "sendDataTask.h"
 #include "commandsHandlerTask.h"
+#include "updateTimestampTask.h"
 
 #define DEBUG_MODE 1
 
@@ -25,9 +25,6 @@
 // associated mutexes.
 uint32_t energyCounter = 0;
 static SemaphoreHandle_t mutEnergyCounter;
-
-uint32_t timestamp = 0;
-static SemaphoreHandle_t mutTimestamp;
 
 QueueHandle_t xQueueInput;
 QueueHandle_t xQueueOutput;

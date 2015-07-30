@@ -17,6 +17,7 @@ void initSystemBasics(void)
 
 	xQueueInput = xQueueCreate(SIZE_QUEUE, sizeof(uint8_t));
 	xQueueOutput = xQueueCreate(SIZE_QUEUE, sizeof(uint8_t));
+
 #ifdef DEBUG_MODE
 	if(xQueueInput == 0 && xQueueOutput == 0) {
 		UART_Send(LPC_UART0, error, strlen(error), NONE_BLOCKING);
@@ -27,4 +28,6 @@ void initSystemBasics(void)
 
 	GPIO_SetDir(RELAY_PORT_NUM, RELAY_BIT_VALUE, 1);
 	GPIO_SetValue(RELAY_PORT_NUM, RELAY_BIT_VALUE);
+
+	ADC_Init(LPC_ADC, 1000); // TODO - Check if 1000 means 1kHz. Should it be only "1"
 }
