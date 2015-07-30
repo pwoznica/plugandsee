@@ -14,6 +14,8 @@ Archive member included because of file (symbol)
                               /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o) (__divdi3)
 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
                               /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o) (__udivdi3)
+/usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atoi.o)
+                              ./src/commandsHandlerTask.o (atoi)
 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-exit.o)
                               /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o (exit)
 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
@@ -28,12 +30,24 @@ Archive member included because of file (symbol)
                               ./src/commandsHandlerTask.o (strcmp)
 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strlen.o)
                               ./src/taskDataAcquisition.o (strlen)
+/usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strstr.o)
+                              ./src/commandsHandlerTask.o (strstr)
+/usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strtol.o)
+                              /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atoi.o) (_strtol_r)
 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
                               /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-exit.o) (__call_exitprocs)
 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atexit.o)
                               /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o) (atexit)
+/usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-ctype_.o)
+                              /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strtol.o) (__ctype_ptr__)
 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fini.o)
                               /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o) (__libc_fini_array)
+/usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memchr.o)
+                              /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strstr.o) (memchr)
+/usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memcmp.o)
+                              /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strstr.o) (memcmp)
+/usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strchr.o)
+                              /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strstr.o) (strchr)
 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__atexit.o)
                               /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atexit.o) (__register_exitproc)
 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
@@ -50,6 +64,7 @@ _db_dec_32          0x4               ./Drivers/source/debug_frmwrk.o
 timestamp           0x4               ./src/updateTimestampTask.o
 _db_hex_32          0x4               ./Drivers/source/debug_frmwrk.o
 _db_dec_16          0x4               ./Drivers/source/debug_frmwrk.o
+mutTimestamp        0x4               ./src/updateTimestampTask.o
 fifo                0x40              ./src/commandsHandlerTask.o
 _db_hex_            0x4               ./Drivers/source/debug_frmwrk.o
 _db_msg             0x4               ./Drivers/source/debug_frmwrk.o
@@ -82,6 +97,7 @@ Discarded input sections
  .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
  .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
  .ARM.extab     0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
  .group         0x00000000        0x8 ./src/commandsHandlerTask.o
  .group         0x00000000        0x8 ./src/commandsHandlerTask.o
  .group         0x00000000        0x8 ./src/commandsHandlerTask.o
@@ -391,6 +407,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xc0 ./src/updateTimestampTask.o
  .debug_macro   0x00000000       0x8c ./src/updateTimestampTask.o
  .debug_macro   0x00000000       0xb0 ./src/updateTimestampTask.o
+ .debug_macro   0x00000000       0x7f ./src/updateTimestampTask.o
  .group         0x00000000        0x8 ./FreeRTOS/Source/portable/MemMang/heap_4.o
  .group         0x00000000        0x8 ./FreeRTOS/Source/portable/MemMang/heap_4.o
  .group         0x00000000        0x8 ./FreeRTOS/Source/portable/MemMang/heap_4.o
@@ -2428,8 +2445,6 @@ Discarded input sections
  .text          0x00000000        0x0 ./main.o
  .data          0x00000000        0x0 ./main.o
  .bss           0x00000000        0x0 ./main.o
- .bss.mutTimestamp
-                0x00000000        0x4 ./main.o
  .bss.energyCounter
                 0x00000000        0x4 ./main.o
  .bss.mutEnergyCounter
@@ -2489,14 +2504,16 @@ Discarded input sections
  .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
  .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
  .ARM.extab     0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+ .text          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atoi.o)
+ .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atoi.o)
+ .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atoi.o)
+ .text._atoi_r  0x00000000        0x8 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atoi.o)
  .text          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-exit.o)
  .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-exit.o)
  .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-exit.o)
  .text          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
  .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
  .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
- .data._impure_ptr
-                0x00000000        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
  .text          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-init.o)
  .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-init.o)
  .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-init.o)
@@ -2510,15 +2527,33 @@ Discarded input sections
  .text          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strlen.o)
  .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strlen.o)
  .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strstr.o)
+ .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strstr.o)
+ .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strstr.o)
+ .text          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strtol.o)
+ .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strtol.o)
+ .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strtol.o)
  .text          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
  .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
  .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
  .text          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atexit.o)
  .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atexit.o)
  .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atexit.o)
+ .text          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-ctype_.o)
+ .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-ctype_.o)
+ .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-ctype_.o)
  .text          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fini.o)
  .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fini.o)
  .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fini.o)
+ .text          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memchr.o)
+ .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memchr.o)
+ .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memchr.o)
+ .text          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memcmp.o)
+ .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memcmp.o)
+ .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memcmp.o)
+ .text          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strchr.o)
+ .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strchr.o)
+ .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strchr.o)
  .text          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__atexit.o)
  .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__atexit.o)
  .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__atexit.o)
@@ -2676,7 +2711,7 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
  *(.iplt)
  .iplt          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
 
-.text           0x0000800c     0x30f0
+.text           0x0000800c     0x3968
  *(.text.unlikely .text.*_unlikely .text.unlikely.*)
  *(.text.exit .text.exit.*)
  .text.exit     0x0000800c       0x20 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-exit.o)
@@ -2691,248 +2726,270 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
                 0x0000809c                _mainCRTStartup
                 0x0000809c                _start
  .text.commandsHandlerTask
-                0x00008110       0xd4 ./src/commandsHandlerTask.o
+                0x00008110       0xf8 ./src/commandsHandlerTask.o
                 0x00008110                commandsHandlerTask
- .text.relayOn  0x000081e4       0x50 ./src/commandsHandlerTask.o
-                0x000081e4                relayOn
+ .text.relayOn  0x00008208       0x50 ./src/commandsHandlerTask.o
+                0x00008208                relayOn
  .text.relayOff
-                0x00008234       0x50 ./src/commandsHandlerTask.o
-                0x00008234                relayOff
+                0x00008258       0x50 ./src/commandsHandlerTask.o
+                0x00008258                relayOff
  .text.relayStatus
-                0x00008284       0x48 ./src/commandsHandlerTask.o
-                0x00008284                relayStatus
+                0x000082a8       0x48 ./src/commandsHandlerTask.o
+                0x000082a8                relayStatus
  .text.tempInside
-                0x000082cc       0x20 ./src/commandsHandlerTask.o
-                0x000082cc                tempInside
+                0x000082f0       0x20 ./src/commandsHandlerTask.o
+                0x000082f0                tempInside
+ .text.majTimestamp
+                0x00008310       0x84 ./src/commandsHandlerTask.o
+                0x00008310                majTimestamp
  .text.initSystemBasics
-                0x000082ec       0xbc ./src/initSystem.o
-                0x000082ec                initSystemBasics
+                0x00008394       0xbc ./src/initSystem.o
+                0x00008394                initSystemBasics
  .text.sendDataTask
-                0x000083a8       0x9c ./src/sendDataTask.o
-                0x000083a8                sendDataTask
+                0x00008450       0x9c ./src/sendDataTask.o
+                0x00008450                sendDataTask
  .text.dataAcquisitionTask
-                0x00008444       0x44 ./src/taskDataAcquisition.o
-                0x00008444                dataAcquisitionTask
+                0x000084ec       0x44 ./src/taskDataAcquisition.o
+                0x000084ec                dataAcquisitionTask
  .text.dataLoggerTask
-                0x00008488        0xc ./src/taskDataLogger.o
-                0x00008488                dataLoggerTask
+                0x00008530        0xc ./src/taskDataLogger.o
+                0x00008530                dataLoggerTask
  .text.updateTimestampTask
-                0x00008494       0x60 ./src/updateTimestampTask.o
-                0x00008494                updateTimestampTask
+                0x0000853c       0x60 ./src/updateTimestampTask.o
+                0x0000853c                updateTimestampTask
  .text.pvPortMalloc
-                0x000084f4      0x128 ./FreeRTOS/Source/portable/MemMang/heap_4.o
-                0x000084f4                pvPortMalloc
+                0x0000859c      0x128 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+                0x0000859c                pvPortMalloc
  .text.vPortFree
-                0x0000861c       0x70 ./FreeRTOS/Source/portable/MemMang/heap_4.o
-                0x0000861c                vPortFree
+                0x000086c4       0x70 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+                0x000086c4                vPortFree
  .text.prvHeapInit
-                0x0000868c       0xc4 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+                0x00008734       0xc4 ./FreeRTOS/Source/portable/MemMang/heap_4.o
  .text.prvInsertBlockIntoFreeList
-                0x00008750       0xb0 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+                0x000087f8       0xb0 ./FreeRTOS/Source/portable/MemMang/heap_4.o
  .text.pxPortInitialiseStack
-                0x00008800       0x58 ./FreeRTOS/Source/portable/port.o
-                0x00008800                pxPortInitialiseStack
+                0x000088a8       0x58 ./FreeRTOS/Source/portable/port.o
+                0x000088a8                pxPortInitialiseStack
  .text.prvTaskExitError
-                0x00008858        0xc ./FreeRTOS/Source/portable/port.o
+                0x00008900        0xc ./FreeRTOS/Source/portable/port.o
  .text.prvPortStartFirstTask
-                0x00008864       0x20 ./FreeRTOS/Source/portable/port.o
+                0x0000890c       0x20 ./FreeRTOS/Source/portable/port.o
  .text.xPortStartScheduler
-                0x00008884       0x3c ./FreeRTOS/Source/portable/port.o
-                0x00008884                xPortStartScheduler
+                0x0000892c       0x3c ./FreeRTOS/Source/portable/port.o
+                0x0000892c                xPortStartScheduler
  .text.vPortYield
-                0x000088c0       0x20 ./FreeRTOS/Source/portable/port.o
-                0x000088c0                vPortYield
+                0x00008968       0x20 ./FreeRTOS/Source/portable/port.o
+                0x00008968                vPortYield
  .text.vPortEnterCritical
-                0x000088e0       0x20 ./FreeRTOS/Source/portable/port.o
-                0x000088e0                vPortEnterCritical
+                0x00008988       0x20 ./FreeRTOS/Source/portable/port.o
+                0x00008988                vPortEnterCritical
  .text.vPortExitCritical
-                0x00008900       0x24 ./FreeRTOS/Source/portable/port.o
-                0x00008900                vPortExitCritical
+                0x000089a8       0x24 ./FreeRTOS/Source/portable/port.o
+                0x000089a8                vPortExitCritical
  .text.ulPortSetInterruptMask
-                0x00008924       0x14 ./FreeRTOS/Source/portable/port.o
-                0x00008924                ulPortSetInterruptMask
+                0x000089cc       0x14 ./FreeRTOS/Source/portable/port.o
+                0x000089cc                ulPortSetInterruptMask
  .text.vPortClearInterruptMask
-                0x00008938        0x8 ./FreeRTOS/Source/portable/port.o
-                0x00008938                vPortClearInterruptMask
+                0x000089e0        0x8 ./FreeRTOS/Source/portable/port.o
+                0x000089e0                vPortClearInterruptMask
  .text.vPortSetupTimerInterrupt
-                0x00008940       0x34 ./FreeRTOS/Source/portable/port.o
-                0x00008940                vPortSetupTimerInterrupt
+                0x000089e8       0x34 ./FreeRTOS/Source/portable/port.o
+                0x000089e8                vPortSetupTimerInterrupt
  .text.vListInitialise
-                0x00008974       0x40 ./FreeRTOS/Source/list.o
-                0x00008974                vListInitialise
+                0x00008a1c       0x40 ./FreeRTOS/Source/list.o
+                0x00008a1c                vListInitialise
  .text.vListInitialiseItem
-                0x000089b4       0x18 ./FreeRTOS/Source/list.o
-                0x000089b4                vListInitialiseItem
+                0x00008a5c       0x18 ./FreeRTOS/Source/list.o
+                0x00008a5c                vListInitialiseItem
  .text.vListInsertEnd
-                0x000089cc       0x48 ./FreeRTOS/Source/list.o
-                0x000089cc                vListInsertEnd
+                0x00008a74       0x48 ./FreeRTOS/Source/list.o
+                0x00008a74                vListInsertEnd
  .text.vListInsert
-                0x00008a14       0x70 ./FreeRTOS/Source/list.o
-                0x00008a14                vListInsert
+                0x00008abc       0x70 ./FreeRTOS/Source/list.o
+                0x00008abc                vListInsert
  .text.uxListRemove
-                0x00008a84       0x54 ./FreeRTOS/Source/list.o
-                0x00008a84                uxListRemove
+                0x00008b2c       0x54 ./FreeRTOS/Source/list.o
+                0x00008b2c                uxListRemove
  .text.xQueueGenericReset
-                0x00008ad8       0xa4 ./FreeRTOS/Source/queue.o
-                0x00008ad8                xQueueGenericReset
+                0x00008b80       0xa4 ./FreeRTOS/Source/queue.o
+                0x00008b80                xQueueGenericReset
  .text.xQueueGenericCreate
-                0x00008b7c       0x7c ./FreeRTOS/Source/queue.o
-                0x00008b7c                xQueueGenericCreate
+                0x00008c24       0x7c ./FreeRTOS/Source/queue.o
+                0x00008c24                xQueueGenericCreate
  .text.xQueueCreateMutex
-                0x00008bf8       0x7c ./FreeRTOS/Source/queue.o
-                0x00008bf8                xQueueCreateMutex
+                0x00008ca0       0x7c ./FreeRTOS/Source/queue.o
+                0x00008ca0                xQueueCreateMutex
  .text.xQueueGenericSend
-                0x00008c74      0x124 ./FreeRTOS/Source/queue.o
-                0x00008c74                xQueueGenericSend
+                0x00008d1c      0x124 ./FreeRTOS/Source/queue.o
+                0x00008d1c                xQueueGenericSend
  .text.xQueueGenericReceive
-                0x00008d98      0x170 ./FreeRTOS/Source/queue.o
-                0x00008d98                xQueueGenericReceive
+                0x00008e40      0x170 ./FreeRTOS/Source/queue.o
+                0x00008e40                xQueueGenericReceive
  .text.uxQueueMessagesWaiting
-                0x00008f08       0x20 ./FreeRTOS/Source/queue.o
-                0x00008f08                uxQueueMessagesWaiting
+                0x00008fb0       0x20 ./FreeRTOS/Source/queue.o
+                0x00008fb0                uxQueueMessagesWaiting
  .text.prvCopyDataToQueue
-                0x00008f28       0xdc ./FreeRTOS/Source/queue.o
+                0x00008fd0       0xdc ./FreeRTOS/Source/queue.o
  .text.prvCopyDataFromQueue
-                0x00009004       0x4c ./FreeRTOS/Source/queue.o
+                0x000090ac       0x4c ./FreeRTOS/Source/queue.o
  .text.prvUnlockQueue
-                0x00009050       0x98 ./FreeRTOS/Source/queue.o
+                0x000090f8       0x98 ./FreeRTOS/Source/queue.o
  .text.prvIsQueueEmpty
-                0x000090e8       0x2c ./FreeRTOS/Source/queue.o
+                0x00009190       0x2c ./FreeRTOS/Source/queue.o
  .text.prvIsQueueFull
-                0x00009114       0x30 ./FreeRTOS/Source/queue.o
+                0x000091bc       0x30 ./FreeRTOS/Source/queue.o
  .text.xTaskGenericCreate
-                0x00009144      0x138 ./FreeRTOS/Source/tasks.o
-                0x00009144                xTaskGenericCreate
+                0x000091ec      0x138 ./FreeRTOS/Source/tasks.o
+                0x000091ec                xTaskGenericCreate
  .text.vTaskDelay
-                0x0000927c       0x74 ./FreeRTOS/Source/tasks.o
-                0x0000927c                vTaskDelay
+                0x00009324       0x74 ./FreeRTOS/Source/tasks.o
+                0x00009324                vTaskDelay
  .text.vTaskStartScheduler
-                0x000092f0       0x54 ./FreeRTOS/Source/tasks.o
-                0x000092f0                vTaskStartScheduler
+                0x00009398       0x54 ./FreeRTOS/Source/tasks.o
+                0x00009398                vTaskStartScheduler
  .text.vTaskSuspendAll
-                0x00009344       0x1c ./FreeRTOS/Source/tasks.o
-                0x00009344                vTaskSuspendAll
+                0x000093ec       0x1c ./FreeRTOS/Source/tasks.o
+                0x000093ec                vTaskSuspendAll
  .text.xTaskResumeAll
-                0x00009360      0x100 ./FreeRTOS/Source/tasks.o
-                0x00009360                xTaskResumeAll
+                0x00009408      0x100 ./FreeRTOS/Source/tasks.o
+                0x00009408                xTaskResumeAll
  .text.xTaskIncrementTick
-                0x00009460      0x160 ./FreeRTOS/Source/tasks.o
-                0x00009460                xTaskIncrementTick
+                0x00009508      0x160 ./FreeRTOS/Source/tasks.o
+                0x00009508                xTaskIncrementTick
  .text.vTaskPlaceOnEventList
-                0x000095c0       0x80 ./FreeRTOS/Source/tasks.o
-                0x000095c0                vTaskPlaceOnEventList
+                0x00009668       0x80 ./FreeRTOS/Source/tasks.o
+                0x00009668                vTaskPlaceOnEventList
  .text.xTaskRemoveFromEventList
-                0x00009640       0xac ./FreeRTOS/Source/tasks.o
-                0x00009640                xTaskRemoveFromEventList
+                0x000096e8       0xac ./FreeRTOS/Source/tasks.o
+                0x000096e8                xTaskRemoveFromEventList
  .text.vTaskSetTimeOutState
-                0x000096ec       0x2c ./FreeRTOS/Source/tasks.o
-                0x000096ec                vTaskSetTimeOutState
+                0x00009794       0x2c ./FreeRTOS/Source/tasks.o
+                0x00009794                vTaskSetTimeOutState
  .text.xTaskCheckForTimeOut
-                0x00009718       0x88 ./FreeRTOS/Source/tasks.o
-                0x00009718                xTaskCheckForTimeOut
+                0x000097c0       0x88 ./FreeRTOS/Source/tasks.o
+                0x000097c0                xTaskCheckForTimeOut
  .text.vTaskMissedYield
-                0x000097a0       0x18 ./FreeRTOS/Source/tasks.o
-                0x000097a0                vTaskMissedYield
+                0x00009848       0x18 ./FreeRTOS/Source/tasks.o
+                0x00009848                vTaskMissedYield
  .text.prvIdleTask
-                0x000097b8       0x10 ./FreeRTOS/Source/tasks.o
+                0x00009860       0x10 ./FreeRTOS/Source/tasks.o
  .text.prvInitialiseTCBVariables
-                0x000097c8       0xa4 ./FreeRTOS/Source/tasks.o
+                0x00009870       0xa4 ./FreeRTOS/Source/tasks.o
  .text.prvInitialiseTaskLists
-                0x0000986c       0x7c ./FreeRTOS/Source/tasks.o
+                0x00009914       0x7c ./FreeRTOS/Source/tasks.o
  .text.prvCheckTasksWaitingTermination
-                0x000098e8       0x74 ./FreeRTOS/Source/tasks.o
+                0x00009990       0x74 ./FreeRTOS/Source/tasks.o
  .text.prvAddCurrentTaskToDelayedList
-                0x0000995c       0x6c ./FreeRTOS/Source/tasks.o
+                0x00009a04       0x6c ./FreeRTOS/Source/tasks.o
  .text.prvAllocateTCBAndStack
-                0x000099c8       0x58 ./FreeRTOS/Source/tasks.o
+                0x00009a70       0x58 ./FreeRTOS/Source/tasks.o
  .text.prvDeleteTCB
-                0x00009a20       0x20 ./FreeRTOS/Source/tasks.o
+                0x00009ac8       0x20 ./FreeRTOS/Source/tasks.o
  .text.prvResetNextTaskUnblockTime
-                0x00009a40       0x48 ./FreeRTOS/Source/tasks.o
+                0x00009ae8       0x48 ./FreeRTOS/Source/tasks.o
  .text.vTaskPriorityInherit
-                0x00009a88       0xf0 ./FreeRTOS/Source/tasks.o
-                0x00009a88                vTaskPriorityInherit
+                0x00009b30       0xf0 ./FreeRTOS/Source/tasks.o
+                0x00009b30                vTaskPriorityInherit
  .text.xTaskPriorityDisinherit
-                0x00009b78       0xcc ./FreeRTOS/Source/tasks.o
-                0x00009b78                xTaskPriorityDisinherit
+                0x00009c20       0xcc ./FreeRTOS/Source/tasks.o
+                0x00009c20                xTaskPriorityDisinherit
  .text.pvTaskIncrementMutexHeldCount
-                0x00009c44       0x28 ./FreeRTOS/Source/tasks.o
-                0x00009c44                pvTaskIncrementMutexHeldCount
+                0x00009cec       0x28 ./FreeRTOS/Source/tasks.o
+                0x00009cec                pvTaskIncrementMutexHeldCount
  .text.ADC_Init
-                0x00009c6c       0x50 ./Drivers/source/lpc177x_8x_adc.o
-                0x00009c6c                ADC_Init
+                0x00009d14       0x50 ./Drivers/source/lpc177x_8x_adc.o
+                0x00009d14                ADC_Init
  .text.CLKPWR_GetCLK
-                0x00009cbc       0x60 ./Drivers/source/lpc177x_8x_clkpwr.o
-                0x00009cbc                CLKPWR_GetCLK
+                0x00009d64       0x60 ./Drivers/source/lpc177x_8x_clkpwr.o
+                0x00009d64                CLKPWR_GetCLK
  .text.CLKPWR_ConfigPPWR
-                0x00009d1c       0x4c ./Drivers/source/lpc177x_8x_clkpwr.o
-                0x00009d1c                CLKPWR_ConfigPPWR
+                0x00009dc4       0x4c ./Drivers/source/lpc177x_8x_clkpwr.o
+                0x00009dc4                CLKPWR_ConfigPPWR
  .text.GPIO_GetPointer
-                0x00009d68       0x74 ./Drivers/source/lpc177x_8x_gpio.o
+                0x00009e10       0x74 ./Drivers/source/lpc177x_8x_gpio.o
  .text.GPIO_SetDir
-                0x00009ddc       0x48 ./Drivers/source/lpc177x_8x_gpio.o
-                0x00009ddc                GPIO_SetDir
+                0x00009e84       0x48 ./Drivers/source/lpc177x_8x_gpio.o
+                0x00009e84                GPIO_SetDir
  .text.GPIO_SetValue
-                0x00009e24       0x28 ./Drivers/source/lpc177x_8x_gpio.o
-                0x00009e24                GPIO_SetValue
+                0x00009ecc       0x28 ./Drivers/source/lpc177x_8x_gpio.o
+                0x00009ecc                GPIO_SetValue
  .text.GPIO_ClearValue
-                0x00009e4c       0x28 ./Drivers/source/lpc177x_8x_gpio.o
-                0x00009e4c                GPIO_ClearValue
+                0x00009ef4       0x28 ./Drivers/source/lpc177x_8x_gpio.o
+                0x00009ef4                GPIO_ClearValue
  .text.GPIO_ReadValue
-                0x00009e74       0x2c ./Drivers/source/lpc177x_8x_gpio.o
-                0x00009e74                GPIO_ReadValue
+                0x00009f1c       0x2c ./Drivers/source/lpc177x_8x_gpio.o
+                0x00009f1c                GPIO_ReadValue
  .text.uart_set_divisors
-                0x00009ea0      0x260 ./Drivers/source/lpc177x_8x_uart.o
+                0x00009f48      0x260 ./Drivers/source/lpc177x_8x_uart.o
  .text.UART_Init
-                0x0000a100      0x1d8 ./Drivers/source/lpc177x_8x_uart.o
-                0x0000a100                UART_Init
+                0x0000a1a8      0x1d8 ./Drivers/source/lpc177x_8x_uart.o
+                0x0000a1a8                UART_Init
  .text.UART_SendByte
-                0x0000a2d8       0x30 ./Drivers/source/lpc177x_8x_uart.o
-                0x0000a2d8                UART_SendByte
+                0x0000a380       0x30 ./Drivers/source/lpc177x_8x_uart.o
+                0x0000a380                UART_SendByte
  .text.UART_Send
-                0x0000a308       0xf0 ./Drivers/source/lpc177x_8x_uart.o
-                0x0000a308                UART_Send
+                0x0000a3b0       0xf0 ./Drivers/source/lpc177x_8x_uart.o
+                0x0000a3b0                UART_Send
  .text.UART_IntConfig
-                0x0000a3f8       0xd0 ./Drivers/source/lpc177x_8x_uart.o
-                0x0000a3f8                UART_IntConfig
- .text.main     0x0000a4c8       0xe0 ./main.o
-                0x0000a4c8                main
- .text          0x0000a5a8       0x30 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
-                0x0000a5a8                __aeabi_uldivmod
- .text          0x0000a5d8       0x60 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
-                0x0000a5d8                __gnu_ldivmod_helper
-                0x0000a608                __gnu_uldivmod_helper
- .text          0x0000a638        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_dvmd_tls.o)
-                0x0000a638                __aeabi_ldiv0
-                0x0000a638                __aeabi_idiv0
- .text          0x0000a63c      0x2ac /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
-                0x0000a63c                __divdi3
- .text          0x0000a8e8      0x270 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
-                0x0000a8e8                __udivdi3
+                0x0000a4a0       0xd0 ./Drivers/source/lpc177x_8x_uart.o
+                0x0000a4a0                UART_IntConfig
+ .text.main     0x0000a570       0xe0 ./main.o
+                0x0000a570                main
+ .text          0x0000a650       0x30 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+                0x0000a650                __aeabi_uldivmod
+ .text          0x0000a680       0x60 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+                0x0000a680                __gnu_ldivmod_helper
+                0x0000a6b0                __gnu_uldivmod_helper
+ .text          0x0000a6e0        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_dvmd_tls.o)
+                0x0000a6e0                __aeabi_ldiv0
+                0x0000a6e0                __aeabi_idiv0
+ .text          0x0000a6e4      0x2ac /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+                0x0000a6e4                __divdi3
+ .text          0x0000a990      0x270 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+                0x0000a990                __udivdi3
+ .text.atoi     0x0000ac00        0x8 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atoi.o)
+                0x0000ac00                atoi
  .text.__libc_init_array
-                0x0000ab58       0x50 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-init.o)
-                0x0000ab58                __libc_init_array
- .text          0x0000aba8       0xec /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memcpy.o)
-                0x0000aba8                memcpy
- .text.memset   0x0000ac94       0x9c /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memset.o)
-                0x0000ac94                memset
- .text          0x0000ad30      0x1bc /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strcmp.o)
-                0x0000ad30                strcmp
- .text.strlen   0x0000aeec       0x5c /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strlen.o)
-                0x0000aeec                strlen
+                0x0000ac08       0x50 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-init.o)
+                0x0000ac08                __libc_init_array
+ .text          0x0000ac58       0xec /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memcpy.o)
+                0x0000ac58                memcpy
+ .text.memset   0x0000ad44       0x9c /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memset.o)
+                0x0000ad44                memset
+ .text          0x0000ade0      0x1bc /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strcmp.o)
+                0x0000ade0                strcmp
+ .text.strlen   0x0000af9c       0x5c /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strlen.o)
+                0x0000af9c                strlen
+ .text.critical_factorization
+                0x0000aff8       0xb8 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strstr.o)
+ .text.two_way_long_needle
+                0x0000b0b0      0x1f8 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strstr.o)
+ .text.strstr   0x0000b2a8      0x220 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strstr.o)
+                0x0000b2a8                strstr
+ .text._strtol_r
+                0x0000b4c8      0x11c /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strtol.o)
+                0x0000b4c8                _strtol_r
+ .text.strtol   0x0000b5e4       0x18 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strtol.o)
+                0x0000b5e4                strtol
  .text.__call_exitprocs
-                0x0000af48       0xd4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
-                0x0000af48                __call_exitprocs
- .text.atexit   0x0000b01c        0xc /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atexit.o)
-                0x0000b01c                atexit
+                0x0000b5fc       0xd4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
+                0x0000b5fc                __call_exitprocs
+ .text.atexit   0x0000b6d0        0xc /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atexit.o)
+                0x0000b6d0                atexit
  .text.__libc_fini_array
-                0x0000b028       0x2c /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fini.o)
-                0x0000b028                __libc_fini_array
+                0x0000b6dc       0x2c /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fini.o)
+                0x0000b6dc                __libc_fini_array
+ .text.memchr   0x0000b708       0x94 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memchr.o)
+                0x0000b708                memchr
+ .text.memcmp   0x0000b79c       0x64 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memcmp.o)
+                0x0000b79c                memcmp
+ .text.strchr   0x0000b800       0xcc /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strchr.o)
+                0x0000b800                strchr
  .text.__register_exitproc
-                0x0000b054       0xa4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__atexit.o)
-                0x0000b054                __register_exitproc
- .text._exit    0x0000b0f8        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
-                0x0000b0f8                _exit
+                0x0000b8cc       0xa4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__atexit.o)
+                0x0000b8cc                __register_exitproc
+ .text._exit    0x0000b970        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
+                0x0000b970                _exit
  *(.gnu.warning)
  *(.glue_7t)
  .glue_7t       0x00000000        0x0 linker stubs
@@ -2943,66 +3000,69 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
  *(.v4_bx)
  .v4_bx         0x00000000        0x0 linker stubs
 
-.fini           0x0000b0fc        0xc
+.fini           0x0000b974        0xc
  *(SORT(.fini))
- .fini          0x0000b0fc        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crti.o
-                0x0000b0fc                _fini
- .fini          0x0000b100        0x8 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
-                0x0000b108                PROVIDE (__etext, .)
-                0x0000b108                PROVIDE (_etext, .)
-                0x0000b108                PROVIDE (etext, .)
+ .fini          0x0000b974        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crti.o
+                0x0000b974                _fini
+ .fini          0x0000b978        0x8 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
+                0x0000b980                PROVIDE (__etext, .)
+                0x0000b980                PROVIDE (_etext, .)
+                0x0000b980                PROVIDE (etext, .)
 
-.rodata         0x0000b108      0x160
+.rodata         0x0000b980      0x2a1
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata        0x0000b108       0xb5 ./src/commandsHandlerTask.o
- *fill*         0x0000b1bd        0x3 
- .rodata        0x0000b1c0       0x17 ./src/initSystem.o
- *fill*         0x0000b1d7        0x1 
- .rodata        0x0000b1d8       0x1f ./src/sendDataTask.o
- *fill*         0x0000b1f7        0x1 
- .rodata        0x0000b1f8       0x16 ./src/taskDataAcquisition.o
- *fill*         0x0000b20e        0x2 
- .rodata        0x0000b210        0x5 ./FreeRTOS/Source/tasks.o
- *fill*         0x0000b215        0x3 
- .rodata        0x0000b218       0x48 ./main.o
+ .rodata        0x0000b980       0xf6 ./src/commandsHandlerTask.o
+ *fill*         0x0000ba76        0x2 
+ .rodata        0x0000ba78       0x17 ./src/initSystem.o
+ *fill*         0x0000ba8f        0x1 
+ .rodata        0x0000ba90       0x1f ./src/sendDataTask.o
+ *fill*         0x0000baaf        0x1 
+ .rodata        0x0000bab0       0x16 ./src/taskDataAcquisition.o
+ *fill*         0x0000bac6        0x2 
+ .rodata        0x0000bac8        0x5 ./FreeRTOS/Source/tasks.o
+ *fill*         0x0000bacd        0x3 
+ .rodata        0x0000bad0       0x48 ./main.o
  .rodata.str1.4
-                0x0000b260        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
+                0x0000bb18        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
                                   0x2 (size before relaxing)
  .rodata._global_impure_ptr
-                0x0000b264        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
-                0x0000b264                _global_impure_ptr
+                0x0000bb1c        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
+                0x0000bb1c                _global_impure_ptr
+ .rodata._ctype_
+                0x0000bb20      0x101 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-ctype_.o)
+                0x0000bb20                _ctype_
 
 .rodata1
  *(.rodata1)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000b268                PROVIDE (__exidx_start, .)
+                0x0000bc21                PROVIDE (__exidx_start, .)
 
-.ARM.exidx      0x0000b268        0x8
+.ARM.exidx      0x0000bc24        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x0000b268        0x8 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
- .ARM.exidx     0x0000b270        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+ .ARM.exidx     0x0000bc24        0x8 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.exidx     0x0000bc2c        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x0000b270        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x0000bc2c        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
                                   0x8 (size before relaxing)
-                0x0000b270                PROVIDE (__exidx_end, .)
+                0x0000bc2c                PROVIDE (__exidx_end, .)
 
 .eh_frame_hdr
  *(.eh_frame_hdr)
 
-.eh_frame       0x0000b270       0x3c
+.eh_frame       0x0000bc2c       0x3c
  *(.eh_frame)
- .eh_frame      0x0000b270        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
- .eh_frame      0x0000b270       0x38 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strcmp.o)
- .eh_frame      0x0000b2a8        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+ .eh_frame      0x0000bc2c        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+ .eh_frame      0x0000bc2c       0x38 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strcmp.o)
+ .eh_frame      0x0000bc64        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
 
 .gcc_except_table
  *(.gcc_except_table .gcc_except_table.*)
 
 .exception_ranges
  *(.exception_ranges .exception_ranges*)
-                0x000132ac                . = (ALIGN (0x8000) + (. & 0x7fff))
+                0x00013c68                . = (ALIGN (0x8000) + (. & 0x7fff))
 
 .eh_frame
  *(.eh_frame)
@@ -3020,26 +3080,26 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
  *(.tbss .tbss.* .gnu.linkonce.tb.*)
  *(.tcommon)
 
-.preinit_array  0x000132ac        0x0
-                0x000132ac                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x00013c68        0x0
+                0x00013c68                PROVIDE (__preinit_array_start, .)
  *(.preinit_array)
-                0x000132ac                PROVIDE (__preinit_array_end, .)
+                0x00013c68                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x000132ac        0x8
-                0x000132ac                PROVIDE (__init_array_start, .)
+.init_array     0x00013c68        0x8
+                0x00013c68                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  .init_array.00000
-                0x000132ac        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
+                0x00013c68        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
  *(.init_array)
- .init_array    0x000132b0        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
-                0x000132b4                PROVIDE (__init_array_end, .)
+ .init_array    0x00013c6c        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+                0x00013c70                PROVIDE (__init_array_end, .)
 
-.fini_array     0x000132b4        0x4
-                0x000132b4                PROVIDE (__fini_array_start, .)
+.fini_array     0x00013c70        0x4
+                0x00013c70                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array)
- .fini_array    0x000132b4        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
-                0x000132b8                PROVIDE (__fini_array_end, .)
+ .fini_array    0x00013c70        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+                0x00013c74                PROVIDE (__fini_array_end, .)
 
 .ctors
  *crtbegin.o(.ctors)
@@ -3055,10 +3115,10 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
  *(SORT(.dtors.*))
  *(.dtors)
 
-.jcr            0x000132b8        0x4
+.jcr            0x00013c74        0x4
  *(.jcr)
- .jcr           0x000132b8        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
- .jcr           0x000132b8        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+ .jcr           0x00013c74        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+ .jcr           0x00013c74        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
 
 .data.rel.ro
  *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
@@ -3067,114 +3127,119 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
 .dynamic
  *(.dynamic)
 
-.got            0x000132bc        0x0
+.got            0x00013c78        0x0
  *(.got.plt)
  *(.igot.plt)
  .igot.plt      0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
  *(.got)
  *(.igot)
 
-.data           0x000132c0      0x440
-                0x000132c0                __data_start = .
+.data           0x00013c78      0x448
+                0x00013c78                __data_start = .
  *(.data .data.* .gnu.linkonce.d.*)
  .data.SystemCoreClock
-                0x000132c0        0x4 ./src/system_LPC177x_8x.o
-                0x000132c0                SystemCoreClock
+                0x00013c78        0x4 ./src/system_LPC177x_8x.o
+                0x00013c78                SystemCoreClock
  .data.PeripheralClock
-                0x000132c4        0x4 ./src/system_LPC177x_8x.o
-                0x000132c4                PeripheralClock
+                0x00013c7c        0x4 ./src/system_LPC177x_8x.o
+                0x00013c7c                PeripheralClock
  .data.EMCClock
-                0x000132c8        0x4 ./src/system_LPC177x_8x.o
-                0x000132c8                EMCClock
+                0x00013c80        0x4 ./src/system_LPC177x_8x.o
+                0x00013c80                EMCClock
  .data.USBClock
-                0x000132cc        0x4 ./src/system_LPC177x_8x.o
-                0x000132cc                USBClock
+                0x00013c84        0x4 ./src/system_LPC177x_8x.o
+                0x00013c84                USBClock
  .data.uxCriticalNesting
-                0x000132d0        0x4 ./FreeRTOS/Source/portable/port.o
+                0x00013c88        0x4 ./FreeRTOS/Source/portable/port.o
  .data.xNextTaskUnblockTime
-                0x000132d4        0x4 ./FreeRTOS/Source/tasks.o
+                0x00013c8c        0x4 ./FreeRTOS/Source/tasks.o
  .data.impure_data
-                0x000132d8      0x428 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
+                0x00013c90      0x428 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x000140b8        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
+                0x000140b8                _impure_ptr
+ .data.__ctype_ptr__
+                0x000140bc        0x4 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-ctype_.o)
+                0x000140bc                __ctype_ptr__
 
 .data1
  *(.data1)
-                0x00013700                _edata = .
-                0x00013700                PROVIDE (edata, .)
-                0x00013700                . = .
-                0x00013700                __bss_start = .
-                0x00013700                __bss_start__ = .
+                0x000140c0                _edata = .
+                0x000140c0                PROVIDE (edata, .)
+                0x000140c0                . = .
+                0x000140c0                __bss_start = .
+                0x000140c0                __bss_start__ = .
 
-.bss            0x00013700      0x980
+.bss            0x000140c0      0x980
  *(.dynbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x00013700       0x1c /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
- .bss.mutTimestamp
-                0x0001371c        0x4 ./src/updateTimestampTask.o
- .bss.ucHeap    0x00013720      0x800 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .bss.xStart    0x00013f20        0x8 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .bss.pxEnd     0x00013f28        0x4 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .bss           0x000140c0       0x1c /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+ .bss.ucHeap    0x000140dc      0x800 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .bss.xStart    0x000148dc        0x8 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .bss.pxEnd     0x000148e4        0x4 ./FreeRTOS/Source/portable/MemMang/heap_4.o
  .bss.xFreeBytesRemaining
-                0x00013f2c        0x4 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+                0x000148e8        0x4 ./FreeRTOS/Source/portable/MemMang/heap_4.o
  .bss.xMinimumEverFreeBytesRemaining
-                0x00013f30        0x4 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+                0x000148ec        0x4 ./FreeRTOS/Source/portable/MemMang/heap_4.o
  .bss.xBlockAllocatedBit
-                0x00013f34        0x4 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+                0x000148f0        0x4 ./FreeRTOS/Source/portable/MemMang/heap_4.o
  .bss.pxCurrentTCB
-                0x00013f38        0x4 ./FreeRTOS/Source/tasks.o
-                0x00013f38                pxCurrentTCB
+                0x000148f4        0x4 ./FreeRTOS/Source/tasks.o
+                0x000148f4                pxCurrentTCB
  .bss.pxReadyTasksLists
-                0x00013f3c       0x64 ./FreeRTOS/Source/tasks.o
+                0x000148f8       0x64 ./FreeRTOS/Source/tasks.o
  .bss.xDelayedTaskList1
-                0x00013fa0       0x14 ./FreeRTOS/Source/tasks.o
+                0x0001495c       0x14 ./FreeRTOS/Source/tasks.o
  .bss.xDelayedTaskList2
-                0x00013fb4       0x14 ./FreeRTOS/Source/tasks.o
+                0x00014970       0x14 ./FreeRTOS/Source/tasks.o
  .bss.pxDelayedTaskList
-                0x00013fc8        0x4 ./FreeRTOS/Source/tasks.o
+                0x00014984        0x4 ./FreeRTOS/Source/tasks.o
  .bss.pxOverflowDelayedTaskList
-                0x00013fcc        0x4 ./FreeRTOS/Source/tasks.o
+                0x00014988        0x4 ./FreeRTOS/Source/tasks.o
  .bss.xPendingReadyList
-                0x00013fd0       0x14 ./FreeRTOS/Source/tasks.o
+                0x0001498c       0x14 ./FreeRTOS/Source/tasks.o
  .bss.xTasksWaitingTermination
-                0x00013fe4       0x14 ./FreeRTOS/Source/tasks.o
+                0x000149a0       0x14 ./FreeRTOS/Source/tasks.o
  .bss.uxTasksDeleted
-                0x00013ff8        0x4 ./FreeRTOS/Source/tasks.o
+                0x000149b4        0x4 ./FreeRTOS/Source/tasks.o
  .bss.xSuspendedTaskList
-                0x00013ffc       0x14 ./FreeRTOS/Source/tasks.o
+                0x000149b8       0x14 ./FreeRTOS/Source/tasks.o
  .bss.uxCurrentNumberOfTasks
-                0x00014010        0x4 ./FreeRTOS/Source/tasks.o
+                0x000149cc        0x4 ./FreeRTOS/Source/tasks.o
  .bss.xTickCount
-                0x00014014        0x4 ./FreeRTOS/Source/tasks.o
+                0x000149d0        0x4 ./FreeRTOS/Source/tasks.o
  .bss.uxTopReadyPriority
-                0x00014018        0x4 ./FreeRTOS/Source/tasks.o
+                0x000149d4        0x4 ./FreeRTOS/Source/tasks.o
  .bss.xSchedulerRunning
-                0x0001401c        0x4 ./FreeRTOS/Source/tasks.o
+                0x000149d8        0x4 ./FreeRTOS/Source/tasks.o
  .bss.uxPendedTicks
-                0x00014020        0x4 ./FreeRTOS/Source/tasks.o
+                0x000149dc        0x4 ./FreeRTOS/Source/tasks.o
  .bss.xYieldPending
-                0x00014024        0x4 ./FreeRTOS/Source/tasks.o
+                0x000149e0        0x4 ./FreeRTOS/Source/tasks.o
  .bss.xNumOfOverflows
-                0x00014028        0x4 ./FreeRTOS/Source/tasks.o
+                0x000149e4        0x4 ./FreeRTOS/Source/tasks.o
  .bss.uxTaskNumber
-                0x0001402c        0x4 ./FreeRTOS/Source/tasks.o
+                0x000149e8        0x4 ./FreeRTOS/Source/tasks.o
  .bss.uxSchedulerSuspended
-                0x00014030        0x4 ./FreeRTOS/Source/tasks.o
+                0x000149ec        0x4 ./FreeRTOS/Source/tasks.o
  *(COMMON)
- COMMON         0x00014034       0x40 ./src/commandsHandlerTask.o
-                0x00014034                fifo
- COMMON         0x00014074        0x4 ./src/updateTimestampTask.o
-                0x00014074                timestamp
- COMMON         0x00014078        0x8 ./main.o
-                0x00014078                xQueueOutput
-                0x0001407c                xQueueInput
-                0x00014080                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x00014080                _bss_end__ = .
-                0x00014080                __bss_end__ = .
-                0x00014080                . = ALIGN (0x4)
-                0x00014080                . = SEGMENT_START ("ldata-segment", .)
-                0x00014080                . = ALIGN (0x4)
-                0x00014080                __end__ = .
-                0x00014080                _end = .
-                0x00014080                PROVIDE (end, .)
+ COMMON         0x000149f0       0x40 ./src/commandsHandlerTask.o
+                0x000149f0                fifo
+ COMMON         0x00014a30        0x8 ./src/updateTimestampTask.o
+                0x00014a30                timestamp
+                0x00014a34                mutTimestamp
+ COMMON         0x00014a38        0x8 ./main.o
+                0x00014a38                xQueueOutput
+                0x00014a3c                xQueueInput
+                0x00014a40                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00014a40                _bss_end__ = .
+                0x00014a40                __bss_end__ = .
+                0x00014a40                . = ALIGN (0x4)
+                0x00014a40                . = SEGMENT_START ("ldata-segment", .)
+                0x00014a40                . = ALIGN (0x4)
+                0x00014a40                __end__ = .
+                0x00014a40                _end = .
+                0x00014a40                PROVIDE (end, .)
 
 .stab
  *(.stab)
@@ -3249,349 +3314,355 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000     0x1370
+.debug_aranges  0x00000000     0x1378
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x48 ./src/commandsHandlerTask.o
+                0x00000000       0x50 ./src/commandsHandlerTask.o
  .debug_aranges
-                0x00000048       0x18 ./src/core_cm3.o
+                0x00000050       0x18 ./src/core_cm3.o
  .debug_aranges
-                0x00000060       0x20 ./src/initSystem.o
+                0x00000068       0x20 ./src/initSystem.o
  .debug_aranges
-                0x00000080       0x20 ./src/sendDataTask.o
+                0x00000088       0x20 ./src/sendDataTask.o
  .debug_aranges
-                0x000000a0       0x28 ./src/system_LPC177x_8x.o
+                0x000000a8       0x28 ./src/system_LPC177x_8x.o
  .debug_aranges
-                0x000000c8       0x20 ./src/taskDataAcquisition.o
+                0x000000d0       0x20 ./src/taskDataAcquisition.o
  .debug_aranges
-                0x000000e8       0x20 ./src/taskDataLogger.o
+                0x000000f0       0x20 ./src/taskDataLogger.o
  .debug_aranges
-                0x00000108       0x20 ./src/updateTimestampTask.o
+                0x00000110       0x20 ./src/updateTimestampTask.o
  .debug_aranges
-                0x00000128       0x50 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+                0x00000130       0x50 ./FreeRTOS/Source/portable/MemMang/heap_4.o
  .debug_aranges
-                0x00000178       0x88 ./FreeRTOS/Source/portable/port.o
+                0x00000180       0x88 ./FreeRTOS/Source/portable/port.o
  .debug_aranges
-                0x00000200       0x40 ./FreeRTOS/Source/list.o
+                0x00000208       0x40 ./FreeRTOS/Source/list.o
  .debug_aranges
-                0x00000240       0xc0 ./FreeRTOS/Source/queue.o
+                0x00000248       0xc0 ./FreeRTOS/Source/queue.o
  .debug_aranges
-                0x00000300      0x180 ./FreeRTOS/Source/tasks.o
+                0x00000308      0x180 ./FreeRTOS/Source/tasks.o
  .debug_aranges
-                0x00000480       0x90 ./Drivers/source/debug_frmwrk.o
+                0x00000488       0x90 ./Drivers/source/debug_frmwrk.o
  .debug_aranges
-                0x00000510       0x80 ./Drivers/source/lpc177x_8x_adc.o
+                0x00000518       0x80 ./Drivers/source/lpc177x_8x_adc.o
  .debug_aranges
-                0x00000590       0xc0 ./Drivers/source/lpc177x_8x_can.o
+                0x00000598       0xc0 ./Drivers/source/lpc177x_8x_can.o
  .debug_aranges
-                0x00000650       0x50 ./Drivers/source/lpc177x_8x_clkpwr.o
+                0x00000658       0x50 ./Drivers/source/lpc177x_8x_clkpwr.o
  .debug_aranges
-                0x000006a0       0x38 ./Drivers/source/lpc177x_8x_crc.o
+                0x000006a8       0x38 ./Drivers/source/lpc177x_8x_crc.o
  .debug_aranges
-                0x000006d8       0x50 ./Drivers/source/lpc177x_8x_dac.o
+                0x000006e0       0x50 ./Drivers/source/lpc177x_8x_dac.o
  .debug_aranges
-                0x00000728       0x40 ./Drivers/source/lpc177x_8x_eeprom.o
+                0x00000730       0x40 ./Drivers/source/lpc177x_8x_eeprom.o
  .debug_aranges
-                0x00000768       0xd8 ./Drivers/source/lpc177x_8x_emc.o
+                0x00000770       0xd8 ./Drivers/source/lpc177x_8x_emc.o
  .debug_aranges
-                0x00000840       0x48 ./Drivers/source/lpc177x_8x_exti.o
+                0x00000848       0x48 ./Drivers/source/lpc177x_8x_exti.o
  .debug_aranges
-                0x00000888       0x40 ./Drivers/source/lpc177x_8x_gpdma.o
+                0x00000890       0x40 ./Drivers/source/lpc177x_8x_gpdma.o
  .debug_aranges
-                0x000008c8      0x100 ./Drivers/source/lpc177x_8x_gpio.o
+                0x000008d0      0x100 ./Drivers/source/lpc177x_8x_gpio.o
  .debug_aranges
-                0x000009c8       0xd8 ./Drivers/source/lpc177x_8x_i2c.o
+                0x000009d0       0xd8 ./Drivers/source/lpc177x_8x_i2c.o
  .debug_aranges
-                0x00000aa0       0xc0 ./Drivers/source/lpc177x_8x_i2s.o
+                0x00000aa8       0xc0 ./Drivers/source/lpc177x_8x_i2s.o
  .debug_aranges
-                0x00000b60      0x160 ./Drivers/source/lpc177x_8x_mci.o
+                0x00000b68      0x160 ./Drivers/source/lpc177x_8x_mci.o
  .debug_aranges
-                0x00000cc0       0x90 ./Drivers/source/lpc177x_8x_mcpwm.o
+                0x00000cc8       0x90 ./Drivers/source/lpc177x_8x_mcpwm.o
  .debug_aranges
-                0x00000d50       0x30 ./Drivers/source/lpc177x_8x_nvic.o
+                0x00000d58       0x30 ./Drivers/source/lpc177x_8x_nvic.o
  .debug_aranges
-                0x00000d80       0x70 ./Drivers/source/lpc177x_8x_pinsel.o
+                0x00000d88       0x70 ./Drivers/source/lpc177x_8x_pinsel.o
  .debug_aranges
-                0x00000df0       0x90 ./Drivers/source/lpc177x_8x_pwm.o
+                0x00000df8       0x90 ./Drivers/source/lpc177x_8x_pwm.o
  .debug_aranges
-                0x00000e80       0xc8 ./Drivers/source/lpc177x_8x_qei.o
+                0x00000e88       0xc8 ./Drivers/source/lpc177x_8x_qei.o
  .debug_aranges
-                0x00000f48       0xb8 ./Drivers/source/lpc177x_8x_rtc.o
+                0x00000f50       0xb8 ./Drivers/source/lpc177x_8x_rtc.o
  .debug_aranges
-                0x00001000       0xa8 ./Drivers/source/lpc177x_8x_ssp.o
+                0x00001008       0xa8 ./Drivers/source/lpc177x_8x_ssp.o
  .debug_aranges
-                0x000010a8       0x48 ./Drivers/source/lpc177x_8x_systick.o
+                0x000010b0       0x48 ./Drivers/source/lpc177x_8x_systick.o
  .debug_aranges
-                0x000010f0       0xa8 ./Drivers/source/lpc177x_8x_timer.o
+                0x000010f8       0xa8 ./Drivers/source/lpc177x_8x_timer.o
  .debug_aranges
-                0x00001198      0x100 ./Drivers/source/lpc177x_8x_uart.o
+                0x000011a0      0x100 ./Drivers/source/lpc177x_8x_uart.o
  .debug_aranges
-                0x00001298       0xb8 ./Drivers/source/lpc177x_8x_wwdt.o
+                0x000012a0       0xb8 ./Drivers/source/lpc177x_8x_wwdt.o
  .debug_aranges
-                0x00001350       0x20 ./main.o
+                0x00001358       0x20 ./main.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000    0x11e4d
+.debug_info     0x00000000    0x11eaf
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x3f1 ./src/commandsHandlerTask.o
- .debug_info    0x000003f1       0x68 ./src/core_cm3.o
- .debug_info    0x00000459      0x4d5 ./src/initSystem.o
- .debug_info    0x0000092e      0x3a0 ./src/sendDataTask.o
- .debug_info    0x00000cce      0x555 ./src/system_LPC177x_8x.o
- .debug_info    0x00001223      0x31f ./src/taskDataAcquisition.o
- .debug_info    0x00001542       0x50 ./src/taskDataLogger.o
- .debug_info    0x00001592      0x14c ./src/updateTimestampTask.o
- .debug_info    0x000016de      0x32c ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_info    0x00001a0a      0x275 ./FreeRTOS/Source/portable/port.o
- .debug_info    0x00001c7f      0x2d3 ./FreeRTOS/Source/list.o
- .debug_info    0x00001f52      0xa15 ./FreeRTOS/Source/queue.o
- .debug_info    0x00002967     0x127a ./FreeRTOS/Source/tasks.o
- .debug_info    0x00003be1      0xabb ./Drivers/source/debug_frmwrk.o
- .debug_info    0x0000469c      0x4fd ./Drivers/source/lpc177x_8x_adc.o
- .debug_info    0x00004b99     0x110b ./Drivers/source/lpc177x_8x_can.o
- .debug_info    0x00005ca4      0x68c ./Drivers/source/lpc177x_8x_clkpwr.o
- .debug_info    0x00006330      0x2c8 ./Drivers/source/lpc177x_8x_crc.o
- .debug_info    0x000065f8      0x32a ./Drivers/source/lpc177x_8x_dac.o
- .debug_info    0x00006922      0x373 ./Drivers/source/lpc177x_8x_eeprom.o
- .debug_info    0x00006c95      0xd81 ./Drivers/source/lpc177x_8x_emc.o
- .debug_info    0x00007a16      0x502 ./Drivers/source/lpc177x_8x_exti.o
- .debug_info    0x00007f18     0x11e4 ./Drivers/source/lpc177x_8x_gpdma.o
- .debug_info    0x000090fc      0xb69 ./Drivers/source/lpc177x_8x_gpio.o
- .debug_info    0x00009c65      0xe30 ./Drivers/source/lpc177x_8x_i2c.o
- .debug_info    0x0000aa95      0x814 ./Drivers/source/lpc177x_8x_i2s.o
- .debug_info    0x0000b2a9     0x1570 ./Drivers/source/lpc177x_8x_mci.o
- .debug_info    0x0000c819      0x7ac ./Drivers/source/lpc177x_8x_mcpwm.o
- .debug_info    0x0000cfc5      0x3df ./Drivers/source/lpc177x_8x_nvic.o
- .debug_info    0x0000d3a4      0x4b7 ./Drivers/source/lpc177x_8x_pinsel.o
- .debug_info    0x0000d85b      0x899 ./Drivers/source/lpc177x_8x_pwm.o
- .debug_info    0x0000e0f4      0x9c7 ./Drivers/source/lpc177x_8x_qei.o
- .debug_info    0x0000eabb      0x9f8 ./Drivers/source/lpc177x_8x_rtc.o
- .debug_info    0x0000f4b3      0x72e ./Drivers/source/lpc177x_8x_ssp.o
- .debug_info    0x0000fbe1      0x21f ./Drivers/source/lpc177x_8x_systick.o
- .debug_info    0x0000fe00      0x85f ./Drivers/source/lpc177x_8x_timer.o
- .debug_info    0x0001065f     0x10cf ./Drivers/source/lpc177x_8x_uart.o
- .debug_info    0x0001172e      0x553 ./Drivers/source/lpc177x_8x_wwdt.o
- .debug_info    0x00011c81      0x1cc ./main.o
+ .debug_info    0x00000000      0x453 ./src/commandsHandlerTask.o
+ .debug_info    0x00000453       0x68 ./src/core_cm3.o
+ .debug_info    0x000004bb      0x4d5 ./src/initSystem.o
+ .debug_info    0x00000990      0x3a0 ./src/sendDataTask.o
+ .debug_info    0x00000d30      0x555 ./src/system_LPC177x_8x.o
+ .debug_info    0x00001285      0x31f ./src/taskDataAcquisition.o
+ .debug_info    0x000015a4       0x50 ./src/taskDataLogger.o
+ .debug_info    0x000015f4      0x14c ./src/updateTimestampTask.o
+ .debug_info    0x00001740      0x32c ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_info    0x00001a6c      0x275 ./FreeRTOS/Source/portable/port.o
+ .debug_info    0x00001ce1      0x2d3 ./FreeRTOS/Source/list.o
+ .debug_info    0x00001fb4      0xa15 ./FreeRTOS/Source/queue.o
+ .debug_info    0x000029c9     0x127a ./FreeRTOS/Source/tasks.o
+ .debug_info    0x00003c43      0xabb ./Drivers/source/debug_frmwrk.o
+ .debug_info    0x000046fe      0x4fd ./Drivers/source/lpc177x_8x_adc.o
+ .debug_info    0x00004bfb     0x110b ./Drivers/source/lpc177x_8x_can.o
+ .debug_info    0x00005d06      0x68c ./Drivers/source/lpc177x_8x_clkpwr.o
+ .debug_info    0x00006392      0x2c8 ./Drivers/source/lpc177x_8x_crc.o
+ .debug_info    0x0000665a      0x32a ./Drivers/source/lpc177x_8x_dac.o
+ .debug_info    0x00006984      0x373 ./Drivers/source/lpc177x_8x_eeprom.o
+ .debug_info    0x00006cf7      0xd81 ./Drivers/source/lpc177x_8x_emc.o
+ .debug_info    0x00007a78      0x502 ./Drivers/source/lpc177x_8x_exti.o
+ .debug_info    0x00007f7a     0x11e4 ./Drivers/source/lpc177x_8x_gpdma.o
+ .debug_info    0x0000915e      0xb69 ./Drivers/source/lpc177x_8x_gpio.o
+ .debug_info    0x00009cc7      0xe30 ./Drivers/source/lpc177x_8x_i2c.o
+ .debug_info    0x0000aaf7      0x814 ./Drivers/source/lpc177x_8x_i2s.o
+ .debug_info    0x0000b30b     0x1570 ./Drivers/source/lpc177x_8x_mci.o
+ .debug_info    0x0000c87b      0x7ac ./Drivers/source/lpc177x_8x_mcpwm.o
+ .debug_info    0x0000d027      0x3df ./Drivers/source/lpc177x_8x_nvic.o
+ .debug_info    0x0000d406      0x4b7 ./Drivers/source/lpc177x_8x_pinsel.o
+ .debug_info    0x0000d8bd      0x899 ./Drivers/source/lpc177x_8x_pwm.o
+ .debug_info    0x0000e156      0x9c7 ./Drivers/source/lpc177x_8x_qei.o
+ .debug_info    0x0000eb1d      0x9f8 ./Drivers/source/lpc177x_8x_rtc.o
+ .debug_info    0x0000f515      0x72e ./Drivers/source/lpc177x_8x_ssp.o
+ .debug_info    0x0000fc43      0x21f ./Drivers/source/lpc177x_8x_systick.o
+ .debug_info    0x0000fe62      0x85f ./Drivers/source/lpc177x_8x_timer.o
+ .debug_info    0x000106c1     0x10cf ./Drivers/source/lpc177x_8x_uart.o
+ .debug_info    0x00011790      0x553 ./Drivers/source/lpc177x_8x_wwdt.o
+ .debug_info    0x00011ce3      0x1cc ./main.o
 
-.debug_abbrev   0x00000000     0x3b8e
+.debug_abbrev   0x00000000     0x3ba7
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x15d ./src/commandsHandlerTask.o
- .debug_abbrev  0x0000015d       0x29 ./src/core_cm3.o
- .debug_abbrev  0x00000186      0x137 ./src/initSystem.o
- .debug_abbrev  0x000002bd      0x17a ./src/sendDataTask.o
- .debug_abbrev  0x00000437      0x106 ./src/system_LPC177x_8x.o
- .debug_abbrev  0x0000053d      0x128 ./src/taskDataAcquisition.o
- .debug_abbrev  0x00000665       0x47 ./src/taskDataLogger.o
- .debug_abbrev  0x000006ac       0xa2 ./src/updateTimestampTask.o
- .debug_abbrev  0x0000074e      0x173 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_abbrev  0x000008c1      0x18e ./FreeRTOS/Source/portable/port.o
- .debug_abbrev  0x00000a4f       0xdb ./FreeRTOS/Source/list.o
- .debug_abbrev  0x00000b2a      0x157 ./FreeRTOS/Source/queue.o
- .debug_abbrev  0x00000c81      0x286 ./FreeRTOS/Source/tasks.o
- .debug_abbrev  0x00000f07      0x1e9 ./Drivers/source/debug_frmwrk.o
- .debug_abbrev  0x000010f0      0x182 ./Drivers/source/lpc177x_8x_adc.o
- .debug_abbrev  0x00001272      0x256 ./Drivers/source/lpc177x_8x_can.o
- .debug_abbrev  0x000014c8      0x1bb ./Drivers/source/lpc177x_8x_clkpwr.o
- .debug_abbrev  0x00001683      0x176 ./Drivers/source/lpc177x_8x_crc.o
- .debug_abbrev  0x000017f9      0x142 ./Drivers/source/lpc177x_8x_dac.o
- .debug_abbrev  0x0000193b      0x161 ./Drivers/source/lpc177x_8x_eeprom.o
- .debug_abbrev  0x00001a9c      0x1aa ./Drivers/source/lpc177x_8x_emc.o
- .debug_abbrev  0x00001c46      0x12c ./Drivers/source/lpc177x_8x_exti.o
- .debug_abbrev  0x00001d72      0x22d ./Drivers/source/lpc177x_8x_gpdma.o
- .debug_abbrev  0x00001f9f      0x1d8 ./Drivers/source/lpc177x_8x_gpio.o
- .debug_abbrev  0x00002177      0x26e ./Drivers/source/lpc177x_8x_i2c.o
- .debug_abbrev  0x000023e5      0x1e5 ./Drivers/source/lpc177x_8x_i2s.o
- .debug_abbrev  0x000025ca      0x2db ./Drivers/source/lpc177x_8x_mci.o
- .debug_abbrev  0x000028a5      0x188 ./Drivers/source/lpc177x_8x_mcpwm.o
- .debug_abbrev  0x00002a2d      0x11e ./Drivers/source/lpc177x_8x_nvic.o
- .debug_abbrev  0x00002b4b       0xfb ./Drivers/source/lpc177x_8x_pinsel.o
- .debug_abbrev  0x00002c46      0x1d7 ./Drivers/source/lpc177x_8x_pwm.o
- .debug_abbrev  0x00002e1d      0x22a ./Drivers/source/lpc177x_8x_qei.o
- .debug_abbrev  0x00003047      0x16f ./Drivers/source/lpc177x_8x_rtc.o
- .debug_abbrev  0x000031b6      0x1e1 ./Drivers/source/lpc177x_8x_ssp.o
- .debug_abbrev  0x00003397      0x115 ./Drivers/source/lpc177x_8x_systick.o
- .debug_abbrev  0x000034ac      0x1f8 ./Drivers/source/lpc177x_8x_timer.o
- .debug_abbrev  0x000036a4      0x211 ./Drivers/source/lpc177x_8x_uart.o
- .debug_abbrev  0x000038b5      0x244 ./Drivers/source/lpc177x_8x_wwdt.o
- .debug_abbrev  0x00003af9       0x95 ./main.o
+ .debug_abbrev  0x00000000      0x185 ./src/commandsHandlerTask.o
+ .debug_abbrev  0x00000185       0x29 ./src/core_cm3.o
+ .debug_abbrev  0x000001ae      0x137 ./src/initSystem.o
+ .debug_abbrev  0x000002e5      0x17a ./src/sendDataTask.o
+ .debug_abbrev  0x0000045f      0x106 ./src/system_LPC177x_8x.o
+ .debug_abbrev  0x00000565      0x128 ./src/taskDataAcquisition.o
+ .debug_abbrev  0x0000068d       0x47 ./src/taskDataLogger.o
+ .debug_abbrev  0x000006d4       0x93 ./src/updateTimestampTask.o
+ .debug_abbrev  0x00000767      0x173 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_abbrev  0x000008da      0x18e ./FreeRTOS/Source/portable/port.o
+ .debug_abbrev  0x00000a68       0xdb ./FreeRTOS/Source/list.o
+ .debug_abbrev  0x00000b43      0x157 ./FreeRTOS/Source/queue.o
+ .debug_abbrev  0x00000c9a      0x286 ./FreeRTOS/Source/tasks.o
+ .debug_abbrev  0x00000f20      0x1e9 ./Drivers/source/debug_frmwrk.o
+ .debug_abbrev  0x00001109      0x182 ./Drivers/source/lpc177x_8x_adc.o
+ .debug_abbrev  0x0000128b      0x256 ./Drivers/source/lpc177x_8x_can.o
+ .debug_abbrev  0x000014e1      0x1bb ./Drivers/source/lpc177x_8x_clkpwr.o
+ .debug_abbrev  0x0000169c      0x176 ./Drivers/source/lpc177x_8x_crc.o
+ .debug_abbrev  0x00001812      0x142 ./Drivers/source/lpc177x_8x_dac.o
+ .debug_abbrev  0x00001954      0x161 ./Drivers/source/lpc177x_8x_eeprom.o
+ .debug_abbrev  0x00001ab5      0x1aa ./Drivers/source/lpc177x_8x_emc.o
+ .debug_abbrev  0x00001c5f      0x12c ./Drivers/source/lpc177x_8x_exti.o
+ .debug_abbrev  0x00001d8b      0x22d ./Drivers/source/lpc177x_8x_gpdma.o
+ .debug_abbrev  0x00001fb8      0x1d8 ./Drivers/source/lpc177x_8x_gpio.o
+ .debug_abbrev  0x00002190      0x26e ./Drivers/source/lpc177x_8x_i2c.o
+ .debug_abbrev  0x000023fe      0x1e5 ./Drivers/source/lpc177x_8x_i2s.o
+ .debug_abbrev  0x000025e3      0x2db ./Drivers/source/lpc177x_8x_mci.o
+ .debug_abbrev  0x000028be      0x188 ./Drivers/source/lpc177x_8x_mcpwm.o
+ .debug_abbrev  0x00002a46      0x11e ./Drivers/source/lpc177x_8x_nvic.o
+ .debug_abbrev  0x00002b64       0xfb ./Drivers/source/lpc177x_8x_pinsel.o
+ .debug_abbrev  0x00002c5f      0x1d7 ./Drivers/source/lpc177x_8x_pwm.o
+ .debug_abbrev  0x00002e36      0x22a ./Drivers/source/lpc177x_8x_qei.o
+ .debug_abbrev  0x00003060      0x16f ./Drivers/source/lpc177x_8x_rtc.o
+ .debug_abbrev  0x000031cf      0x1e1 ./Drivers/source/lpc177x_8x_ssp.o
+ .debug_abbrev  0x000033b0      0x115 ./Drivers/source/lpc177x_8x_systick.o
+ .debug_abbrev  0x000034c5      0x1f8 ./Drivers/source/lpc177x_8x_timer.o
+ .debug_abbrev  0x000036bd      0x211 ./Drivers/source/lpc177x_8x_uart.o
+ .debug_abbrev  0x000038ce      0x244 ./Drivers/source/lpc177x_8x_wwdt.o
+ .debug_abbrev  0x00003b12       0x95 ./main.o
 
-.debug_line     0x00000000     0xaf19
+.debug_line     0x00000000     0xaf3e
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x00000000      0x4cf ./src/commandsHandlerTask.o
- .debug_line    0x000004cf      0x190 ./src/core_cm3.o
- .debug_line    0x0000065f      0x42f ./src/initSystem.o
- .debug_line    0x00000a8e      0x3ac ./src/sendDataTask.o
- .debug_line    0x00000e3a      0x28f ./src/system_LPC177x_8x.o
- .debug_line    0x000010c9      0x304 ./src/taskDataAcquisition.o
- .debug_line    0x000013cd       0x7e ./src/taskDataLogger.o
- .debug_line    0x0000144b      0x364 ./src/updateTimestampTask.o
- .debug_line    0x000017af      0x4a5 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_line    0x00001c54      0x444 ./FreeRTOS/Source/portable/port.o
- .debug_line    0x00002098      0x420 ./FreeRTOS/Source/list.o
- .debug_line    0x000024b8      0x6ce ./FreeRTOS/Source/queue.o
- .debug_line    0x00002b86      0xae4 ./FreeRTOS/Source/tasks.o
- .debug_line    0x0000366a      0x4d4 ./Drivers/source/debug_frmwrk.o
- .debug_line    0x00003b3e      0x388 ./Drivers/source/lpc177x_8x_adc.o
- .debug_line    0x00003ec6      0x862 ./Drivers/source/lpc177x_8x_can.o
- .debug_line    0x00004728      0x338 ./Drivers/source/lpc177x_8x_clkpwr.o
- .debug_line    0x00004a60      0x2e9 ./Drivers/source/lpc177x_8x_crc.o
- .debug_line    0x00004d49      0x325 ./Drivers/source/lpc177x_8x_dac.o
- .debug_line    0x0000506e      0x39a ./Drivers/source/lpc177x_8x_eeprom.o
- .debug_line    0x00005408      0x551 ./Drivers/source/lpc177x_8x_emc.o
- .debug_line    0x00005959      0x2c6 ./Drivers/source/lpc177x_8x_exti.o
- .debug_line    0x00005c1f      0x39b ./Drivers/source/lpc177x_8x_gpdma.o
- .debug_line    0x00005fba      0x523 ./Drivers/source/lpc177x_8x_gpio.o
- .debug_line    0x000064dd      0x6da ./Drivers/source/lpc177x_8x_i2c.o
- .debug_line    0x00006bb7      0x45d ./Drivers/source/lpc177x_8x_i2s.o
- .debug_line    0x00007014      0x968 ./Drivers/source/lpc177x_8x_mci.o
- .debug_line    0x0000797c      0x624 ./Drivers/source/lpc177x_8x_mcpwm.o
- .debug_line    0x00007fa0      0x2b8 ./Drivers/source/lpc177x_8x_nvic.o
- .debug_line    0x00008258      0x3d6 ./Drivers/source/lpc177x_8x_pinsel.o
- .debug_line    0x0000862e      0x458 ./Drivers/source/lpc177x_8x_pwm.o
- .debug_line    0x00008a86      0x462 ./Drivers/source/lpc177x_8x_qei.o
- .debug_line    0x00008ee8      0x50d ./Drivers/source/lpc177x_8x_rtc.o
- .debug_line    0x000093f5      0x47d ./Drivers/source/lpc177x_8x_ssp.o
- .debug_line    0x00009872      0x30a ./Drivers/source/lpc177x_8x_systick.o
- .debug_line    0x00009b7c      0x453 ./Drivers/source/lpc177x_8x_timer.o
- .debug_line    0x00009fcf      0x640 ./Drivers/source/lpc177x_8x_uart.o
- .debug_line    0x0000a60f      0x451 ./Drivers/source/lpc177x_8x_wwdt.o
- .debug_line    0x0000aa60      0x4b9 ./main.o
+ .debug_line    0x00000000      0x4f4 ./src/commandsHandlerTask.o
+ .debug_line    0x000004f4      0x190 ./src/core_cm3.o
+ .debug_line    0x00000684      0x42f ./src/initSystem.o
+ .debug_line    0x00000ab3      0x3ac ./src/sendDataTask.o
+ .debug_line    0x00000e5f      0x28f ./src/system_LPC177x_8x.o
+ .debug_line    0x000010ee      0x304 ./src/taskDataAcquisition.o
+ .debug_line    0x000013f2       0x7e ./src/taskDataLogger.o
+ .debug_line    0x00001470      0x364 ./src/updateTimestampTask.o
+ .debug_line    0x000017d4      0x4a5 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_line    0x00001c79      0x444 ./FreeRTOS/Source/portable/port.o
+ .debug_line    0x000020bd      0x420 ./FreeRTOS/Source/list.o
+ .debug_line    0x000024dd      0x6ce ./FreeRTOS/Source/queue.o
+ .debug_line    0x00002bab      0xae4 ./FreeRTOS/Source/tasks.o
+ .debug_line    0x0000368f      0x4d4 ./Drivers/source/debug_frmwrk.o
+ .debug_line    0x00003b63      0x388 ./Drivers/source/lpc177x_8x_adc.o
+ .debug_line    0x00003eeb      0x862 ./Drivers/source/lpc177x_8x_can.o
+ .debug_line    0x0000474d      0x338 ./Drivers/source/lpc177x_8x_clkpwr.o
+ .debug_line    0x00004a85      0x2e9 ./Drivers/source/lpc177x_8x_crc.o
+ .debug_line    0x00004d6e      0x325 ./Drivers/source/lpc177x_8x_dac.o
+ .debug_line    0x00005093      0x39a ./Drivers/source/lpc177x_8x_eeprom.o
+ .debug_line    0x0000542d      0x551 ./Drivers/source/lpc177x_8x_emc.o
+ .debug_line    0x0000597e      0x2c6 ./Drivers/source/lpc177x_8x_exti.o
+ .debug_line    0x00005c44      0x39b ./Drivers/source/lpc177x_8x_gpdma.o
+ .debug_line    0x00005fdf      0x523 ./Drivers/source/lpc177x_8x_gpio.o
+ .debug_line    0x00006502      0x6da ./Drivers/source/lpc177x_8x_i2c.o
+ .debug_line    0x00006bdc      0x45d ./Drivers/source/lpc177x_8x_i2s.o
+ .debug_line    0x00007039      0x968 ./Drivers/source/lpc177x_8x_mci.o
+ .debug_line    0x000079a1      0x624 ./Drivers/source/lpc177x_8x_mcpwm.o
+ .debug_line    0x00007fc5      0x2b8 ./Drivers/source/lpc177x_8x_nvic.o
+ .debug_line    0x0000827d      0x3d6 ./Drivers/source/lpc177x_8x_pinsel.o
+ .debug_line    0x00008653      0x458 ./Drivers/source/lpc177x_8x_pwm.o
+ .debug_line    0x00008aab      0x462 ./Drivers/source/lpc177x_8x_qei.o
+ .debug_line    0x00008f0d      0x50d ./Drivers/source/lpc177x_8x_rtc.o
+ .debug_line    0x0000941a      0x47d ./Drivers/source/lpc177x_8x_ssp.o
+ .debug_line    0x00009897      0x30a ./Drivers/source/lpc177x_8x_systick.o
+ .debug_line    0x00009ba1      0x453 ./Drivers/source/lpc177x_8x_timer.o
+ .debug_line    0x00009ff4      0x640 ./Drivers/source/lpc177x_8x_uart.o
+ .debug_line    0x0000a634      0x451 ./Drivers/source/lpc177x_8x_wwdt.o
+ .debug_line    0x0000aa85      0x4b9 ./main.o
 
-.debug_frame    0x00000000     0x4e8c
+.debug_frame    0x00000000     0x50cc
  *(.debug_frame)
- .debug_frame   0x00000000       0xd8 ./src/commandsHandlerTask.o
- .debug_frame   0x000000d8       0x38 ./src/initSystem.o
- .debug_frame   0x00000110       0x30 ./src/sendDataTask.o
- .debug_frame   0x00000140       0x54 ./src/system_LPC177x_8x.o
- .debug_frame   0x00000194       0x34 ./src/taskDataAcquisition.o
- .debug_frame   0x000001c8       0x2c ./src/taskDataLogger.o
- .debug_frame   0x000001f4       0x30 ./src/updateTimestampTask.o
- .debug_frame   0x00000224      0x108 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_frame   0x0000032c      0x174 ./FreeRTOS/Source/portable/port.o
- .debug_frame   0x000004a0       0xd8 ./FreeRTOS/Source/list.o
- .debug_frame   0x00000578      0x310 ./FreeRTOS/Source/queue.o
- .debug_frame   0x00000888      0x66c ./FreeRTOS/Source/tasks.o
- .debug_frame   0x00000ef4      0x230 ./Drivers/source/debug_frmwrk.o
- .debug_frame   0x00001124      0x210 ./Drivers/source/lpc177x_8x_adc.o
- .debug_frame   0x00001334      0x334 ./Drivers/source/lpc177x_8x_can.o
- .debug_frame   0x00001668      0x104 ./Drivers/source/lpc177x_8x_clkpwr.o
- .debug_frame   0x0000176c       0xa8 ./Drivers/source/lpc177x_8x_crc.o
- .debug_frame   0x00001814      0x110 ./Drivers/source/lpc177x_8x_dac.o
- .debug_frame   0x00001924       0xd4 ./Drivers/source/lpc177x_8x_eeprom.o
- .debug_frame   0x000019f8      0x3cc ./Drivers/source/lpc177x_8x_emc.o
- .debug_frame   0x00001dc4       0xec ./Drivers/source/lpc177x_8x_exti.o
- .debug_frame   0x00001eb0       0xcc ./Drivers/source/lpc177x_8x_gpdma.o
- .debug_frame   0x00001f7c      0x44c ./Drivers/source/lpc177x_8x_gpio.o
- .debug_frame   0x000023c8      0x3a0 ./Drivers/source/lpc177x_8x_i2c.o
- .debug_frame   0x00002768      0x34c ./Drivers/source/lpc177x_8x_i2s.o
- .debug_frame   0x00002ab4      0x600 ./Drivers/source/lpc177x_8x_mci.o
- .debug_frame   0x000030b4      0x264 ./Drivers/source/lpc177x_8x_mcpwm.o
- .debug_frame   0x00003318       0x88 ./Drivers/source/lpc177x_8x_nvic.o
- .debug_frame   0x000033a0      0x1a0 ./Drivers/source/lpc177x_8x_pinsel.o
- .debug_frame   0x00003540      0x234 ./Drivers/source/lpc177x_8x_pwm.o
- .debug_frame   0x00003774      0x33c ./Drivers/source/lpc177x_8x_qei.o
- .debug_frame   0x00003ab0      0x328 ./Drivers/source/lpc177x_8x_rtc.o
- .debug_frame   0x00003dd8      0x2d4 ./Drivers/source/lpc177x_8x_ssp.o
- .debug_frame   0x000040ac       0xe8 ./Drivers/source/lpc177x_8x_systick.o
- .debug_frame   0x00004194      0x2c8 ./Drivers/source/lpc177x_8x_timer.o
- .debug_frame   0x0000445c      0x48c ./Drivers/source/lpc177x_8x_uart.o
- .debug_frame   0x000048e8      0x2f0 ./Drivers/source/lpc177x_8x_wwdt.o
- .debug_frame   0x00004bd8       0x30 ./main.o
- .debug_frame   0x00004c08       0x28 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x00004c30       0x54 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
- .debug_frame   0x00004c84       0x34 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
- .debug_frame   0x00004cb8       0x34 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
- .debug_frame   0x00004cec       0x28 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-exit.o)
- .debug_frame   0x00004d14       0x2c /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-init.o)
- .debug_frame   0x00004d40       0x34 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memset.o)
- .debug_frame   0x00004d74       0x20 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strlen.o)
- .debug_frame   0x00004d94       0x50 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x00004de4       0x20 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atexit.o)
- .debug_frame   0x00004e04       0x34 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fini.o)
- .debug_frame   0x00004e38       0x34 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__atexit.o)
- .debug_frame   0x00004e6c       0x20 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
+ .debug_frame   0x00000000       0xfc ./src/commandsHandlerTask.o
+ .debug_frame   0x000000fc       0x38 ./src/initSystem.o
+ .debug_frame   0x00000134       0x30 ./src/sendDataTask.o
+ .debug_frame   0x00000164       0x54 ./src/system_LPC177x_8x.o
+ .debug_frame   0x000001b8       0x34 ./src/taskDataAcquisition.o
+ .debug_frame   0x000001ec       0x2c ./src/taskDataLogger.o
+ .debug_frame   0x00000218       0x30 ./src/updateTimestampTask.o
+ .debug_frame   0x00000248      0x108 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_frame   0x00000350      0x174 ./FreeRTOS/Source/portable/port.o
+ .debug_frame   0x000004c4       0xd8 ./FreeRTOS/Source/list.o
+ .debug_frame   0x0000059c      0x310 ./FreeRTOS/Source/queue.o
+ .debug_frame   0x000008ac      0x66c ./FreeRTOS/Source/tasks.o
+ .debug_frame   0x00000f18      0x230 ./Drivers/source/debug_frmwrk.o
+ .debug_frame   0x00001148      0x210 ./Drivers/source/lpc177x_8x_adc.o
+ .debug_frame   0x00001358      0x334 ./Drivers/source/lpc177x_8x_can.o
+ .debug_frame   0x0000168c      0x104 ./Drivers/source/lpc177x_8x_clkpwr.o
+ .debug_frame   0x00001790       0xa8 ./Drivers/source/lpc177x_8x_crc.o
+ .debug_frame   0x00001838      0x110 ./Drivers/source/lpc177x_8x_dac.o
+ .debug_frame   0x00001948       0xd4 ./Drivers/source/lpc177x_8x_eeprom.o
+ .debug_frame   0x00001a1c      0x3cc ./Drivers/source/lpc177x_8x_emc.o
+ .debug_frame   0x00001de8       0xec ./Drivers/source/lpc177x_8x_exti.o
+ .debug_frame   0x00001ed4       0xcc ./Drivers/source/lpc177x_8x_gpdma.o
+ .debug_frame   0x00001fa0      0x44c ./Drivers/source/lpc177x_8x_gpio.o
+ .debug_frame   0x000023ec      0x3a0 ./Drivers/source/lpc177x_8x_i2c.o
+ .debug_frame   0x0000278c      0x34c ./Drivers/source/lpc177x_8x_i2s.o
+ .debug_frame   0x00002ad8      0x600 ./Drivers/source/lpc177x_8x_mci.o
+ .debug_frame   0x000030d8      0x264 ./Drivers/source/lpc177x_8x_mcpwm.o
+ .debug_frame   0x0000333c       0x88 ./Drivers/source/lpc177x_8x_nvic.o
+ .debug_frame   0x000033c4      0x1a0 ./Drivers/source/lpc177x_8x_pinsel.o
+ .debug_frame   0x00003564      0x234 ./Drivers/source/lpc177x_8x_pwm.o
+ .debug_frame   0x00003798      0x33c ./Drivers/source/lpc177x_8x_qei.o
+ .debug_frame   0x00003ad4      0x328 ./Drivers/source/lpc177x_8x_rtc.o
+ .debug_frame   0x00003dfc      0x2d4 ./Drivers/source/lpc177x_8x_ssp.o
+ .debug_frame   0x000040d0       0xe8 ./Drivers/source/lpc177x_8x_systick.o
+ .debug_frame   0x000041b8      0x2c8 ./Drivers/source/lpc177x_8x_timer.o
+ .debug_frame   0x00004480      0x48c ./Drivers/source/lpc177x_8x_uart.o
+ .debug_frame   0x0000490c      0x2f0 ./Drivers/source/lpc177x_8x_wwdt.o
+ .debug_frame   0x00004bfc       0x30 ./main.o
+ .debug_frame   0x00004c2c       0x28 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00004c54       0x54 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+ .debug_frame   0x00004ca8       0x34 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+ .debug_frame   0x00004cdc       0x34 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+ .debug_frame   0x00004d10       0x30 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atoi.o)
+ .debug_frame   0x00004d40       0x28 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-exit.o)
+ .debug_frame   0x00004d68       0x2c /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-init.o)
+ .debug_frame   0x00004d94       0x34 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memset.o)
+ .debug_frame   0x00004dc8       0x20 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strlen.o)
+ .debug_frame   0x00004de8       0xd8 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strstr.o)
+ .debug_frame   0x00004ec0       0x54 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strtol.o)
+ .debug_frame   0x00004f14       0x50 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00004f64       0x20 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atexit.o)
+ .debug_frame   0x00004f84       0x34 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fini.o)
+ .debug_frame   0x00004fb8       0x3c /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memchr.o)
+ .debug_frame   0x00004ff4       0x38 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memcmp.o)
+ .debug_frame   0x0000502c       0x4c /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strchr.o)
+ .debug_frame   0x00005078       0x34 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__atexit.o)
+ .debug_frame   0x000050ac       0x20 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
 
-.debug_str      0x00000000    0x229be
+.debug_str      0x00000000    0x229d0
  *(.debug_str)
- .debug_str     0x00000000     0xe7ea ./src/commandsHandlerTask.o
-                               0xea14 (size before relaxing)
- .debug_str     0x0000e7ea       0x12 ./src/core_cm3.o
+ .debug_str     0x00000000     0xefa6 ./src/commandsHandlerTask.o
+                               0xf1e2 (size before relaxing)
+ .debug_str     0x0000efa6       0x12 ./src/core_cm3.o
                                0x300a (size before relaxing)
- .debug_str     0x0000e7fc      0x1e5 ./src/initSystem.o
+ .debug_str     0x0000efb8      0x1e5 ./src/initSystem.o
                                0xde24 (size before relaxing)
- .debug_str     0x0000e9e1       0x87 ./src/sendDataTask.o
+ .debug_str     0x0000f19d       0x87 ./src/sendDataTask.o
                                0xc0c0 (size before relaxing)
- .debug_str     0x0000ea68      0x52f ./src/system_LPC177x_8x.o
+ .debug_str     0x0000f224      0x52f ./src/system_LPC177x_8x.o
                                0x7904 (size before relaxing)
- .debug_str     0x0000ef97       0x51 ./src/taskDataAcquisition.o
+ .debug_str     0x0000f753       0x51 ./src/taskDataAcquisition.o
                                0xa91f (size before relaxing)
- .debug_str     0x0000efe8       0x3b ./src/taskDataLogger.o
+ .debug_str     0x0000f7a4       0x3b ./src/taskDataLogger.o
                                0x2483 (size before relaxing)
- .debug_str     0x0000f023      0x7f4 ./src/updateTimestampTask.o
+ .debug_str     0x0000f7df       0x4a ./src/updateTimestampTask.o
                                0xb6f4 (size before relaxing)
- .debug_str     0x0000f817      0x377 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_str     0x0000f829      0x377 ./FreeRTOS/Source/portable/MemMang/heap_4.o
                                0xc922 (size before relaxing)
- .debug_str     0x0000fb8e      0x663 ./FreeRTOS/Source/portable/port.o
+ .debug_str     0x0000fba0      0x663 ./FreeRTOS/Source/portable/port.o
                                0xab4a (size before relaxing)
- .debug_str     0x000101f1      0x125 ./FreeRTOS/Source/list.o
+ .debug_str     0x00010203      0x125 ./FreeRTOS/Source/list.o
                                0xc234 (size before relaxing)
- .debug_str     0x00010316      0x5ef ./FreeRTOS/Source/queue.o
+ .debug_str     0x00010328      0x5ef ./FreeRTOS/Source/queue.o
                                0xd804 (size before relaxing)
- .debug_str     0x00010905     0x1705 ./FreeRTOS/Source/tasks.o
+ .debug_str     0x00010917     0x1705 ./FreeRTOS/Source/tasks.o
                                0xdfa8 (size before relaxing)
- .debug_str     0x0001200a     0x1383 ./Drivers/source/debug_frmwrk.o
+ .debug_str     0x0001201c     0x1383 ./Drivers/source/debug_frmwrk.o
                                0x9973 (size before relaxing)
- .debug_str     0x0001338d      0xc76 ./Drivers/source/lpc177x_8x_adc.o
+ .debug_str     0x0001339f      0xc76 ./Drivers/source/lpc177x_8x_adc.o
                                0x85de (size before relaxing)
- .debug_str     0x00014003     0x219e ./Drivers/source/lpc177x_8x_can.o
+ .debug_str     0x00014015     0x219e ./Drivers/source/lpc177x_8x_can.o
                                0xa232 (size before relaxing)
- .debug_str     0x000161a1       0xd3 ./Drivers/source/lpc177x_8x_clkpwr.o
+ .debug_str     0x000161b3       0xd3 ./Drivers/source/lpc177x_8x_clkpwr.o
                                0x831a (size before relaxing)
- .debug_str     0x00016274      0x1c0 ./Drivers/source/lpc177x_8x_crc.o
+ .debug_str     0x00016286      0x1c0 ./Drivers/source/lpc177x_8x_crc.o
                                0x81f5 (size before relaxing)
- .debug_str     0x00016434      0x305 ./Drivers/source/lpc177x_8x_dac.o
+ .debug_str     0x00016446      0x305 ./Drivers/source/lpc177x_8x_dac.o
                                0x91e9 (size before relaxing)
- .debug_str     0x00016739      0x3c9 ./Drivers/source/lpc177x_8x_eeprom.o
+ .debug_str     0x0001674b      0x3c9 ./Drivers/source/lpc177x_8x_eeprom.o
                                0x843e (size before relaxing)
- .debug_str     0x00016b02     0x1214 ./Drivers/source/lpc177x_8x_emc.o
+ .debug_str     0x00016b14     0x1214 ./Drivers/source/lpc177x_8x_emc.o
                                0xa291 (size before relaxing)
- .debug_str     0x00017d16      0x217 ./Drivers/source/lpc177x_8x_exti.o
+ .debug_str     0x00017d28      0x217 ./Drivers/source/lpc177x_8x_exti.o
                                0x789c (size before relaxing)
- .debug_str     0x00017f2d     0x11b4 ./Drivers/source/lpc177x_8x_gpdma.o
+ .debug_str     0x00017f3f     0x11b4 ./Drivers/source/lpc177x_8x_gpdma.o
                                0x9467 (size before relaxing)
- .debug_str     0x000190e1      0x37e ./Drivers/source/lpc177x_8x_gpio.o
+ .debug_str     0x000190f3      0x37e ./Drivers/source/lpc177x_8x_gpio.o
                                0x7bae (size before relaxing)
- .debug_str     0x0001945f      0xe30 ./Drivers/source/lpc177x_8x_i2c.o
+ .debug_str     0x00019471      0xe30 ./Drivers/source/lpc177x_8x_i2c.o
                                0x9db0 (size before relaxing)
- .debug_str     0x0001a28f      0xbe9 ./Drivers/source/lpc177x_8x_i2s.o
+ .debug_str     0x0001a2a1      0xbe9 ./Drivers/source/lpc177x_8x_i2s.o
                                0x8ccb (size before relaxing)
- .debug_str     0x0001ae78     0x151f ./Drivers/source/lpc177x_8x_mci.o
+ .debug_str     0x0001ae8a     0x151f ./Drivers/source/lpc177x_8x_mci.o
                                0xa82e (size before relaxing)
- .debug_str     0x0001c397      0xd86 ./Drivers/source/lpc177x_8x_mcpwm.o
+ .debug_str     0x0001c3a9      0xd86 ./Drivers/source/lpc177x_8x_mcpwm.o
                                0x8def (size before relaxing)
- .debug_str     0x0001d11d       0x7c ./Drivers/source/lpc177x_8x_nvic.o
+ .debug_str     0x0001d12f       0x7c ./Drivers/source/lpc177x_8x_nvic.o
                                0x7635 (size before relaxing)
- .debug_str     0x0001d199      0x3b3 ./Drivers/source/lpc177x_8x_pinsel.o
+ .debug_str     0x0001d1ab      0x3b3 ./Drivers/source/lpc177x_8x_pinsel.o
                                0x87ac (size before relaxing)
- .debug_str     0x0001d54c      0xa69 ./Drivers/source/lpc177x_8x_pwm.o
+ .debug_str     0x0001d55e      0xa69 ./Drivers/source/lpc177x_8x_pwm.o
                                0x8b1a (size before relaxing)
- .debug_str     0x0001dfb5     0x1a80 ./Drivers/source/lpc177x_8x_qei.o
+ .debug_str     0x0001dfc7     0x1a80 ./Drivers/source/lpc177x_8x_qei.o
                                0x9b1b (size before relaxing)
- .debug_str     0x0001fa35      0xa27 ./Drivers/source/lpc177x_8x_rtc.o
+ .debug_str     0x0001fa47      0xa27 ./Drivers/source/lpc177x_8x_rtc.o
                                0x8b30 (size before relaxing)
- .debug_str     0x0002045c      0xd36 ./Drivers/source/lpc177x_8x_ssp.o
+ .debug_str     0x0002046e      0xd36 ./Drivers/source/lpc177x_8x_ssp.o
                                0x8e1c (size before relaxing)
- .debug_str     0x00021192      0x285 ./Drivers/source/lpc177x_8x_systick.o
+ .debug_str     0x000211a4      0x285 ./Drivers/source/lpc177x_8x_systick.o
                                0x82c7 (size before relaxing)
- .debug_str     0x00021417      0x710 ./Drivers/source/lpc177x_8x_timer.o
+ .debug_str     0x00021429      0x710 ./Drivers/source/lpc177x_8x_timer.o
                                0x975a (size before relaxing)
- .debug_str     0x00021b27      0x714 ./Drivers/source/lpc177x_8x_uart.o
+ .debug_str     0x00021b39      0x714 ./Drivers/source/lpc177x_8x_uart.o
                                0x9950 (size before relaxing)
- .debug_str     0x0002223b      0x71b ./Drivers/source/lpc177x_8x_wwdt.o
+ .debug_str     0x0002224d      0x71b ./Drivers/source/lpc177x_8x_wwdt.o
                                0x9678 (size before relaxing)
- .debug_str     0x00022956       0x68 ./main.o
+ .debug_str     0x00022968       0x68 ./main.o
                                0xf1a1 (size before relaxing)
 
 .debug_loc
@@ -3615,164 +3686,164 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000     0x1110
+.debug_ranges   0x00000000     0x1118
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x38 ./src/commandsHandlerTask.o
- .debug_ranges  0x00000038       0x10 ./src/initSystem.o
- .debug_ranges  0x00000048       0x10 ./src/sendDataTask.o
- .debug_ranges  0x00000058       0x18 ./src/system_LPC177x_8x.o
- .debug_ranges  0x00000070       0x10 ./src/taskDataAcquisition.o
- .debug_ranges  0x00000080       0x10 ./src/taskDataLogger.o
- .debug_ranges  0x00000090       0x10 ./src/updateTimestampTask.o
- .debug_ranges  0x000000a0       0x40 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_ranges  0x000000e0       0x78 ./FreeRTOS/Source/portable/port.o
- .debug_ranges  0x00000158       0x30 ./FreeRTOS/Source/list.o
- .debug_ranges  0x00000188       0xb0 ./FreeRTOS/Source/queue.o
- .debug_ranges  0x00000238      0x188 ./FreeRTOS/Source/tasks.o
- .debug_ranges  0x000003c0       0x80 ./Drivers/source/debug_frmwrk.o
- .debug_ranges  0x00000440       0x70 ./Drivers/source/lpc177x_8x_adc.o
- .debug_ranges  0x000004b0       0xb0 ./Drivers/source/lpc177x_8x_can.o
- .debug_ranges  0x00000560       0x40 ./Drivers/source/lpc177x_8x_clkpwr.o
- .debug_ranges  0x000005a0       0x28 ./Drivers/source/lpc177x_8x_crc.o
- .debug_ranges  0x000005c8       0x40 ./Drivers/source/lpc177x_8x_dac.o
- .debug_ranges  0x00000608       0x30 ./Drivers/source/lpc177x_8x_eeprom.o
- .debug_ranges  0x00000638       0xc8 ./Drivers/source/lpc177x_8x_emc.o
- .debug_ranges  0x00000700       0x38 ./Drivers/source/lpc177x_8x_exti.o
- .debug_ranges  0x00000738       0x30 ./Drivers/source/lpc177x_8x_gpdma.o
- .debug_ranges  0x00000768       0xf0 ./Drivers/source/lpc177x_8x_gpio.o
- .debug_ranges  0x00000858       0xc8 ./Drivers/source/lpc177x_8x_i2c.o
- .debug_ranges  0x00000920       0xb0 ./Drivers/source/lpc177x_8x_i2s.o
- .debug_ranges  0x000009d0      0x150 ./Drivers/source/lpc177x_8x_mci.o
- .debug_ranges  0x00000b20       0x80 ./Drivers/source/lpc177x_8x_mcpwm.o
- .debug_ranges  0x00000ba0       0x20 ./Drivers/source/lpc177x_8x_nvic.o
- .debug_ranges  0x00000bc0       0x60 ./Drivers/source/lpc177x_8x_pinsel.o
- .debug_ranges  0x00000c20       0x80 ./Drivers/source/lpc177x_8x_pwm.o
- .debug_ranges  0x00000ca0       0xb8 ./Drivers/source/lpc177x_8x_qei.o
- .debug_ranges  0x00000d58       0xa8 ./Drivers/source/lpc177x_8x_rtc.o
- .debug_ranges  0x00000e00       0x98 ./Drivers/source/lpc177x_8x_ssp.o
- .debug_ranges  0x00000e98       0x38 ./Drivers/source/lpc177x_8x_systick.o
- .debug_ranges  0x00000ed0       0x98 ./Drivers/source/lpc177x_8x_timer.o
- .debug_ranges  0x00000f68       0xf0 ./Drivers/source/lpc177x_8x_uart.o
- .debug_ranges  0x00001058       0xa8 ./Drivers/source/lpc177x_8x_wwdt.o
- .debug_ranges  0x00001100       0x10 ./main.o
+ .debug_ranges  0x00000000       0x40 ./src/commandsHandlerTask.o
+ .debug_ranges  0x00000040       0x10 ./src/initSystem.o
+ .debug_ranges  0x00000050       0x10 ./src/sendDataTask.o
+ .debug_ranges  0x00000060       0x18 ./src/system_LPC177x_8x.o
+ .debug_ranges  0x00000078       0x10 ./src/taskDataAcquisition.o
+ .debug_ranges  0x00000088       0x10 ./src/taskDataLogger.o
+ .debug_ranges  0x00000098       0x10 ./src/updateTimestampTask.o
+ .debug_ranges  0x000000a8       0x40 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_ranges  0x000000e8       0x78 ./FreeRTOS/Source/portable/port.o
+ .debug_ranges  0x00000160       0x30 ./FreeRTOS/Source/list.o
+ .debug_ranges  0x00000190       0xb0 ./FreeRTOS/Source/queue.o
+ .debug_ranges  0x00000240      0x188 ./FreeRTOS/Source/tasks.o
+ .debug_ranges  0x000003c8       0x80 ./Drivers/source/debug_frmwrk.o
+ .debug_ranges  0x00000448       0x70 ./Drivers/source/lpc177x_8x_adc.o
+ .debug_ranges  0x000004b8       0xb0 ./Drivers/source/lpc177x_8x_can.o
+ .debug_ranges  0x00000568       0x40 ./Drivers/source/lpc177x_8x_clkpwr.o
+ .debug_ranges  0x000005a8       0x28 ./Drivers/source/lpc177x_8x_crc.o
+ .debug_ranges  0x000005d0       0x40 ./Drivers/source/lpc177x_8x_dac.o
+ .debug_ranges  0x00000610       0x30 ./Drivers/source/lpc177x_8x_eeprom.o
+ .debug_ranges  0x00000640       0xc8 ./Drivers/source/lpc177x_8x_emc.o
+ .debug_ranges  0x00000708       0x38 ./Drivers/source/lpc177x_8x_exti.o
+ .debug_ranges  0x00000740       0x30 ./Drivers/source/lpc177x_8x_gpdma.o
+ .debug_ranges  0x00000770       0xf0 ./Drivers/source/lpc177x_8x_gpio.o
+ .debug_ranges  0x00000860       0xc8 ./Drivers/source/lpc177x_8x_i2c.o
+ .debug_ranges  0x00000928       0xb0 ./Drivers/source/lpc177x_8x_i2s.o
+ .debug_ranges  0x000009d8      0x150 ./Drivers/source/lpc177x_8x_mci.o
+ .debug_ranges  0x00000b28       0x80 ./Drivers/source/lpc177x_8x_mcpwm.o
+ .debug_ranges  0x00000ba8       0x20 ./Drivers/source/lpc177x_8x_nvic.o
+ .debug_ranges  0x00000bc8       0x60 ./Drivers/source/lpc177x_8x_pinsel.o
+ .debug_ranges  0x00000c28       0x80 ./Drivers/source/lpc177x_8x_pwm.o
+ .debug_ranges  0x00000ca8       0xb8 ./Drivers/source/lpc177x_8x_qei.o
+ .debug_ranges  0x00000d60       0xa8 ./Drivers/source/lpc177x_8x_rtc.o
+ .debug_ranges  0x00000e08       0x98 ./Drivers/source/lpc177x_8x_ssp.o
+ .debug_ranges  0x00000ea0       0x38 ./Drivers/source/lpc177x_8x_systick.o
+ .debug_ranges  0x00000ed8       0x98 ./Drivers/source/lpc177x_8x_timer.o
+ .debug_ranges  0x00000f70       0xf0 ./Drivers/source/lpc177x_8x_uart.o
+ .debug_ranges  0x00001060       0xa8 ./Drivers/source/lpc177x_8x_wwdt.o
+ .debug_ranges  0x00001108       0x10 ./main.o
 
-.debug_macro    0x00000000     0x7ab0
+.debug_macro    0x00000000     0x7ac3
  *(.debug_macro)
- .debug_macro   0x00000000      0x1eb ./src/commandsHandlerTask.o
- .debug_macro   0x000001eb      0x862 ./src/commandsHandlerTask.o
- .debug_macro   0x00000a4d      0x16d ./src/commandsHandlerTask.o
- .debug_macro   0x00000bba       0x22 ./src/commandsHandlerTask.o
- .debug_macro   0x00000bdc       0x44 ./src/commandsHandlerTask.o
- .debug_macro   0x00000c20       0x58 ./src/commandsHandlerTask.o
- .debug_macro   0x00000c78       0x22 ./src/commandsHandlerTask.o
- .debug_macro   0x00000c9a      0x1df ./src/commandsHandlerTask.o
- .debug_macro   0x00000e79       0x1c ./src/commandsHandlerTask.o
- .debug_macro   0x00000e95       0x2e ./src/commandsHandlerTask.o
- .debug_macro   0x00000ec3       0x18 ./src/commandsHandlerTask.o
- .debug_macro   0x00000edb      0x7af ./src/commandsHandlerTask.o
- .debug_macro   0x0000168a      0x330 ./src/commandsHandlerTask.o
- .debug_macro   0x000019ba       0xd0 ./src/commandsHandlerTask.o
- .debug_macro   0x00001a8a       0x5e ./src/commandsHandlerTask.o
- .debug_macro   0x00001ae8       0xcb ./src/commandsHandlerTask.o
- .debug_macro   0x00001bb3       0x10 ./src/commandsHandlerTask.o
- .debug_macro   0x00001bc3       0x1f ./src/commandsHandlerTask.o
- .debug_macro   0x00001be2      0x3a7 ./src/commandsHandlerTask.o
- .debug_macro   0x00001f89       0xc0 ./src/commandsHandlerTask.o
- .debug_macro   0x00002049       0x8c ./src/commandsHandlerTask.o
- .debug_macro   0x000020d5       0xb0 ./src/commandsHandlerTask.o
- .debug_macro   0x00002185       0x58 ./src/commandsHandlerTask.o
- .debug_macro   0x000021dd       0x35 ./src/commandsHandlerTask.o
- .debug_macro   0x00002212       0x9c ./src/commandsHandlerTask.o
- .debug_macro   0x000022ae       0x52 ./src/commandsHandlerTask.o
- .debug_macro   0x00002300       0x16 ./src/commandsHandlerTask.o
- .debug_macro   0x00002316       0x43 ./src/commandsHandlerTask.o
- .debug_macro   0x00002359      0x180 ./src/commandsHandlerTask.o
- .debug_macro   0x000024d9      0x27a ./src/commandsHandlerTask.o
- .debug_macro   0x00002753       0x10 ./src/commandsHandlerTask.o
- .debug_macro   0x00002763       0x35 ./src/commandsHandlerTask.o
- .debug_macro   0x00002798       0x5d ./src/commandsHandlerTask.o
- .debug_macro   0x000027f5      0x2c9 ./src/commandsHandlerTask.o
- .debug_macro   0x00002abe       0x5e ./src/commandsHandlerTask.o
- .debug_macro   0x00002b1c       0xc1 ./src/commandsHandlerTask.o
- .debug_macro   0x00002bdd       0x52 ./src/commandsHandlerTask.o
- .debug_macro   0x00002c2f       0x60 ./src/core_cm3.o
- .debug_macro   0x00002c8f      0x1c3 ./src/initSystem.o
- .debug_macro   0x00002e52      0x126 ./src/sendDataTask.o
- .debug_macro   0x00002f78       0x16 ./src/sendDataTask.o
- .debug_macro   0x00002f8e      0x142 ./src/system_LPC177x_8x.o
- .debug_macro   0x000030d0       0x28 ./src/system_LPC177x_8x.o
- .debug_macro   0x000030f8      0x147 ./src/taskDataAcquisition.o
- .debug_macro   0x0000323f       0x4a ./src/taskDataAcquisition.o
- .debug_macro   0x00003289       0x1b ./src/taskDataLogger.o
- .debug_macro   0x000032a4      0x118 ./src/updateTimestampTask.o
- .debug_macro   0x000033bc       0x7f ./src/updateTimestampTask.o
- .debug_macro   0x0000343b      0x1c2 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_macro   0x000035fd       0x16 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_macro   0x00003613      0x10e ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_macro   0x00003721       0x86 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_macro   0x000037a7       0x16 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_macro   0x000037bd       0x29 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_macro   0x000037e6      0x194 ./FreeRTOS/Source/portable/port.o
- .debug_macro   0x0000397a      0x19b ./FreeRTOS/Source/list.o
- .debug_macro   0x00003b15      0x20d ./FreeRTOS/Source/queue.o
- .debug_macro   0x00003d22       0x16 ./FreeRTOS/Source/queue.o
- .debug_macro   0x00003d38      0x249 ./FreeRTOS/Source/tasks.o
- .debug_macro   0x00003f81       0x91 ./FreeRTOS/Source/tasks.o
- .debug_macro   0x00004012       0x16 ./FreeRTOS/Source/tasks.o
- .debug_macro   0x00004028       0xb3 ./Drivers/source/debug_frmwrk.o
- .debug_macro   0x000040db       0x64 ./Drivers/source/debug_frmwrk.o
- .debug_macro   0x0000413f       0x76 ./Drivers/source/debug_frmwrk.o
- .debug_macro   0x000041b5      0x3dd ./Drivers/source/debug_frmwrk.o
- .debug_macro   0x00004592       0xb3 ./Drivers/source/lpc177x_8x_adc.o
- .debug_macro   0x00004645       0xbb ./Drivers/source/lpc177x_8x_adc.o
- .debug_macro   0x00004700      0x1dc ./Drivers/source/lpc177x_8x_adc.o
- .debug_macro   0x000048dc       0xb3 ./Drivers/source/lpc177x_8x_can.o
- .debug_macro   0x0000498f      0x451 ./Drivers/source/lpc177x_8x_can.o
- .debug_macro   0x00004de0       0xa4 ./Drivers/source/lpc177x_8x_clkpwr.o
- .debug_macro   0x00004e84       0xb3 ./Drivers/source/lpc177x_8x_crc.o
- .debug_macro   0x00004f37       0x1c ./Drivers/source/lpc177x_8x_crc.o
- .debug_macro   0x00004f53       0xbc ./Drivers/source/lpc177x_8x_dac.o
- .debug_macro   0x0000500f       0x3a ./Drivers/source/lpc177x_8x_dac.o
- .debug_macro   0x00005049       0xb3 ./Drivers/source/lpc177x_8x_eeprom.o
- .debug_macro   0x000050fc       0x82 ./Drivers/source/lpc177x_8x_eeprom.o
- .debug_macro   0x0000517e       0xc2 ./Drivers/source/lpc177x_8x_emc.o
- .debug_macro   0x00005240       0x5e ./Drivers/source/lpc177x_8x_emc.o
- .debug_macro   0x0000529e      0x1a0 ./Drivers/source/lpc177x_8x_emc.o
- .debug_macro   0x0000543e       0x9b ./Drivers/source/lpc177x_8x_exti.o
- .debug_macro   0x000054d9       0x1c ./Drivers/source/lpc177x_8x_exti.o
- .debug_macro   0x000054f5       0xb3 ./Drivers/source/lpc177x_8x_gpdma.o
- .debug_macro   0x000055a8      0x290 ./Drivers/source/lpc177x_8x_gpdma.o
- .debug_macro   0x00005838       0x9b ./Drivers/source/lpc177x_8x_gpio.o
- .debug_macro   0x000058d3       0x58 ./Drivers/source/lpc177x_8x_gpio.o
- .debug_macro   0x0000592b       0xbc ./Drivers/source/lpc177x_8x_i2c.o
- .debug_macro   0x000059e7      0x16c ./Drivers/source/lpc177x_8x_i2c.o
- .debug_macro   0x00005b53       0xb3 ./Drivers/source/lpc177x_8x_i2s.o
- .debug_macro   0x00005c06      0x1cc ./Drivers/source/lpc177x_8x_i2s.o
- .debug_macro   0x00005dd2      0x1c8 ./Drivers/source/lpc177x_8x_mci.o
- .debug_macro   0x00005f9a      0x1ec ./Drivers/source/lpc177x_8x_mci.o
- .debug_macro   0x00006186       0xb3 ./Drivers/source/lpc177x_8x_mcpwm.o
- .debug_macro   0x00006239      0x133 ./Drivers/source/lpc177x_8x_mcpwm.o
- .debug_macro   0x0000636c       0x9c ./Drivers/source/lpc177x_8x_nvic.o
- .debug_macro   0x00006408       0xf5 ./Drivers/source/lpc177x_8x_pinsel.o
- .debug_macro   0x000064fd      0x3d7 ./Drivers/source/lpc177x_8x_pinsel.o
- .debug_macro   0x000068d4       0xb3 ./Drivers/source/lpc177x_8x_pwm.o
- .debug_macro   0x00006987       0xbc ./Drivers/source/lpc177x_8x_pwm.o
- .debug_macro   0x00006a43       0xb3 ./Drivers/source/lpc177x_8x_qei.o
- .debug_macro   0x00006af6      0x3ac ./Drivers/source/lpc177x_8x_qei.o
- .debug_macro   0x00006ea2       0xb3 ./Drivers/source/lpc177x_8x_rtc.o
- .debug_macro   0x00006f55      0x18c ./Drivers/source/lpc177x_8x_rtc.o
- .debug_macro   0x000070e1       0xb3 ./Drivers/source/lpc177x_8x_ssp.o
- .debug_macro   0x00007194      0x24c ./Drivers/source/lpc177x_8x_ssp.o
- .debug_macro   0x000073e0       0xb3 ./Drivers/source/lpc177x_8x_systick.o
- .debug_macro   0x00007493       0x46 ./Drivers/source/lpc177x_8x_systick.o
- .debug_macro   0x000074d9       0xbc ./Drivers/source/lpc177x_8x_timer.o
- .debug_macro   0x00007595       0xb6 ./Drivers/source/lpc177x_8x_timer.o
- .debug_macro   0x0000764b       0xb3 ./Drivers/source/lpc177x_8x_uart.o
- .debug_macro   0x000076fe       0xbc ./Drivers/source/lpc177x_8x_wwdt.o
- .debug_macro   0x000077ba       0xa6 ./Drivers/source/lpc177x_8x_wwdt.o
- .debug_macro   0x00007860      0x224 ./main.o
- .debug_macro   0x00007a84       0x1c ./main.o
- .debug_macro   0x00007aa0       0x10 ./main.o
+ .debug_macro   0x00000000      0x1fe ./src/commandsHandlerTask.o
+ .debug_macro   0x000001fe      0x862 ./src/commandsHandlerTask.o
+ .debug_macro   0x00000a60      0x16d ./src/commandsHandlerTask.o
+ .debug_macro   0x00000bcd       0x22 ./src/commandsHandlerTask.o
+ .debug_macro   0x00000bef       0x44 ./src/commandsHandlerTask.o
+ .debug_macro   0x00000c33       0x58 ./src/commandsHandlerTask.o
+ .debug_macro   0x00000c8b       0x22 ./src/commandsHandlerTask.o
+ .debug_macro   0x00000cad      0x1df ./src/commandsHandlerTask.o
+ .debug_macro   0x00000e8c       0x1c ./src/commandsHandlerTask.o
+ .debug_macro   0x00000ea8       0x2e ./src/commandsHandlerTask.o
+ .debug_macro   0x00000ed6       0x18 ./src/commandsHandlerTask.o
+ .debug_macro   0x00000eee      0x7af ./src/commandsHandlerTask.o
+ .debug_macro   0x0000169d      0x330 ./src/commandsHandlerTask.o
+ .debug_macro   0x000019cd       0xd0 ./src/commandsHandlerTask.o
+ .debug_macro   0x00001a9d       0x5e ./src/commandsHandlerTask.o
+ .debug_macro   0x00001afb       0xcb ./src/commandsHandlerTask.o
+ .debug_macro   0x00001bc6       0x10 ./src/commandsHandlerTask.o
+ .debug_macro   0x00001bd6       0x1f ./src/commandsHandlerTask.o
+ .debug_macro   0x00001bf5      0x3a7 ./src/commandsHandlerTask.o
+ .debug_macro   0x00001f9c       0xc0 ./src/commandsHandlerTask.o
+ .debug_macro   0x0000205c       0x8c ./src/commandsHandlerTask.o
+ .debug_macro   0x000020e8       0xb0 ./src/commandsHandlerTask.o
+ .debug_macro   0x00002198       0x7f ./src/commandsHandlerTask.o
+ .debug_macro   0x00002217       0x58 ./src/commandsHandlerTask.o
+ .debug_macro   0x0000226f       0x35 ./src/commandsHandlerTask.o
+ .debug_macro   0x000022a4       0x9c ./src/commandsHandlerTask.o
+ .debug_macro   0x00002340       0x52 ./src/commandsHandlerTask.o
+ .debug_macro   0x00002392       0x16 ./src/commandsHandlerTask.o
+ .debug_macro   0x000023a8       0x43 ./src/commandsHandlerTask.o
+ .debug_macro   0x000023eb      0x180 ./src/commandsHandlerTask.o
+ .debug_macro   0x0000256b      0x27a ./src/commandsHandlerTask.o
+ .debug_macro   0x000027e5       0x10 ./src/commandsHandlerTask.o
+ .debug_macro   0x000027f5       0x35 ./src/commandsHandlerTask.o
+ .debug_macro   0x0000282a       0x5d ./src/commandsHandlerTask.o
+ .debug_macro   0x00002887      0x2c9 ./src/commandsHandlerTask.o
+ .debug_macro   0x00002b50       0x5e ./src/commandsHandlerTask.o
+ .debug_macro   0x00002bae       0xc1 ./src/commandsHandlerTask.o
+ .debug_macro   0x00002c6f       0x52 ./src/commandsHandlerTask.o
+ .debug_macro   0x00002cc1       0x60 ./src/core_cm3.o
+ .debug_macro   0x00002d21      0x1c3 ./src/initSystem.o
+ .debug_macro   0x00002ee4      0x126 ./src/sendDataTask.o
+ .debug_macro   0x0000300a       0x16 ./src/sendDataTask.o
+ .debug_macro   0x00003020      0x142 ./src/system_LPC177x_8x.o
+ .debug_macro   0x00003162       0x28 ./src/system_LPC177x_8x.o
+ .debug_macro   0x0000318a      0x147 ./src/taskDataAcquisition.o
+ .debug_macro   0x000032d1       0x4a ./src/taskDataAcquisition.o
+ .debug_macro   0x0000331b       0x1b ./src/taskDataLogger.o
+ .debug_macro   0x00003336      0x118 ./src/updateTimestampTask.o
+ .debug_macro   0x0000344e      0x1c2 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_macro   0x00003610       0x16 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_macro   0x00003626      0x10e ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_macro   0x00003734       0x86 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_macro   0x000037ba       0x16 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_macro   0x000037d0       0x29 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_macro   0x000037f9      0x194 ./FreeRTOS/Source/portable/port.o
+ .debug_macro   0x0000398d      0x19b ./FreeRTOS/Source/list.o
+ .debug_macro   0x00003b28      0x20d ./FreeRTOS/Source/queue.o
+ .debug_macro   0x00003d35       0x16 ./FreeRTOS/Source/queue.o
+ .debug_macro   0x00003d4b      0x249 ./FreeRTOS/Source/tasks.o
+ .debug_macro   0x00003f94       0x91 ./FreeRTOS/Source/tasks.o
+ .debug_macro   0x00004025       0x16 ./FreeRTOS/Source/tasks.o
+ .debug_macro   0x0000403b       0xb3 ./Drivers/source/debug_frmwrk.o
+ .debug_macro   0x000040ee       0x64 ./Drivers/source/debug_frmwrk.o
+ .debug_macro   0x00004152       0x76 ./Drivers/source/debug_frmwrk.o
+ .debug_macro   0x000041c8      0x3dd ./Drivers/source/debug_frmwrk.o
+ .debug_macro   0x000045a5       0xb3 ./Drivers/source/lpc177x_8x_adc.o
+ .debug_macro   0x00004658       0xbb ./Drivers/source/lpc177x_8x_adc.o
+ .debug_macro   0x00004713      0x1dc ./Drivers/source/lpc177x_8x_adc.o
+ .debug_macro   0x000048ef       0xb3 ./Drivers/source/lpc177x_8x_can.o
+ .debug_macro   0x000049a2      0x451 ./Drivers/source/lpc177x_8x_can.o
+ .debug_macro   0x00004df3       0xa4 ./Drivers/source/lpc177x_8x_clkpwr.o
+ .debug_macro   0x00004e97       0xb3 ./Drivers/source/lpc177x_8x_crc.o
+ .debug_macro   0x00004f4a       0x1c ./Drivers/source/lpc177x_8x_crc.o
+ .debug_macro   0x00004f66       0xbc ./Drivers/source/lpc177x_8x_dac.o
+ .debug_macro   0x00005022       0x3a ./Drivers/source/lpc177x_8x_dac.o
+ .debug_macro   0x0000505c       0xb3 ./Drivers/source/lpc177x_8x_eeprom.o
+ .debug_macro   0x0000510f       0x82 ./Drivers/source/lpc177x_8x_eeprom.o
+ .debug_macro   0x00005191       0xc2 ./Drivers/source/lpc177x_8x_emc.o
+ .debug_macro   0x00005253       0x5e ./Drivers/source/lpc177x_8x_emc.o
+ .debug_macro   0x000052b1      0x1a0 ./Drivers/source/lpc177x_8x_emc.o
+ .debug_macro   0x00005451       0x9b ./Drivers/source/lpc177x_8x_exti.o
+ .debug_macro   0x000054ec       0x1c ./Drivers/source/lpc177x_8x_exti.o
+ .debug_macro   0x00005508       0xb3 ./Drivers/source/lpc177x_8x_gpdma.o
+ .debug_macro   0x000055bb      0x290 ./Drivers/source/lpc177x_8x_gpdma.o
+ .debug_macro   0x0000584b       0x9b ./Drivers/source/lpc177x_8x_gpio.o
+ .debug_macro   0x000058e6       0x58 ./Drivers/source/lpc177x_8x_gpio.o
+ .debug_macro   0x0000593e       0xbc ./Drivers/source/lpc177x_8x_i2c.o
+ .debug_macro   0x000059fa      0x16c ./Drivers/source/lpc177x_8x_i2c.o
+ .debug_macro   0x00005b66       0xb3 ./Drivers/source/lpc177x_8x_i2s.o
+ .debug_macro   0x00005c19      0x1cc ./Drivers/source/lpc177x_8x_i2s.o
+ .debug_macro   0x00005de5      0x1c8 ./Drivers/source/lpc177x_8x_mci.o
+ .debug_macro   0x00005fad      0x1ec ./Drivers/source/lpc177x_8x_mci.o
+ .debug_macro   0x00006199       0xb3 ./Drivers/source/lpc177x_8x_mcpwm.o
+ .debug_macro   0x0000624c      0x133 ./Drivers/source/lpc177x_8x_mcpwm.o
+ .debug_macro   0x0000637f       0x9c ./Drivers/source/lpc177x_8x_nvic.o
+ .debug_macro   0x0000641b       0xf5 ./Drivers/source/lpc177x_8x_pinsel.o
+ .debug_macro   0x00006510      0x3d7 ./Drivers/source/lpc177x_8x_pinsel.o
+ .debug_macro   0x000068e7       0xb3 ./Drivers/source/lpc177x_8x_pwm.o
+ .debug_macro   0x0000699a       0xbc ./Drivers/source/lpc177x_8x_pwm.o
+ .debug_macro   0x00006a56       0xb3 ./Drivers/source/lpc177x_8x_qei.o
+ .debug_macro   0x00006b09      0x3ac ./Drivers/source/lpc177x_8x_qei.o
+ .debug_macro   0x00006eb5       0xb3 ./Drivers/source/lpc177x_8x_rtc.o
+ .debug_macro   0x00006f68      0x18c ./Drivers/source/lpc177x_8x_rtc.o
+ .debug_macro   0x000070f4       0xb3 ./Drivers/source/lpc177x_8x_ssp.o
+ .debug_macro   0x000071a7      0x24c ./Drivers/source/lpc177x_8x_ssp.o
+ .debug_macro   0x000073f3       0xb3 ./Drivers/source/lpc177x_8x_systick.o
+ .debug_macro   0x000074a6       0x46 ./Drivers/source/lpc177x_8x_systick.o
+ .debug_macro   0x000074ec       0xbc ./Drivers/source/lpc177x_8x_timer.o
+ .debug_macro   0x000075a8       0xb6 ./Drivers/source/lpc177x_8x_timer.o
+ .debug_macro   0x0000765e       0xb3 ./Drivers/source/lpc177x_8x_uart.o
+ .debug_macro   0x00007711       0xbc ./Drivers/source/lpc177x_8x_wwdt.o
+ .debug_macro   0x000077cd       0xa6 ./Drivers/source/lpc177x_8x_wwdt.o
+ .debug_macro   0x00007873      0x224 ./main.o
+ .debug_macro   0x00007a97       0x1c ./main.o
+ .debug_macro   0x00007ab3       0x10 ./main.o
 
 .stack          0x00080000        0x0
                 0x00080000                _stack = .
@@ -3880,33 +3951,47 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
  .ARM.attributes
                 0x000008f8       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
  .ARM.attributes
-                0x00000925       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-exit.o)
+                0x00000925       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atoi.o)
  .ARM.attributes
-                0x00000952       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
+                0x00000952       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-exit.o)
  .ARM.attributes
-                0x0000097f       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-init.o)
+                0x0000097f       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
  .ARM.attributes
-                0x000009ac       0x1b /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memcpy.o)
+                0x000009ac       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-init.o)
  .ARM.attributes
-                0x000009c7       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memset.o)
+                0x000009d9       0x1b /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memcpy.o)
  .ARM.attributes
-                0x000009f4       0x1b /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strcmp.o)
+                0x000009f4       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memset.o)
  .ARM.attributes
-                0x00000a0f       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strlen.o)
+                0x00000a21       0x1b /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strcmp.o)
  .ARM.attributes
-                0x00000a3c       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
+                0x00000a3c       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strlen.o)
  .ARM.attributes
-                0x00000a69       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atexit.o)
+                0x00000a69       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strstr.o)
  .ARM.attributes
-                0x00000a96       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fini.o)
+                0x00000a96       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strtol.o)
  .ARM.attributes
-                0x00000ac3       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__atexit.o)
+                0x00000ac3       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
  .ARM.attributes
-                0x00000af0       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
+                0x00000af0       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atexit.o)
  .ARM.attributes
-                0x00000b1d       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+                0x00000b1d       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-ctype_.o)
  .ARM.attributes
-                0x00000b4a       0x1d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
+                0x00000b4a       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000b77       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x00000ba4       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x00000bd1       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strchr.o)
+ .ARM.attributes
+                0x00000bfe       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00000c2b       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000c58       0x2d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+ .ARM.attributes
+                0x00000c85       0x1d /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
  *(.gnu.attributes)
 
 .note.gnu.arm.ident

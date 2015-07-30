@@ -13,7 +13,7 @@ void updateTimestampTask(void *pvParameters) {
 				xSemaphoreGive(mutTimestamp);
 			}
 		}else {
-			// Error
+			// TODO - Error (Must be handled)
 		}
 	}
 }

@@ -8,7 +8,7 @@
 #include "semphr.h"
 
 uint32_t timestamp;
-static SemaphoreHandle_t mutTimestamp;
+SemaphoreHandle_t mutTimestamp;
 
 void updateTimestampTask(void *pvParameters);
 

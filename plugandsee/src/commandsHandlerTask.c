@@ -45,7 +45,11 @@ void commandsHandlerTask(void *pvParameters) {
 							if(strcmp(&buff[1], "temp inside\r\n")) {
 								tempInside();
 							} else {
-								// TODO - Continue the implementation of the commands handler
+								if(strstr(&buff[1], "maj timestamp") != NULL) {
+									majTimestamp(buff);
+								} else {
+									// TODO - Continue the implementation of the commands handler
+								}
 							}
 						}
 					}
@@ -89,4 +93,16 @@ void relayStatus(void) { // TODO - Add a physical relay
 
 void tempInside(void) { // TODO - Add a physical temperature sensor
 	xQueueSend(xQueueOutput, "temp inside - 35.6\r\n", (TickType_t) 10);
+}
+
+void majTimestamp(uint8_t *buff) {
+	if(mutTimestamp != NULL) {
+		if(xSemaphoreTake(mutTimestamp, (TickType_t) 10) == pdTRUE) {
+			timestamp = atoi(&buff[15]);
+			xSemaphoreGive(mutTimestamp);
+			xQueueSend(xQueueOutput, "maj timestamp - ok\r\n", (TickType_t) 10);
+		}
+	}else {
+		xQueueSend(xQueueOutput, "maj timestamp - nok\r\n", (TickType_t) 10);
+	}
 }
