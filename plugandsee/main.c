@@ -13,9 +13,9 @@
 
 #include "taskCommandsHandler.h"
 #include "taskDataAcquisition.h"
-#include "taskSendData.h"
 #include "taskDataLogger.h"
 #include "taskUpdateTimestamp.h"
+#include "sendDataTask.h"
 
 #define DEBUG_MODE 1
 

@@ -6,31 +6,31 @@
 C_SRCS += \
 ../src/core_cm3.c \
 ../src/initSystem.c \
+../src/sendDataTask.c \
 ../src/system_LPC177x_8x.c \
 ../src/taskCommandsHandler.c \
 ../src/taskDataAcquisition.c \
 ../src/taskDataLogger.c \
-../src/taskSendData.c \
 ../src/taskUpdateTimestamp.c 
 
 OBJS += \
 ./src/core_cm3.o \
 ./src/initSystem.o \
+./src/sendDataTask.o \
 ./src/system_LPC177x_8x.o \
 ./src/taskCommandsHandler.o \
 ./src/taskDataAcquisition.o \
 ./src/taskDataLogger.o \
-./src/taskSendData.o \
 ./src/taskUpdateTimestamp.o 
 
 C_DEPS += \
 ./src/core_cm3.d \
 ./src/initSystem.d \
+./src/sendDataTask.d \
 ./src/system_LPC177x_8x.d \
 ./src/taskCommandsHandler.d \
 ./src/taskDataAcquisition.d \
 ./src/taskDataLogger.d \
-./src/taskSendData.d \
 ./src/taskUpdateTimestamp.d 
 
 
