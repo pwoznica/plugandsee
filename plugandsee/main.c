@@ -11,11 +11,12 @@
 
 #include "initSystem.h"
 
-#include "taskCommandsHandler.h"
 #include "taskDataAcquisition.h"
 #include "taskDataLogger.h"
 #include "taskUpdateTimestamp.h"
+
 #include "sendDataTask.h"
+#include "commandsHandlerTask.h"
 
 #define DEBUG_MODE 1
 
@@ -42,7 +43,7 @@ int main(void)
 	xTaskCreate(dataAcquisitionTask, "dataAcquisition", 100, NULL, DATA_ACQUISITION_TASK_PRIORITY, &dAHandle);
 
 	TaskHandle_t sDHandle = NULL;
-	xTaskCreate(sendDataTask, "sendData", 100, NULL, SENDING_DATA_TASK_PRIORITY, &sDHandle);
+	xTaskCreate(sendDataTask, "sendData", 100, NULL, SEND_DATA_TASK_PRIORITY, &sDHandle);
 
 	TaskHandle_t dLHandle = NULL;
 	xTaskCreate(dataLoggerTask, "dataLogger", 100, NULL, DATA_LOGGER_TASK_PRIORITY, &dLHandle);

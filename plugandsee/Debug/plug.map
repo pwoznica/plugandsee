@@ -25,7 +25,7 @@ Archive member included because of file (symbol)
 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memset.o)
                               /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o (memset)
 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strcmp.o)
-                              ./src/taskCommandsHandler.o (strcmp)
+                              ./src/commandsHandlerTask.o (strcmp)
 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strlen.o)
                               ./src/taskDataAcquisition.o (strlen)
 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
@@ -49,6 +49,7 @@ dataSrcBlock        0x4               ./Drivers/source/lpc177x_8x_mci.o
 _db_dec_32          0x4               ./Drivers/source/debug_frmwrk.o
 _db_hex_32          0x4               ./Drivers/source/debug_frmwrk.o
 _db_dec_16          0x4               ./Drivers/source/debug_frmwrk.o
+fifo                0x40              ./src/commandsHandlerTask.o
 _db_hex_            0x4               ./Drivers/source/debug_frmwrk.o
 _db_msg             0x4               ./Drivers/source/debug_frmwrk.o
 dataDestBlock       0x4               ./Drivers/source/lpc177x_8x_mci.o
@@ -80,6 +81,47 @@ Discarded input sections
  .data          0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
  .bss           0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
  .ARM.extab     0x00000000        0x0 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .group         0x00000000        0x8 ./src/commandsHandlerTask.o
+ .text          0x00000000        0x0 ./src/commandsHandlerTask.o
+ .data          0x00000000        0x0 ./src/commandsHandlerTask.o
+ .bss           0x00000000        0x0 ./src/commandsHandlerTask.o
+ .bss.i         0x00000000        0x1 ./src/commandsHandlerTask.o
+ .text.UART0_IRQHandler
+                0x00000000       0x64 ./src/commandsHandlerTask.o
+ COMMON         0x00000000       0x40 ./src/commandsHandlerTask.o
  .group         0x00000000        0x8 ./src/core_cm3.o
  .group         0x00000000        0x8 ./src/core_cm3.o
  .group         0x00000000        0x8 ./src/core_cm3.o
@@ -89,6 +131,12 @@ Discarded input sections
  .text          0x00000000        0x0 ./src/core_cm3.o
  .data          0x00000000        0x0 ./src/core_cm3.o
  .bss           0x00000000        0x0 ./src/core_cm3.o
+ .debug_macro   0x00000000      0x862 ./src/core_cm3.o
+ .debug_macro   0x00000000       0x22 ./src/core_cm3.o
+ .debug_macro   0x00000000       0x44 ./src/core_cm3.o
+ .debug_macro   0x00000000       0x58 ./src/core_cm3.o
+ .debug_macro   0x00000000       0x22 ./src/core_cm3.o
+ .debug_macro   0x00000000      0x1df ./src/core_cm3.o
  .group         0x00000000        0x8 ./src/initSystem.o
  .group         0x00000000        0x8 ./src/initSystem.o
  .group         0x00000000        0x8 ./src/initSystem.o
@@ -125,11 +173,36 @@ Discarded input sections
  .data          0x00000000        0x0 ./src/initSystem.o
  .bss           0x00000000        0x0 ./src/initSystem.o
  .debug_macro   0x00000000      0x862 ./src/initSystem.o
+ .debug_macro   0x00000000      0x16d ./src/initSystem.o
  .debug_macro   0x00000000       0x22 ./src/initSystem.o
  .debug_macro   0x00000000       0x44 ./src/initSystem.o
  .debug_macro   0x00000000       0x58 ./src/initSystem.o
  .debug_macro   0x00000000       0x22 ./src/initSystem.o
  .debug_macro   0x00000000      0x1df ./src/initSystem.o
+ .debug_macro   0x00000000       0x1c ./src/initSystem.o
+ .debug_macro   0x00000000       0x2e ./src/initSystem.o
+ .debug_macro   0x00000000       0x18 ./src/initSystem.o
+ .debug_macro   0x00000000      0x7af ./src/initSystem.o
+ .debug_macro   0x00000000      0x330 ./src/initSystem.o
+ .debug_macro   0x00000000       0xd0 ./src/initSystem.o
+ .debug_macro   0x00000000       0x5e ./src/initSystem.o
+ .debug_macro   0x00000000       0xcb ./src/initSystem.o
+ .debug_macro   0x00000000       0x10 ./src/initSystem.o
+ .debug_macro   0x00000000       0x1f ./src/initSystem.o
+ .debug_macro   0x00000000      0x3a7 ./src/initSystem.o
+ .debug_macro   0x00000000       0xb0 ./src/initSystem.o
+ .debug_macro   0x00000000       0x58 ./src/initSystem.o
+ .debug_macro   0x00000000       0x35 ./src/initSystem.o
+ .debug_macro   0x00000000       0x9c ./src/initSystem.o
+ .debug_macro   0x00000000       0x52 ./src/initSystem.o
+ .debug_macro   0x00000000       0x16 ./src/initSystem.o
+ .debug_macro   0x00000000       0x43 ./src/initSystem.o
+ .debug_macro   0x00000000      0x180 ./src/initSystem.o
+ .debug_macro   0x00000000      0x27a ./src/initSystem.o
+ .debug_macro   0x00000000       0x10 ./src/initSystem.o
+ .debug_macro   0x00000000       0x35 ./src/initSystem.o
+ .debug_macro   0x00000000       0x5d ./src/initSystem.o
+ .debug_macro   0x00000000      0x2c9 ./src/initSystem.o
  .group         0x00000000        0x8 ./src/sendDataTask.o
  .group         0x00000000        0x8 ./src/sendDataTask.o
  .group         0x00000000        0x8 ./src/sendDataTask.o
@@ -175,6 +248,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./src/sendDataTask.o
  .debug_macro   0x00000000       0x1f ./src/sendDataTask.o
  .debug_macro   0x00000000      0x3a7 ./src/sendDataTask.o
+ .debug_macro   0x00000000       0xc0 ./src/sendDataTask.o
+ .debug_macro   0x00000000       0x8c ./src/sendDataTask.o
  .debug_macro   0x00000000       0xb0 ./src/sendDataTask.o
  .debug_macro   0x00000000       0x5d ./src/sendDataTask.o
  .debug_macro   0x00000000      0x2c9 ./src/sendDataTask.o
@@ -208,77 +283,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x18 ./src/system_LPC177x_8x.o
  .debug_macro   0x00000000      0x7af ./src/system_LPC177x_8x.o
  .debug_macro   0x00000000      0x330 ./src/system_LPC177x_8x.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .group         0x00000000        0x8 ./src/taskCommandsHandler.o
- .text          0x00000000        0x0 ./src/taskCommandsHandler.o
- .data          0x00000000        0x0 ./src/taskCommandsHandler.o
- .bss           0x00000000        0x0 ./src/taskCommandsHandler.o
- .text.UART0_IRQHandler
-                0x00000000        0xc ./src/taskCommandsHandler.o
- .debug_macro   0x00000000      0x862 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000      0x16d ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x22 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x44 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x58 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x22 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000      0x1df ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x1c ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x2e ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x18 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000      0x7af ./src/taskCommandsHandler.o
- .debug_macro   0x00000000      0x330 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0xd0 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x5e ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0xcb ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x10 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x1f ./src/taskCommandsHandler.o
- .debug_macro   0x00000000      0x3a7 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0xc0 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x8c ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0xb0 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x58 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x35 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x9c ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x52 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x16 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x43 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000      0x180 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000      0x27a ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x10 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x35 ./src/taskCommandsHandler.o
- .debug_macro   0x00000000       0x5d ./src/taskCommandsHandler.o
- .debug_macro   0x00000000      0x2c9 ./src/taskCommandsHandler.o
  .group         0x00000000        0x8 ./src/taskDataAcquisition.o
  .group         0x00000000        0x8 ./src/taskDataAcquisition.o
  .group         0x00000000        0x8 ./src/taskDataAcquisition.o
@@ -2500,11 +2504,11 @@ Linker script and memory map
 LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crti.o
 LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
 LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+LOAD ./src/commandsHandlerTask.o
 LOAD ./src/core_cm3.o
 LOAD ./src/initSystem.o
 LOAD ./src/sendDataTask.o
 LOAD ./src/system_LPC177x_8x.o
-LOAD ./src/taskCommandsHandler.o
 LOAD ./src/taskDataAcquisition.o
 LOAD ./src/taskDataLogger.o
 LOAD ./src/taskUpdateTimestamp.o
@@ -2648,15 +2652,15 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
  .text          0x0000809c       0x74 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
                 0x0000809c                _mainCRTStartup
                 0x0000809c                _start
- .text.initSystemBasics
-                0x00008110       0x9c ./src/initSystem.o
-                0x00008110                initSystemBasics
- .text.sendDataTask
-                0x000081ac       0x9c ./src/sendDataTask.o
-                0x000081ac                sendDataTask
  .text.commandsHandlerTask
-                0x00008248       0xdc ./src/taskCommandsHandler.o
-                0x00008248                commandsHandlerTask
+                0x00008110       0xdc ./src/commandsHandlerTask.o
+                0x00008110                commandsHandlerTask
+ .text.initSystemBasics
+                0x000081ec       0x9c ./src/initSystem.o
+                0x000081ec                initSystemBasics
+ .text.sendDataTask
+                0x00008288       0x9c ./src/sendDataTask.o
+                0x00008288                sendDataTask
  .text.dataAcquisitionTask
                 0x00008324       0x44 ./src/taskDataAcquisition.o
                 0x00008324                dataAcquisitionTask
@@ -2881,12 +2885,12 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
 
 .rodata         0x0000ad90      0x104
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata        0x0000ad90       0x17 ./src/initSystem.o
- *fill*         0x0000ada7        0x1 
- .rodata        0x0000ada8       0x1f ./src/sendDataTask.o
- *fill*         0x0000adc7        0x1 
- .rodata        0x0000adc8       0x5a ./src/taskCommandsHandler.o
- *fill*         0x0000ae22        0x2 
+ .rodata        0x0000ad90       0x5a ./src/commandsHandlerTask.o
+ *fill*         0x0000adea        0x2 
+ .rodata        0x0000adec       0x17 ./src/initSystem.o
+ *fill*         0x0000ae03        0x1 
+ .rodata        0x0000ae04       0x1f ./src/sendDataTask.o
+ *fill*         0x0000ae23        0x1 
  .rodata        0x0000ae24       0x16 ./src/taskDataAcquisition.o
  *fill*         0x0000ae3a        0x2 
  .rodata        0x0000ae3c        0x5 ./FreeRTOS/Source/tasks.o
@@ -3117,12 +3121,12 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
 
 .comment        0x00000000       0x70
  *(.comment)
- .comment       0x00000000       0x70 ./src/core_cm3.o
+ .comment       0x00000000       0x70 ./src/commandsHandlerTask.o
                                  0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/core_cm3.o
  .comment       0x00000000       0x71 ./src/initSystem.o
  .comment       0x00000000       0x71 ./src/sendDataTask.o
  .comment       0x00000000       0x71 ./src/system_LPC177x_8x.o
- .comment       0x00000000       0x71 ./src/taskCommandsHandler.o
  .comment       0x00000000       0x71 ./src/taskDataAcquisition.o
  .comment       0x00000000       0x71 ./src/taskDataLogger.o
  .comment       0x00000000       0x71 ./src/taskUpdateTimestamp.o
@@ -3173,15 +3177,15 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
 .debug_aranges  0x00000000     0x1350
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x18 ./src/core_cm3.o
+                0x00000000       0x28 ./src/commandsHandlerTask.o
  .debug_aranges
-                0x00000018       0x20 ./src/initSystem.o
+                0x00000028       0x18 ./src/core_cm3.o
  .debug_aranges
-                0x00000038       0x20 ./src/sendDataTask.o
+                0x00000040       0x20 ./src/initSystem.o
  .debug_aranges
-                0x00000058       0x28 ./src/system_LPC177x_8x.o
+                0x00000060       0x20 ./src/sendDataTask.o
  .debug_aranges
-                0x00000080       0x28 ./src/taskCommandsHandler.o
+                0x00000080       0x28 ./src/system_LPC177x_8x.o
  .debug_aranges
                 0x000000a8       0x20 ./src/taskDataAcquisition.o
  .debug_aranges
@@ -3254,138 +3258,138 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000    0x11a42
+.debug_info     0x00000000    0x11c50
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000       0x68 ./src/core_cm3.o
- .debug_info    0x00000068      0x451 ./src/initSystem.o
- .debug_info    0x000004b9      0x3a0 ./src/sendDataTask.o
- .debug_info    0x00000859      0x555 ./src/system_LPC177x_8x.o
- .debug_info    0x00000dae      0x166 ./src/taskCommandsHandler.o
- .debug_info    0x00000f14      0x31f ./src/taskDataAcquisition.o
- .debug_info    0x00001233       0x50 ./src/taskDataLogger.o
- .debug_info    0x00001283       0x50 ./src/taskUpdateTimestamp.o
- .debug_info    0x000012d3      0x32c ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_info    0x000015ff      0x275 ./FreeRTOS/Source/portable/port.o
- .debug_info    0x00001874      0x2d3 ./FreeRTOS/Source/list.o
- .debug_info    0x00001b47      0xa15 ./FreeRTOS/Source/queue.o
- .debug_info    0x0000255c     0x127a ./FreeRTOS/Source/tasks.o
- .debug_info    0x000037d6      0xabb ./Drivers/source/debug_frmwrk.o
- .debug_info    0x00004291      0x4fd ./Drivers/source/lpc177x_8x_adc.o
- .debug_info    0x0000478e     0x110b ./Drivers/source/lpc177x_8x_can.o
- .debug_info    0x00005899      0x68c ./Drivers/source/lpc177x_8x_clkpwr.o
- .debug_info    0x00005f25      0x2c8 ./Drivers/source/lpc177x_8x_crc.o
- .debug_info    0x000061ed      0x32a ./Drivers/source/lpc177x_8x_dac.o
- .debug_info    0x00006517      0x373 ./Drivers/source/lpc177x_8x_eeprom.o
- .debug_info    0x0000688a      0xd81 ./Drivers/source/lpc177x_8x_emc.o
- .debug_info    0x0000760b      0x502 ./Drivers/source/lpc177x_8x_exti.o
- .debug_info    0x00007b0d     0x11e4 ./Drivers/source/lpc177x_8x_gpdma.o
- .debug_info    0x00008cf1      0xb69 ./Drivers/source/lpc177x_8x_gpio.o
- .debug_info    0x0000985a      0xe30 ./Drivers/source/lpc177x_8x_i2c.o
- .debug_info    0x0000a68a      0x814 ./Drivers/source/lpc177x_8x_i2s.o
- .debug_info    0x0000ae9e     0x1570 ./Drivers/source/lpc177x_8x_mci.o
- .debug_info    0x0000c40e      0x7ac ./Drivers/source/lpc177x_8x_mcpwm.o
- .debug_info    0x0000cbba      0x3df ./Drivers/source/lpc177x_8x_nvic.o
- .debug_info    0x0000cf99      0x4b7 ./Drivers/source/lpc177x_8x_pinsel.o
- .debug_info    0x0000d450      0x899 ./Drivers/source/lpc177x_8x_pwm.o
- .debug_info    0x0000dce9      0x9c7 ./Drivers/source/lpc177x_8x_qei.o
- .debug_info    0x0000e6b0      0x9f8 ./Drivers/source/lpc177x_8x_rtc.o
- .debug_info    0x0000f0a8      0x72e ./Drivers/source/lpc177x_8x_ssp.o
- .debug_info    0x0000f7d6      0x21f ./Drivers/source/lpc177x_8x_systick.o
- .debug_info    0x0000f9f5      0x85f ./Drivers/source/lpc177x_8x_timer.o
- .debug_info    0x00010254     0x10cf ./Drivers/source/lpc177x_8x_uart.o
- .debug_info    0x00011323      0x553 ./Drivers/source/lpc177x_8x_wwdt.o
- .debug_info    0x00011876      0x1cc ./main.o
+ .debug_info    0x00000000      0x374 ./src/commandsHandlerTask.o
+ .debug_info    0x00000374       0x68 ./src/core_cm3.o
+ .debug_info    0x000003dc      0x451 ./src/initSystem.o
+ .debug_info    0x0000082d      0x3a0 ./src/sendDataTask.o
+ .debug_info    0x00000bcd      0x555 ./src/system_LPC177x_8x.o
+ .debug_info    0x00001122      0x31f ./src/taskDataAcquisition.o
+ .debug_info    0x00001441       0x50 ./src/taskDataLogger.o
+ .debug_info    0x00001491       0x50 ./src/taskUpdateTimestamp.o
+ .debug_info    0x000014e1      0x32c ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_info    0x0000180d      0x275 ./FreeRTOS/Source/portable/port.o
+ .debug_info    0x00001a82      0x2d3 ./FreeRTOS/Source/list.o
+ .debug_info    0x00001d55      0xa15 ./FreeRTOS/Source/queue.o
+ .debug_info    0x0000276a     0x127a ./FreeRTOS/Source/tasks.o
+ .debug_info    0x000039e4      0xabb ./Drivers/source/debug_frmwrk.o
+ .debug_info    0x0000449f      0x4fd ./Drivers/source/lpc177x_8x_adc.o
+ .debug_info    0x0000499c     0x110b ./Drivers/source/lpc177x_8x_can.o
+ .debug_info    0x00005aa7      0x68c ./Drivers/source/lpc177x_8x_clkpwr.o
+ .debug_info    0x00006133      0x2c8 ./Drivers/source/lpc177x_8x_crc.o
+ .debug_info    0x000063fb      0x32a ./Drivers/source/lpc177x_8x_dac.o
+ .debug_info    0x00006725      0x373 ./Drivers/source/lpc177x_8x_eeprom.o
+ .debug_info    0x00006a98      0xd81 ./Drivers/source/lpc177x_8x_emc.o
+ .debug_info    0x00007819      0x502 ./Drivers/source/lpc177x_8x_exti.o
+ .debug_info    0x00007d1b     0x11e4 ./Drivers/source/lpc177x_8x_gpdma.o
+ .debug_info    0x00008eff      0xb69 ./Drivers/source/lpc177x_8x_gpio.o
+ .debug_info    0x00009a68      0xe30 ./Drivers/source/lpc177x_8x_i2c.o
+ .debug_info    0x0000a898      0x814 ./Drivers/source/lpc177x_8x_i2s.o
+ .debug_info    0x0000b0ac     0x1570 ./Drivers/source/lpc177x_8x_mci.o
+ .debug_info    0x0000c61c      0x7ac ./Drivers/source/lpc177x_8x_mcpwm.o
+ .debug_info    0x0000cdc8      0x3df ./Drivers/source/lpc177x_8x_nvic.o
+ .debug_info    0x0000d1a7      0x4b7 ./Drivers/source/lpc177x_8x_pinsel.o
+ .debug_info    0x0000d65e      0x899 ./Drivers/source/lpc177x_8x_pwm.o
+ .debug_info    0x0000def7      0x9c7 ./Drivers/source/lpc177x_8x_qei.o
+ .debug_info    0x0000e8be      0x9f8 ./Drivers/source/lpc177x_8x_rtc.o
+ .debug_info    0x0000f2b6      0x72e ./Drivers/source/lpc177x_8x_ssp.o
+ .debug_info    0x0000f9e4      0x21f ./Drivers/source/lpc177x_8x_systick.o
+ .debug_info    0x0000fc03      0x85f ./Drivers/source/lpc177x_8x_timer.o
+ .debug_info    0x00010462     0x10cf ./Drivers/source/lpc177x_8x_uart.o
+ .debug_info    0x00011531      0x553 ./Drivers/source/lpc177x_8x_wwdt.o
+ .debug_info    0x00011a84      0x1cc ./main.o
 
-.debug_abbrev   0x00000000     0x3aa2
+.debug_abbrev   0x00000000     0x3b33
  *(.debug_abbrev)
- .debug_abbrev  0x00000000       0x29 ./src/core_cm3.o
- .debug_abbrev  0x00000029      0x137 ./src/initSystem.o
- .debug_abbrev  0x00000160      0x17a ./src/sendDataTask.o
- .debug_abbrev  0x000002da      0x106 ./src/system_LPC177x_8x.o
- .debug_abbrev  0x000003e0       0xcc ./src/taskCommandsHandler.o
- .debug_abbrev  0x000004ac      0x128 ./src/taskDataAcquisition.o
- .debug_abbrev  0x000005d4       0x47 ./src/taskDataLogger.o
- .debug_abbrev  0x0000061b       0x47 ./src/taskUpdateTimestamp.o
- .debug_abbrev  0x00000662      0x173 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_abbrev  0x000007d5      0x18e ./FreeRTOS/Source/portable/port.o
- .debug_abbrev  0x00000963       0xdb ./FreeRTOS/Source/list.o
- .debug_abbrev  0x00000a3e      0x157 ./FreeRTOS/Source/queue.o
- .debug_abbrev  0x00000b95      0x286 ./FreeRTOS/Source/tasks.o
- .debug_abbrev  0x00000e1b      0x1e9 ./Drivers/source/debug_frmwrk.o
- .debug_abbrev  0x00001004      0x182 ./Drivers/source/lpc177x_8x_adc.o
- .debug_abbrev  0x00001186      0x256 ./Drivers/source/lpc177x_8x_can.o
- .debug_abbrev  0x000013dc      0x1bb ./Drivers/source/lpc177x_8x_clkpwr.o
- .debug_abbrev  0x00001597      0x176 ./Drivers/source/lpc177x_8x_crc.o
- .debug_abbrev  0x0000170d      0x142 ./Drivers/source/lpc177x_8x_dac.o
- .debug_abbrev  0x0000184f      0x161 ./Drivers/source/lpc177x_8x_eeprom.o
- .debug_abbrev  0x000019b0      0x1aa ./Drivers/source/lpc177x_8x_emc.o
- .debug_abbrev  0x00001b5a      0x12c ./Drivers/source/lpc177x_8x_exti.o
- .debug_abbrev  0x00001c86      0x22d ./Drivers/source/lpc177x_8x_gpdma.o
- .debug_abbrev  0x00001eb3      0x1d8 ./Drivers/source/lpc177x_8x_gpio.o
- .debug_abbrev  0x0000208b      0x26e ./Drivers/source/lpc177x_8x_i2c.o
- .debug_abbrev  0x000022f9      0x1e5 ./Drivers/source/lpc177x_8x_i2s.o
- .debug_abbrev  0x000024de      0x2db ./Drivers/source/lpc177x_8x_mci.o
- .debug_abbrev  0x000027b9      0x188 ./Drivers/source/lpc177x_8x_mcpwm.o
- .debug_abbrev  0x00002941      0x11e ./Drivers/source/lpc177x_8x_nvic.o
- .debug_abbrev  0x00002a5f       0xfb ./Drivers/source/lpc177x_8x_pinsel.o
- .debug_abbrev  0x00002b5a      0x1d7 ./Drivers/source/lpc177x_8x_pwm.o
- .debug_abbrev  0x00002d31      0x22a ./Drivers/source/lpc177x_8x_qei.o
- .debug_abbrev  0x00002f5b      0x16f ./Drivers/source/lpc177x_8x_rtc.o
- .debug_abbrev  0x000030ca      0x1e1 ./Drivers/source/lpc177x_8x_ssp.o
- .debug_abbrev  0x000032ab      0x115 ./Drivers/source/lpc177x_8x_systick.o
- .debug_abbrev  0x000033c0      0x1f8 ./Drivers/source/lpc177x_8x_timer.o
- .debug_abbrev  0x000035b8      0x211 ./Drivers/source/lpc177x_8x_uart.o
- .debug_abbrev  0x000037c9      0x244 ./Drivers/source/lpc177x_8x_wwdt.o
- .debug_abbrev  0x00003a0d       0x95 ./main.o
+ .debug_abbrev  0x00000000      0x15d ./src/commandsHandlerTask.o
+ .debug_abbrev  0x0000015d       0x29 ./src/core_cm3.o
+ .debug_abbrev  0x00000186      0x137 ./src/initSystem.o
+ .debug_abbrev  0x000002bd      0x17a ./src/sendDataTask.o
+ .debug_abbrev  0x00000437      0x106 ./src/system_LPC177x_8x.o
+ .debug_abbrev  0x0000053d      0x128 ./src/taskDataAcquisition.o
+ .debug_abbrev  0x00000665       0x47 ./src/taskDataLogger.o
+ .debug_abbrev  0x000006ac       0x47 ./src/taskUpdateTimestamp.o
+ .debug_abbrev  0x000006f3      0x173 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_abbrev  0x00000866      0x18e ./FreeRTOS/Source/portable/port.o
+ .debug_abbrev  0x000009f4       0xdb ./FreeRTOS/Source/list.o
+ .debug_abbrev  0x00000acf      0x157 ./FreeRTOS/Source/queue.o
+ .debug_abbrev  0x00000c26      0x286 ./FreeRTOS/Source/tasks.o
+ .debug_abbrev  0x00000eac      0x1e9 ./Drivers/source/debug_frmwrk.o
+ .debug_abbrev  0x00001095      0x182 ./Drivers/source/lpc177x_8x_adc.o
+ .debug_abbrev  0x00001217      0x256 ./Drivers/source/lpc177x_8x_can.o
+ .debug_abbrev  0x0000146d      0x1bb ./Drivers/source/lpc177x_8x_clkpwr.o
+ .debug_abbrev  0x00001628      0x176 ./Drivers/source/lpc177x_8x_crc.o
+ .debug_abbrev  0x0000179e      0x142 ./Drivers/source/lpc177x_8x_dac.o
+ .debug_abbrev  0x000018e0      0x161 ./Drivers/source/lpc177x_8x_eeprom.o
+ .debug_abbrev  0x00001a41      0x1aa ./Drivers/source/lpc177x_8x_emc.o
+ .debug_abbrev  0x00001beb      0x12c ./Drivers/source/lpc177x_8x_exti.o
+ .debug_abbrev  0x00001d17      0x22d ./Drivers/source/lpc177x_8x_gpdma.o
+ .debug_abbrev  0x00001f44      0x1d8 ./Drivers/source/lpc177x_8x_gpio.o
+ .debug_abbrev  0x0000211c      0x26e ./Drivers/source/lpc177x_8x_i2c.o
+ .debug_abbrev  0x0000238a      0x1e5 ./Drivers/source/lpc177x_8x_i2s.o
+ .debug_abbrev  0x0000256f      0x2db ./Drivers/source/lpc177x_8x_mci.o
+ .debug_abbrev  0x0000284a      0x188 ./Drivers/source/lpc177x_8x_mcpwm.o
+ .debug_abbrev  0x000029d2      0x11e ./Drivers/source/lpc177x_8x_nvic.o
+ .debug_abbrev  0x00002af0       0xfb ./Drivers/source/lpc177x_8x_pinsel.o
+ .debug_abbrev  0x00002beb      0x1d7 ./Drivers/source/lpc177x_8x_pwm.o
+ .debug_abbrev  0x00002dc2      0x22a ./Drivers/source/lpc177x_8x_qei.o
+ .debug_abbrev  0x00002fec      0x16f ./Drivers/source/lpc177x_8x_rtc.o
+ .debug_abbrev  0x0000315b      0x1e1 ./Drivers/source/lpc177x_8x_ssp.o
+ .debug_abbrev  0x0000333c      0x115 ./Drivers/source/lpc177x_8x_systick.o
+ .debug_abbrev  0x00003451      0x1f8 ./Drivers/source/lpc177x_8x_timer.o
+ .debug_abbrev  0x00003649      0x211 ./Drivers/source/lpc177x_8x_uart.o
+ .debug_abbrev  0x0000385a      0x244 ./Drivers/source/lpc177x_8x_wwdt.o
+ .debug_abbrev  0x00003a9e       0x95 ./main.o
 
-.debug_line     0x00000000     0xab50
+.debug_line     0x00000000     0xab66
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x00000000      0x190 ./src/core_cm3.o
- .debug_line    0x00000190      0x401 ./src/initSystem.o
- .debug_line    0x00000591      0x3ac ./src/sendDataTask.o
- .debug_line    0x0000093d      0x28f ./src/system_LPC177x_8x.o
- .debug_line    0x00000bcc      0x439 ./src/taskCommandsHandler.o
- .debug_line    0x00001005      0x304 ./src/taskDataAcquisition.o
- .debug_line    0x00001309       0x7e ./src/taskDataLogger.o
- .debug_line    0x00001387       0x88 ./src/taskUpdateTimestamp.o
- .debug_line    0x0000140f      0x4a5 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_line    0x000018b4      0x444 ./FreeRTOS/Source/portable/port.o
- .debug_line    0x00001cf8      0x420 ./FreeRTOS/Source/list.o
- .debug_line    0x00002118      0x6ce ./FreeRTOS/Source/queue.o
- .debug_line    0x000027e6      0xae4 ./FreeRTOS/Source/tasks.o
- .debug_line    0x000032ca      0x4d4 ./Drivers/source/debug_frmwrk.o
- .debug_line    0x0000379e      0x388 ./Drivers/source/lpc177x_8x_adc.o
- .debug_line    0x00003b26      0x862 ./Drivers/source/lpc177x_8x_can.o
- .debug_line    0x00004388      0x338 ./Drivers/source/lpc177x_8x_clkpwr.o
- .debug_line    0x000046c0      0x2e9 ./Drivers/source/lpc177x_8x_crc.o
- .debug_line    0x000049a9      0x325 ./Drivers/source/lpc177x_8x_dac.o
- .debug_line    0x00004cce      0x39a ./Drivers/source/lpc177x_8x_eeprom.o
- .debug_line    0x00005068      0x551 ./Drivers/source/lpc177x_8x_emc.o
- .debug_line    0x000055b9      0x2c6 ./Drivers/source/lpc177x_8x_exti.o
- .debug_line    0x0000587f      0x39b ./Drivers/source/lpc177x_8x_gpdma.o
- .debug_line    0x00005c1a      0x523 ./Drivers/source/lpc177x_8x_gpio.o
- .debug_line    0x0000613d      0x6da ./Drivers/source/lpc177x_8x_i2c.o
- .debug_line    0x00006817      0x45d ./Drivers/source/lpc177x_8x_i2s.o
- .debug_line    0x00006c74      0x968 ./Drivers/source/lpc177x_8x_mci.o
- .debug_line    0x000075dc      0x624 ./Drivers/source/lpc177x_8x_mcpwm.o
- .debug_line    0x00007c00      0x2b8 ./Drivers/source/lpc177x_8x_nvic.o
- .debug_line    0x00007eb8      0x3d6 ./Drivers/source/lpc177x_8x_pinsel.o
- .debug_line    0x0000828e      0x458 ./Drivers/source/lpc177x_8x_pwm.o
- .debug_line    0x000086e6      0x462 ./Drivers/source/lpc177x_8x_qei.o
- .debug_line    0x00008b48      0x50d ./Drivers/source/lpc177x_8x_rtc.o
- .debug_line    0x00009055      0x47d ./Drivers/source/lpc177x_8x_ssp.o
- .debug_line    0x000094d2      0x30a ./Drivers/source/lpc177x_8x_systick.o
- .debug_line    0x000097dc      0x453 ./Drivers/source/lpc177x_8x_timer.o
- .debug_line    0x00009c2f      0x640 ./Drivers/source/lpc177x_8x_uart.o
- .debug_line    0x0000a26f      0x451 ./Drivers/source/lpc177x_8x_wwdt.o
- .debug_line    0x0000a6c0      0x490 ./main.o
+ .debug_line    0x00000000      0x44f ./src/commandsHandlerTask.o
+ .debug_line    0x0000044f      0x190 ./src/core_cm3.o
+ .debug_line    0x000005df      0x401 ./src/initSystem.o
+ .debug_line    0x000009e0      0x3ac ./src/sendDataTask.o
+ .debug_line    0x00000d8c      0x28f ./src/system_LPC177x_8x.o
+ .debug_line    0x0000101b      0x304 ./src/taskDataAcquisition.o
+ .debug_line    0x0000131f       0x7e ./src/taskDataLogger.o
+ .debug_line    0x0000139d       0x88 ./src/taskUpdateTimestamp.o
+ .debug_line    0x00001425      0x4a5 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_line    0x000018ca      0x444 ./FreeRTOS/Source/portable/port.o
+ .debug_line    0x00001d0e      0x420 ./FreeRTOS/Source/list.o
+ .debug_line    0x0000212e      0x6ce ./FreeRTOS/Source/queue.o
+ .debug_line    0x000027fc      0xae4 ./FreeRTOS/Source/tasks.o
+ .debug_line    0x000032e0      0x4d4 ./Drivers/source/debug_frmwrk.o
+ .debug_line    0x000037b4      0x388 ./Drivers/source/lpc177x_8x_adc.o
+ .debug_line    0x00003b3c      0x862 ./Drivers/source/lpc177x_8x_can.o
+ .debug_line    0x0000439e      0x338 ./Drivers/source/lpc177x_8x_clkpwr.o
+ .debug_line    0x000046d6      0x2e9 ./Drivers/source/lpc177x_8x_crc.o
+ .debug_line    0x000049bf      0x325 ./Drivers/source/lpc177x_8x_dac.o
+ .debug_line    0x00004ce4      0x39a ./Drivers/source/lpc177x_8x_eeprom.o
+ .debug_line    0x0000507e      0x551 ./Drivers/source/lpc177x_8x_emc.o
+ .debug_line    0x000055cf      0x2c6 ./Drivers/source/lpc177x_8x_exti.o
+ .debug_line    0x00005895      0x39b ./Drivers/source/lpc177x_8x_gpdma.o
+ .debug_line    0x00005c30      0x523 ./Drivers/source/lpc177x_8x_gpio.o
+ .debug_line    0x00006153      0x6da ./Drivers/source/lpc177x_8x_i2c.o
+ .debug_line    0x0000682d      0x45d ./Drivers/source/lpc177x_8x_i2s.o
+ .debug_line    0x00006c8a      0x968 ./Drivers/source/lpc177x_8x_mci.o
+ .debug_line    0x000075f2      0x624 ./Drivers/source/lpc177x_8x_mcpwm.o
+ .debug_line    0x00007c16      0x2b8 ./Drivers/source/lpc177x_8x_nvic.o
+ .debug_line    0x00007ece      0x3d6 ./Drivers/source/lpc177x_8x_pinsel.o
+ .debug_line    0x000082a4      0x458 ./Drivers/source/lpc177x_8x_pwm.o
+ .debug_line    0x000086fc      0x462 ./Drivers/source/lpc177x_8x_qei.o
+ .debug_line    0x00008b5e      0x50d ./Drivers/source/lpc177x_8x_rtc.o
+ .debug_line    0x0000906b      0x47d ./Drivers/source/lpc177x_8x_ssp.o
+ .debug_line    0x000094e8      0x30a ./Drivers/source/lpc177x_8x_systick.o
+ .debug_line    0x000097f2      0x453 ./Drivers/source/lpc177x_8x_timer.o
+ .debug_line    0x00009c45      0x640 ./Drivers/source/lpc177x_8x_uart.o
+ .debug_line    0x0000a285      0x451 ./Drivers/source/lpc177x_8x_wwdt.o
+ .debug_line    0x0000a6d6      0x490 ./main.o
 
 .debug_frame    0x00000000     0x4e00
  *(.debug_frame)
- .debug_frame   0x00000000       0x38 ./src/initSystem.o
- .debug_frame   0x00000038       0x30 ./src/sendDataTask.o
- .debug_frame   0x00000068       0x54 ./src/system_LPC177x_8x.o
- .debug_frame   0x000000bc       0x50 ./src/taskCommandsHandler.o
+ .debug_frame   0x00000000       0x50 ./src/commandsHandlerTask.o
+ .debug_frame   0x00000050       0x38 ./src/initSystem.o
+ .debug_frame   0x00000088       0x30 ./src/sendDataTask.o
+ .debug_frame   0x000000b8       0x54 ./src/system_LPC177x_8x.o
  .debug_frame   0x0000010c       0x34 ./src/taskDataAcquisition.o
  .debug_frame   0x00000140       0x2c ./src/taskDataLogger.o
  .debug_frame   0x0000016c       0x2c ./src/taskUpdateTimestamp.o
@@ -3434,86 +3438,86 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
  .debug_frame   0x00004dac       0x34 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__atexit.o)
  .debug_frame   0x00004de0       0x20 /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
 
-.debug_str      0x00000000    0x2290e
+.debug_str      0x00000000    0x22910
  *(.debug_str)
- .debug_str     0x00000000     0x2eb9 ./src/core_cm3.o
+ .debug_str     0x00000000     0xe0ce ./src/commandsHandlerTask.o
+                               0xe2f8 (size before relaxing)
+ .debug_str     0x0000e0ce       0x12 ./src/core_cm3.o
                                0x300a (size before relaxing)
- .debug_str     0x00002eb9     0xa65e ./src/initSystem.o
-                               0xd726 (size before relaxing)
- .debug_str     0x0000d517      0xdc2 ./src/sendDataTask.o
+ .debug_str     0x0000e0e0      0x1cf ./src/initSystem.o
+                               0xd723 (size before relaxing)
+ .debug_str     0x0000e2af       0x87 ./src/sendDataTask.o
                                0xc0c0 (size before relaxing)
- .debug_str     0x0000e2d9      0x52f ./src/system_LPC177x_8x.o
+ .debug_str     0x0000e336      0x52f ./src/system_LPC177x_8x.o
                                0x7904 (size before relaxing)
- .debug_str     0x0000e808       0x5b ./src/taskCommandsHandler.o
-                               0xe106 (size before relaxing)
- .debug_str     0x0000e863       0x51 ./src/taskDataAcquisition.o
+ .debug_str     0x0000e865       0x51 ./src/taskDataAcquisition.o
                                0xa91f (size before relaxing)
- .debug_str     0x0000e8b4       0x3b ./src/taskDataLogger.o
+ .debug_str     0x0000e8b6       0x3b ./src/taskDataLogger.o
                                0x2483 (size before relaxing)
- .debug_str     0x0000e8ef       0x4a ./src/taskUpdateTimestamp.o
+ .debug_str     0x0000e8f1       0x4a ./src/taskUpdateTimestamp.o
                                0x2492 (size before relaxing)
- .debug_str     0x0000e939      0x377 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_str     0x0000e93b      0x377 ./FreeRTOS/Source/portable/MemMang/heap_4.o
                                0xc922 (size before relaxing)
- .debug_str     0x0000ecb0      0x663 ./FreeRTOS/Source/portable/port.o
+ .debug_str     0x0000ecb2      0x663 ./FreeRTOS/Source/portable/port.o
                                0xab4a (size before relaxing)
- .debug_str     0x0000f313      0x125 ./FreeRTOS/Source/list.o
+ .debug_str     0x0000f315      0x125 ./FreeRTOS/Source/list.o
                                0xc234 (size before relaxing)
- .debug_str     0x0000f438      0x5ef ./FreeRTOS/Source/queue.o
+ .debug_str     0x0000f43a      0x5ef ./FreeRTOS/Source/queue.o
                                0xd804 (size before relaxing)
- .debug_str     0x0000fa27     0x1705 ./FreeRTOS/Source/tasks.o
+ .debug_str     0x0000fa29     0x1705 ./FreeRTOS/Source/tasks.o
                                0xdfa8 (size before relaxing)
- .debug_str     0x0001112c     0x1383 ./Drivers/source/debug_frmwrk.o
+ .debug_str     0x0001112e     0x1383 ./Drivers/source/debug_frmwrk.o
                                0x9973 (size before relaxing)
- .debug_str     0x000124af     0x1016 ./Drivers/source/lpc177x_8x_adc.o
+ .debug_str     0x000124b1     0x1016 ./Drivers/source/lpc177x_8x_adc.o
                                0x85de (size before relaxing)
- .debug_str     0x000134c5     0x219e ./Drivers/source/lpc177x_8x_can.o
+ .debug_str     0x000134c7     0x219e ./Drivers/source/lpc177x_8x_can.o
                                0xa232 (size before relaxing)
- .debug_str     0x00015663       0xd3 ./Drivers/source/lpc177x_8x_clkpwr.o
+ .debug_str     0x00015665       0xd3 ./Drivers/source/lpc177x_8x_clkpwr.o
                                0x831a (size before relaxing)
- .debug_str     0x00015736      0x1c0 ./Drivers/source/lpc177x_8x_crc.o
+ .debug_str     0x00015738      0x1c0 ./Drivers/source/lpc177x_8x_crc.o
                                0x81f5 (size before relaxing)
- .debug_str     0x000158f6      0x305 ./Drivers/source/lpc177x_8x_dac.o
+ .debug_str     0x000158f8      0x305 ./Drivers/source/lpc177x_8x_dac.o
                                0x91e9 (size before relaxing)
- .debug_str     0x00015bfb      0x3c9 ./Drivers/source/lpc177x_8x_eeprom.o
+ .debug_str     0x00015bfd      0x3c9 ./Drivers/source/lpc177x_8x_eeprom.o
                                0x843e (size before relaxing)
- .debug_str     0x00015fc4     0x1214 ./Drivers/source/lpc177x_8x_emc.o
+ .debug_str     0x00015fc6     0x1214 ./Drivers/source/lpc177x_8x_emc.o
                                0xa291 (size before relaxing)
- .debug_str     0x000171d8      0x217 ./Drivers/source/lpc177x_8x_exti.o
+ .debug_str     0x000171da      0x217 ./Drivers/source/lpc177x_8x_exti.o
                                0x789c (size before relaxing)
- .debug_str     0x000173ef     0x11b4 ./Drivers/source/lpc177x_8x_gpdma.o
+ .debug_str     0x000173f1     0x11b4 ./Drivers/source/lpc177x_8x_gpdma.o
                                0x9467 (size before relaxing)
- .debug_str     0x000185a3      0x65b ./Drivers/source/lpc177x_8x_gpio.o
+ .debug_str     0x000185a5      0x65b ./Drivers/source/lpc177x_8x_gpio.o
                                0x7bae (size before relaxing)
- .debug_str     0x00018bfe      0xe37 ./Drivers/source/lpc177x_8x_i2c.o
+ .debug_str     0x00018c00      0xe37 ./Drivers/source/lpc177x_8x_i2c.o
                                0x9db0 (size before relaxing)
- .debug_str     0x00019a35      0xbe9 ./Drivers/source/lpc177x_8x_i2s.o
+ .debug_str     0x00019a37      0xbe9 ./Drivers/source/lpc177x_8x_i2s.o
                                0x8ccb (size before relaxing)
- .debug_str     0x0001a61e     0x151f ./Drivers/source/lpc177x_8x_mci.o
+ .debug_str     0x0001a620     0x151f ./Drivers/source/lpc177x_8x_mci.o
                                0xa82e (size before relaxing)
- .debug_str     0x0001bb3d      0xd86 ./Drivers/source/lpc177x_8x_mcpwm.o
+ .debug_str     0x0001bb3f      0xd86 ./Drivers/source/lpc177x_8x_mcpwm.o
                                0x8def (size before relaxing)
- .debug_str     0x0001c8c3       0x7c ./Drivers/source/lpc177x_8x_nvic.o
+ .debug_str     0x0001c8c5       0x7c ./Drivers/source/lpc177x_8x_nvic.o
                                0x7635 (size before relaxing)
- .debug_str     0x0001c93f      0x3b3 ./Drivers/source/lpc177x_8x_pinsel.o
+ .debug_str     0x0001c941      0x3b3 ./Drivers/source/lpc177x_8x_pinsel.o
                                0x87ac (size before relaxing)
- .debug_str     0x0001ccf2      0xa69 ./Drivers/source/lpc177x_8x_pwm.o
+ .debug_str     0x0001ccf4      0xa69 ./Drivers/source/lpc177x_8x_pwm.o
                                0x8b1a (size before relaxing)
- .debug_str     0x0001d75b     0x1a80 ./Drivers/source/lpc177x_8x_qei.o
+ .debug_str     0x0001d75d     0x1a80 ./Drivers/source/lpc177x_8x_qei.o
                                0x9b1b (size before relaxing)
- .debug_str     0x0001f1db      0xa27 ./Drivers/source/lpc177x_8x_rtc.o
+ .debug_str     0x0001f1dd      0xa27 ./Drivers/source/lpc177x_8x_rtc.o
                                0x8b30 (size before relaxing)
- .debug_str     0x0001fc02      0xd36 ./Drivers/source/lpc177x_8x_ssp.o
+ .debug_str     0x0001fc04      0xd36 ./Drivers/source/lpc177x_8x_ssp.o
                                0x8e1c (size before relaxing)
- .debug_str     0x00020938      0x285 ./Drivers/source/lpc177x_8x_systick.o
+ .debug_str     0x0002093a      0x285 ./Drivers/source/lpc177x_8x_systick.o
                                0x82c7 (size before relaxing)
- .debug_str     0x00020bbd      0x710 ./Drivers/source/lpc177x_8x_timer.o
+ .debug_str     0x00020bbf      0x710 ./Drivers/source/lpc177x_8x_timer.o
                                0x975a (size before relaxing)
- .debug_str     0x000212cd      0x714 ./Drivers/source/lpc177x_8x_uart.o
+ .debug_str     0x000212cf      0x714 ./Drivers/source/lpc177x_8x_uart.o
                                0x9950 (size before relaxing)
- .debug_str     0x000219e1      0x71b ./Drivers/source/lpc177x_8x_wwdt.o
+ .debug_str     0x000219e3      0x71b ./Drivers/source/lpc177x_8x_wwdt.o
                                0x9678 (size before relaxing)
- .debug_str     0x000220fc      0x812 ./main.o
-                               0xeab7 (size before relaxing)
+ .debug_str     0x000220fe      0x812 ./main.o
+                               0xeab4 (size before relaxing)
 
 .debug_loc
  *(.debug_loc)
@@ -3538,10 +3542,10 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
 
 .debug_ranges   0x00000000     0x10f0
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x10 ./src/initSystem.o
- .debug_ranges  0x00000010       0x10 ./src/sendDataTask.o
- .debug_ranges  0x00000020       0x18 ./src/system_LPC177x_8x.o
- .debug_ranges  0x00000038       0x18 ./src/taskCommandsHandler.o
+ .debug_ranges  0x00000000       0x18 ./src/commandsHandlerTask.o
+ .debug_ranges  0x00000018       0x10 ./src/initSystem.o
+ .debug_ranges  0x00000028       0x10 ./src/sendDataTask.o
+ .debug_ranges  0x00000038       0x18 ./src/system_LPC177x_8x.o
  .debug_ranges  0x00000050       0x10 ./src/taskDataAcquisition.o
  .debug_ranges  0x00000060       0x10 ./src/taskDataLogger.o
  .debug_ranges  0x00000070       0x10 ./src/taskUpdateTimestamp.o
@@ -3577,120 +3581,121 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
  .debug_ranges  0x00001038       0xa8 ./Drivers/source/lpc177x_8x_wwdt.o
  .debug_ranges  0x000010e0       0x10 ./main.o
 
-.debug_macro    0x00000000     0x7816
+.debug_macro    0x00000000     0x7853
  *(.debug_macro)
- .debug_macro   0x00000000       0x60 ./src/core_cm3.o
- .debug_macro   0x00000060      0x862 ./src/core_cm3.o
- .debug_macro   0x000008c2       0x22 ./src/core_cm3.o
- .debug_macro   0x000008e4       0x44 ./src/core_cm3.o
- .debug_macro   0x00000928       0x58 ./src/core_cm3.o
- .debug_macro   0x00000980       0x22 ./src/core_cm3.o
- .debug_macro   0x000009a2      0x1df ./src/core_cm3.o
- .debug_macro   0x00000b81      0x1b1 ./src/initSystem.o
- .debug_macro   0x00000d32      0x16d ./src/initSystem.o
- .debug_macro   0x00000e9f       0x1c ./src/initSystem.o
- .debug_macro   0x00000ebb       0x2e ./src/initSystem.o
- .debug_macro   0x00000ee9       0x18 ./src/initSystem.o
- .debug_macro   0x00000f01      0x7af ./src/initSystem.o
- .debug_macro   0x000016b0      0x330 ./src/initSystem.o
- .debug_macro   0x000019e0       0xd0 ./src/initSystem.o
- .debug_macro   0x00001ab0       0x5e ./src/initSystem.o
- .debug_macro   0x00001b0e       0xcb ./src/initSystem.o
- .debug_macro   0x00001bd9       0x10 ./src/initSystem.o
- .debug_macro   0x00001be9       0x1f ./src/initSystem.o
- .debug_macro   0x00001c08      0x3a7 ./src/initSystem.o
- .debug_macro   0x00001faf       0xb0 ./src/initSystem.o
- .debug_macro   0x0000205f       0x58 ./src/initSystem.o
- .debug_macro   0x000020b7       0x35 ./src/initSystem.o
- .debug_macro   0x000020ec       0x9c ./src/initSystem.o
- .debug_macro   0x00002188       0x52 ./src/initSystem.o
- .debug_macro   0x000021da       0x16 ./src/initSystem.o
- .debug_macro   0x000021f0       0x43 ./src/initSystem.o
- .debug_macro   0x00002233      0x180 ./src/initSystem.o
- .debug_macro   0x000023b3      0x27a ./src/initSystem.o
- .debug_macro   0x0000262d       0x10 ./src/initSystem.o
- .debug_macro   0x0000263d       0x35 ./src/initSystem.o
- .debug_macro   0x00002672       0x5d ./src/initSystem.o
- .debug_macro   0x000026cf      0x2c9 ./src/initSystem.o
- .debug_macro   0x00002998       0x2e ./src/initSystem.o
- .debug_macro   0x000029c6      0x126 ./src/sendDataTask.o
- .debug_macro   0x00002aec       0xc0 ./src/sendDataTask.o
- .debug_macro   0x00002bac       0x8c ./src/sendDataTask.o
- .debug_macro   0x00002c38       0x16 ./src/sendDataTask.o
- .debug_macro   0x00002c4e      0x142 ./src/system_LPC177x_8x.o
- .debug_macro   0x00002d90       0x28 ./src/system_LPC177x_8x.o
- .debug_macro   0x00002db8      0x1c4 ./src/taskCommandsHandler.o
- .debug_macro   0x00002f7c      0x147 ./src/taskDataAcquisition.o
- .debug_macro   0x000030c3       0x4a ./src/taskDataAcquisition.o
- .debug_macro   0x0000310d       0x1b ./src/taskDataLogger.o
- .debug_macro   0x00003128       0x1b ./src/taskUpdateTimestamp.o
- .debug_macro   0x00003143      0x1c2 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_macro   0x00003305       0x16 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_macro   0x0000331b      0x10e ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_macro   0x00003429       0x86 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_macro   0x000034af       0x16 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_macro   0x000034c5       0x29 ./FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_macro   0x000034ee      0x194 ./FreeRTOS/Source/portable/port.o
- .debug_macro   0x00003682      0x19b ./FreeRTOS/Source/list.o
- .debug_macro   0x0000381d      0x20d ./FreeRTOS/Source/queue.o
- .debug_macro   0x00003a2a       0x16 ./FreeRTOS/Source/queue.o
- .debug_macro   0x00003a40      0x249 ./FreeRTOS/Source/tasks.o
- .debug_macro   0x00003c89       0x91 ./FreeRTOS/Source/tasks.o
- .debug_macro   0x00003d1a       0x16 ./FreeRTOS/Source/tasks.o
- .debug_macro   0x00003d30       0xb3 ./Drivers/source/debug_frmwrk.o
- .debug_macro   0x00003de3       0x64 ./Drivers/source/debug_frmwrk.o
- .debug_macro   0x00003e47       0x76 ./Drivers/source/debug_frmwrk.o
- .debug_macro   0x00003ebd      0x3dd ./Drivers/source/debug_frmwrk.o
- .debug_macro   0x0000429a       0xb3 ./Drivers/source/lpc177x_8x_adc.o
- .debug_macro   0x0000434d       0xbb ./Drivers/source/lpc177x_8x_adc.o
- .debug_macro   0x00004408      0x1dc ./Drivers/source/lpc177x_8x_adc.o
- .debug_macro   0x000045e4       0xb3 ./Drivers/source/lpc177x_8x_can.o
- .debug_macro   0x00004697      0x451 ./Drivers/source/lpc177x_8x_can.o
- .debug_macro   0x00004ae8       0xa4 ./Drivers/source/lpc177x_8x_clkpwr.o
- .debug_macro   0x00004b8c       0xb3 ./Drivers/source/lpc177x_8x_crc.o
- .debug_macro   0x00004c3f       0x1c ./Drivers/source/lpc177x_8x_crc.o
- .debug_macro   0x00004c5b       0xbc ./Drivers/source/lpc177x_8x_dac.o
- .debug_macro   0x00004d17       0x3a ./Drivers/source/lpc177x_8x_dac.o
- .debug_macro   0x00004d51       0xb3 ./Drivers/source/lpc177x_8x_eeprom.o
- .debug_macro   0x00004e04       0x82 ./Drivers/source/lpc177x_8x_eeprom.o
- .debug_macro   0x00004e86       0xc2 ./Drivers/source/lpc177x_8x_emc.o
- .debug_macro   0x00004f48       0x5e ./Drivers/source/lpc177x_8x_emc.o
- .debug_macro   0x00004fa6      0x1a0 ./Drivers/source/lpc177x_8x_emc.o
- .debug_macro   0x00005146       0x9b ./Drivers/source/lpc177x_8x_exti.o
- .debug_macro   0x000051e1       0x1c ./Drivers/source/lpc177x_8x_exti.o
- .debug_macro   0x000051fd       0xb3 ./Drivers/source/lpc177x_8x_gpdma.o
- .debug_macro   0x000052b0      0x290 ./Drivers/source/lpc177x_8x_gpdma.o
- .debug_macro   0x00005540       0x9b ./Drivers/source/lpc177x_8x_gpio.o
- .debug_macro   0x000055db       0x58 ./Drivers/source/lpc177x_8x_gpio.o
- .debug_macro   0x00005633       0xbc ./Drivers/source/lpc177x_8x_i2c.o
- .debug_macro   0x000056ef      0x16c ./Drivers/source/lpc177x_8x_i2c.o
- .debug_macro   0x0000585b       0xb3 ./Drivers/source/lpc177x_8x_i2s.o
- .debug_macro   0x0000590e      0x1cc ./Drivers/source/lpc177x_8x_i2s.o
- .debug_macro   0x00005ada      0x1c8 ./Drivers/source/lpc177x_8x_mci.o
- .debug_macro   0x00005ca2      0x1ec ./Drivers/source/lpc177x_8x_mci.o
- .debug_macro   0x00005e8e       0xb3 ./Drivers/source/lpc177x_8x_mcpwm.o
- .debug_macro   0x00005f41      0x133 ./Drivers/source/lpc177x_8x_mcpwm.o
- .debug_macro   0x00006074       0x9c ./Drivers/source/lpc177x_8x_nvic.o
- .debug_macro   0x00006110       0xf5 ./Drivers/source/lpc177x_8x_pinsel.o
- .debug_macro   0x00006205      0x3d7 ./Drivers/source/lpc177x_8x_pinsel.o
- .debug_macro   0x000065dc       0xb3 ./Drivers/source/lpc177x_8x_pwm.o
- .debug_macro   0x0000668f       0xbc ./Drivers/source/lpc177x_8x_pwm.o
- .debug_macro   0x0000674b       0xb3 ./Drivers/source/lpc177x_8x_qei.o
- .debug_macro   0x000067fe      0x3ac ./Drivers/source/lpc177x_8x_qei.o
- .debug_macro   0x00006baa       0xb3 ./Drivers/source/lpc177x_8x_rtc.o
- .debug_macro   0x00006c5d      0x18c ./Drivers/source/lpc177x_8x_rtc.o
- .debug_macro   0x00006de9       0xb3 ./Drivers/source/lpc177x_8x_ssp.o
- .debug_macro   0x00006e9c      0x24c ./Drivers/source/lpc177x_8x_ssp.o
- .debug_macro   0x000070e8       0xb3 ./Drivers/source/lpc177x_8x_systick.o
- .debug_macro   0x0000719b       0x46 ./Drivers/source/lpc177x_8x_systick.o
- .debug_macro   0x000071e1       0xbc ./Drivers/source/lpc177x_8x_timer.o
- .debug_macro   0x0000729d       0xb6 ./Drivers/source/lpc177x_8x_timer.o
- .debug_macro   0x00007353       0xb3 ./Drivers/source/lpc177x_8x_uart.o
- .debug_macro   0x00007406       0xbc ./Drivers/source/lpc177x_8x_wwdt.o
- .debug_macro   0x000074c2       0xa6 ./Drivers/source/lpc177x_8x_wwdt.o
- .debug_macro   0x00007568      0x213 ./main.o
- .debug_macro   0x0000777b       0x7f ./main.o
- .debug_macro   0x000077fa       0x1c ./main.o
+ .debug_macro   0x00000000      0x1cd ./src/commandsHandlerTask.o
+ .debug_macro   0x000001cd      0x862 ./src/commandsHandlerTask.o
+ .debug_macro   0x00000a2f      0x16d ./src/commandsHandlerTask.o
+ .debug_macro   0x00000b9c       0x22 ./src/commandsHandlerTask.o
+ .debug_macro   0x00000bbe       0x44 ./src/commandsHandlerTask.o
+ .debug_macro   0x00000c02       0x58 ./src/commandsHandlerTask.o
+ .debug_macro   0x00000c5a       0x22 ./src/commandsHandlerTask.o
+ .debug_macro   0x00000c7c      0x1df ./src/commandsHandlerTask.o
+ .debug_macro   0x00000e5b       0x1c ./src/commandsHandlerTask.o
+ .debug_macro   0x00000e77       0x2e ./src/commandsHandlerTask.o
+ .debug_macro   0x00000ea5       0x18 ./src/commandsHandlerTask.o
+ .debug_macro   0x00000ebd      0x7af ./src/commandsHandlerTask.o
+ .debug_macro   0x0000166c      0x330 ./src/commandsHandlerTask.o
+ .debug_macro   0x0000199c       0xd0 ./src/commandsHandlerTask.o
+ .debug_macro   0x00001a6c       0x5e ./src/commandsHandlerTask.o
+ .debug_macro   0x00001aca       0xcb ./src/commandsHandlerTask.o
+ .debug_macro   0x00001b95       0x10 ./src/commandsHandlerTask.o
+ .debug_macro   0x00001ba5       0x1f ./src/commandsHandlerTask.o
+ .debug_macro   0x00001bc4      0x3a7 ./src/commandsHandlerTask.o
+ .debug_macro   0x00001f6b       0xc0 ./src/commandsHandlerTask.o
+ .debug_macro   0x0000202b       0x8c ./src/commandsHandlerTask.o
+ .debug_macro   0x000020b7       0xb0 ./src/commandsHandlerTask.o
+ .debug_macro   0x00002167       0x58 ./src/commandsHandlerTask.o
+ .debug_macro   0x000021bf       0x35 ./src/commandsHandlerTask.o
+ .debug_macro   0x000021f4       0x9c ./src/commandsHandlerTask.o
+ .debug_macro   0x00002290       0x52 ./src/commandsHandlerTask.o
+ .debug_macro   0x000022e2       0x16 ./src/commandsHandlerTask.o
+ .debug_macro   0x000022f8       0x43 ./src/commandsHandlerTask.o
+ .debug_macro   0x0000233b      0x180 ./src/commandsHandlerTask.o
+ .debug_macro   0x000024bb      0x27a ./src/commandsHandlerTask.o
+ .debug_macro   0x00002735       0x10 ./src/commandsHandlerTask.o
+ .debug_macro   0x00002745       0x35 ./src/commandsHandlerTask.o
+ .debug_macro   0x0000277a       0x5d ./src/commandsHandlerTask.o
+ .debug_macro   0x000027d7      0x2c9 ./src/commandsHandlerTask.o
+ .debug_macro   0x00002aa0       0x34 ./src/commandsHandlerTask.o
+ .debug_macro   0x00002ad4       0x60 ./src/core_cm3.o
+ .debug_macro   0x00002b34      0x1b1 ./src/initSystem.o
+ .debug_macro   0x00002ce5       0x2e ./src/initSystem.o
+ .debug_macro   0x00002d13      0x126 ./src/sendDataTask.o
+ .debug_macro   0x00002e39       0x16 ./src/sendDataTask.o
+ .debug_macro   0x00002e4f      0x142 ./src/system_LPC177x_8x.o
+ .debug_macro   0x00002f91       0x28 ./src/system_LPC177x_8x.o
+ .debug_macro   0x00002fb9      0x147 ./src/taskDataAcquisition.o
+ .debug_macro   0x00003100       0x4a ./src/taskDataAcquisition.o
+ .debug_macro   0x0000314a       0x1b ./src/taskDataLogger.o
+ .debug_macro   0x00003165       0x1b ./src/taskUpdateTimestamp.o
+ .debug_macro   0x00003180      0x1c2 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_macro   0x00003342       0x16 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_macro   0x00003358      0x10e ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_macro   0x00003466       0x86 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_macro   0x000034ec       0x16 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_macro   0x00003502       0x29 ./FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_macro   0x0000352b      0x194 ./FreeRTOS/Source/portable/port.o
+ .debug_macro   0x000036bf      0x19b ./FreeRTOS/Source/list.o
+ .debug_macro   0x0000385a      0x20d ./FreeRTOS/Source/queue.o
+ .debug_macro   0x00003a67       0x16 ./FreeRTOS/Source/queue.o
+ .debug_macro   0x00003a7d      0x249 ./FreeRTOS/Source/tasks.o
+ .debug_macro   0x00003cc6       0x91 ./FreeRTOS/Source/tasks.o
+ .debug_macro   0x00003d57       0x16 ./FreeRTOS/Source/tasks.o
+ .debug_macro   0x00003d6d       0xb3 ./Drivers/source/debug_frmwrk.o
+ .debug_macro   0x00003e20       0x64 ./Drivers/source/debug_frmwrk.o
+ .debug_macro   0x00003e84       0x76 ./Drivers/source/debug_frmwrk.o
+ .debug_macro   0x00003efa      0x3dd ./Drivers/source/debug_frmwrk.o
+ .debug_macro   0x000042d7       0xb3 ./Drivers/source/lpc177x_8x_adc.o
+ .debug_macro   0x0000438a       0xbb ./Drivers/source/lpc177x_8x_adc.o
+ .debug_macro   0x00004445      0x1dc ./Drivers/source/lpc177x_8x_adc.o
+ .debug_macro   0x00004621       0xb3 ./Drivers/source/lpc177x_8x_can.o
+ .debug_macro   0x000046d4      0x451 ./Drivers/source/lpc177x_8x_can.o
+ .debug_macro   0x00004b25       0xa4 ./Drivers/source/lpc177x_8x_clkpwr.o
+ .debug_macro   0x00004bc9       0xb3 ./Drivers/source/lpc177x_8x_crc.o
+ .debug_macro   0x00004c7c       0x1c ./Drivers/source/lpc177x_8x_crc.o
+ .debug_macro   0x00004c98       0xbc ./Drivers/source/lpc177x_8x_dac.o
+ .debug_macro   0x00004d54       0x3a ./Drivers/source/lpc177x_8x_dac.o
+ .debug_macro   0x00004d8e       0xb3 ./Drivers/source/lpc177x_8x_eeprom.o
+ .debug_macro   0x00004e41       0x82 ./Drivers/source/lpc177x_8x_eeprom.o
+ .debug_macro   0x00004ec3       0xc2 ./Drivers/source/lpc177x_8x_emc.o
+ .debug_macro   0x00004f85       0x5e ./Drivers/source/lpc177x_8x_emc.o
+ .debug_macro   0x00004fe3      0x1a0 ./Drivers/source/lpc177x_8x_emc.o
+ .debug_macro   0x00005183       0x9b ./Drivers/source/lpc177x_8x_exti.o
+ .debug_macro   0x0000521e       0x1c ./Drivers/source/lpc177x_8x_exti.o
+ .debug_macro   0x0000523a       0xb3 ./Drivers/source/lpc177x_8x_gpdma.o
+ .debug_macro   0x000052ed      0x290 ./Drivers/source/lpc177x_8x_gpdma.o
+ .debug_macro   0x0000557d       0x9b ./Drivers/source/lpc177x_8x_gpio.o
+ .debug_macro   0x00005618       0x58 ./Drivers/source/lpc177x_8x_gpio.o
+ .debug_macro   0x00005670       0xbc ./Drivers/source/lpc177x_8x_i2c.o
+ .debug_macro   0x0000572c      0x16c ./Drivers/source/lpc177x_8x_i2c.o
+ .debug_macro   0x00005898       0xb3 ./Drivers/source/lpc177x_8x_i2s.o
+ .debug_macro   0x0000594b      0x1cc ./Drivers/source/lpc177x_8x_i2s.o
+ .debug_macro   0x00005b17      0x1c8 ./Drivers/source/lpc177x_8x_mci.o
+ .debug_macro   0x00005cdf      0x1ec ./Drivers/source/lpc177x_8x_mci.o
+ .debug_macro   0x00005ecb       0xb3 ./Drivers/source/lpc177x_8x_mcpwm.o
+ .debug_macro   0x00005f7e      0x133 ./Drivers/source/lpc177x_8x_mcpwm.o
+ .debug_macro   0x000060b1       0x9c ./Drivers/source/lpc177x_8x_nvic.o
+ .debug_macro   0x0000614d       0xf5 ./Drivers/source/lpc177x_8x_pinsel.o
+ .debug_macro   0x00006242      0x3d7 ./Drivers/source/lpc177x_8x_pinsel.o
+ .debug_macro   0x00006619       0xb3 ./Drivers/source/lpc177x_8x_pwm.o
+ .debug_macro   0x000066cc       0xbc ./Drivers/source/lpc177x_8x_pwm.o
+ .debug_macro   0x00006788       0xb3 ./Drivers/source/lpc177x_8x_qei.o
+ .debug_macro   0x0000683b      0x3ac ./Drivers/source/lpc177x_8x_qei.o
+ .debug_macro   0x00006be7       0xb3 ./Drivers/source/lpc177x_8x_rtc.o
+ .debug_macro   0x00006c9a      0x18c ./Drivers/source/lpc177x_8x_rtc.o
+ .debug_macro   0x00006e26       0xb3 ./Drivers/source/lpc177x_8x_ssp.o
+ .debug_macro   0x00006ed9      0x24c ./Drivers/source/lpc177x_8x_ssp.o
+ .debug_macro   0x00007125       0xb3 ./Drivers/source/lpc177x_8x_systick.o
+ .debug_macro   0x000071d8       0x46 ./Drivers/source/lpc177x_8x_systick.o
+ .debug_macro   0x0000721e       0xbc ./Drivers/source/lpc177x_8x_timer.o
+ .debug_macro   0x000072da       0xb6 ./Drivers/source/lpc177x_8x_timer.o
+ .debug_macro   0x00007390       0xb3 ./Drivers/source/lpc177x_8x_uart.o
+ .debug_macro   0x00007443       0xbc ./Drivers/source/lpc177x_8x_wwdt.o
+ .debug_macro   0x000074ff       0xa6 ./Drivers/source/lpc177x_8x_wwdt.o
+ .debug_macro   0x000075a5      0x213 ./main.o
+ .debug_macro   0x000077b8       0x7f ./main.o
+ .debug_macro   0x00007837       0x1c ./main.o
 
 .stack          0x00080000        0x0
                 0x00080000                _stack = .
@@ -3706,15 +3711,15 @@ LOAD /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/ar
  .ARM.attributes
                 0x0000004a       0x1b /usr/bin/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
  .ARM.attributes
-                0x00000065       0x33 ./src/core_cm3.o
+                0x00000065       0x33 ./src/commandsHandlerTask.o
  .ARM.attributes
-                0x00000098       0x33 ./src/initSystem.o
+                0x00000098       0x33 ./src/core_cm3.o
  .ARM.attributes
-                0x000000cb       0x33 ./src/sendDataTask.o
+                0x000000cb       0x33 ./src/initSystem.o
  .ARM.attributes
-                0x000000fe       0x33 ./src/system_LPC177x_8x.o
+                0x000000fe       0x33 ./src/sendDataTask.o
  .ARM.attributes
-                0x00000131       0x33 ./src/taskCommandsHandler.o
+                0x00000131       0x33 ./src/system_LPC177x_8x.o
  .ARM.attributes
                 0x00000164       0x33 ./src/taskDataAcquisition.o
  .ARM.attributes

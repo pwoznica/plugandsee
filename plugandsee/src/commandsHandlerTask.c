@@ -1,15 +1,23 @@
 
-#include "taskCommandsHandler.h"
+#include "commandsHandlerTask.h"
+#include "initSystem.h"
 
-//extern xQueueHandle xQueue;
+uint8_t fifo[SIZE_QUEUE];
+uint8_t i = 0;
 
-void UART0_IRQHandler(void)
-{
+void UART0_IRQHandler(void) {
+	// This handler will be called when a byte is received
+	if(i >= 64)
+		i = 0;
 
+	fifo[i] = UART_ReceiveByte(LPC_UART0);
+	++i;
+
+	if(fifo[(i-1)] == '\n') // End of trame detected so we can send to xQueueInput
+		xQueueSend(xQueueInput, fifo, (TickType_t) 10);
 }
 
-void commandsHandlerTask(void *pvParameters)
-{
+void commandsHandlerTask(void *pvParameters) {
 	uint8_t buff[64]; // TODO - Define as a constant (64)
 	memset(buff, 0, sizeof(buff));
 

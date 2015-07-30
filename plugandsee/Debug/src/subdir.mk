@@ -4,31 +4,31 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../src/commandsHandlerTask.c \
 ../src/core_cm3.c \
 ../src/initSystem.c \
 ../src/sendDataTask.c \
 ../src/system_LPC177x_8x.c \
-../src/taskCommandsHandler.c \
 ../src/taskDataAcquisition.c \
 ../src/taskDataLogger.c \
 ../src/taskUpdateTimestamp.c 
 
 OBJS += \
+./src/commandsHandlerTask.o \
 ./src/core_cm3.o \
 ./src/initSystem.o \
 ./src/sendDataTask.o \
 ./src/system_LPC177x_8x.o \
-./src/taskCommandsHandler.o \
 ./src/taskDataAcquisition.o \
 ./src/taskDataLogger.o \
 ./src/taskUpdateTimestamp.o 
 
 C_DEPS += \
+./src/commandsHandlerTask.d \
 ./src/core_cm3.d \
 ./src/initSystem.d \
 ./src/sendDataTask.d \
 ./src/system_LPC177x_8x.d \
-./src/taskCommandsHandler.d \
 ./src/taskDataAcquisition.d \
 ./src/taskDataLogger.d \
 ./src/taskUpdateTimestamp.d 
