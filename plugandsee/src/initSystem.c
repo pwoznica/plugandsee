@@ -24,4 +24,7 @@ void initSystemBasics(void)
 		UART_Send(LPC_UART0, success, strlen(success), NONE_BLOCKING);
 	}
 #endif
+
+	GPIO_SetDir(RELAY_PORT_NUM, RELAY_BIT_VALUE, 1);
+	GPIO_SetValue(RELAY_PORT_NUM, RELAY_BIT_VALUE);
 }

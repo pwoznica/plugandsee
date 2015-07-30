@@ -50,14 +50,15 @@ Memory management
    bool getValuesFrom(TEnergy *buff, uint32_t timestamp);
 
 **************************************************
-*   Command Handler task
+*   Commands Handler task
 **************************************************
 This task will wait for commands from the mobile
-app. and will notify other tasks.
+app. and will perform required actions.
 
 Algo.:
    Initialization of the UART interface (8N1 115200)
-   connected to the Bluetooth interface.
+   connected to the Bluetooth interface. (This is done
+   in initSystem() function)
 
    Wait for a command
    Switch the command

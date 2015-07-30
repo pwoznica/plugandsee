@@ -9,6 +9,7 @@
 #include <string.h>
 
 #include "lpc177x_8x_uart.h"
+#include "lpc177x_8x_gpio.h"
 
 // Priorities at which the tasks are created (TBC)
 #define UPDATE_TIMESTAMP_TASK_PRIORITY		(tskIDLE_PRIORITY + 6)
@@ -19,6 +20,9 @@
 #define SAVING_DATA_TASK_PRIORITY			(tskIDLE_PRIORITY + 1)
 
 #define SIZE_QUEUE							(64) // TBC
+
+#define RELAY_PORT_NUM						(0)  // TODO - To update when the relay will be connected
+#define RELAY_BIT_VALUE						(0)  // TODO - To update when the relay will be connected
 
 extern QueueHandle_t xQueueInput;
 extern QueueHandle_t xQueueOutput;
