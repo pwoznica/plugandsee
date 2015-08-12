@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/lpclib/!svn/ver/9069/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/inc
+END
+core_cm3.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/lpclib/!svn/ver/7475/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/inc/core_cm3.h
+END
+system_LPC13Uxx.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lpclib/!svn/ver/7475/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/inc/system_LPC13Uxx.h
+END
+uart.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lpclib/!svn/ver/8222/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/inc/uart.h
+END
+gpio.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lpclib/!svn/ver/7475/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/inc/gpio.h
+END
+usart.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/lpclib/!svn/ver/7475/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/inc/usart.h
+END
+clkconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/lpclib/!svn/ver/7475/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/inc/clkconfig.h
+END
+type.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lpclib/!svn/ver/9145/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/inc/type.h
+END
+core_cmFunc.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/lpclib/!svn/ver/7475/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/inc/core_cmFunc.h
+END
+nmi.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/lpclib/!svn/ver/9145/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/inc/nmi.h
+END
+power_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/lpclib/!svn/ver/8291/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/inc/power_api.h
+END
+timer32.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/lpclib/!svn/ver/7497/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/inc/timer32.h
+END
+LPC13Uxx.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/lpclib/!svn/ver/9145/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/inc/LPC13Uxx.h
+END
+core_cmInstr.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/lpclib/!svn/ver/7475/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/inc/core_cmInstr.h
+END
+timer16.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/lpclib/!svn/ver/7498/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/inc/timer16.h
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/lpclib/!svn/ver/9067/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/src
+END
+gpio.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lpclib/!svn/ver/9067/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/src/gpio.c
+END
+Serial.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/lpclib/!svn/ver/9145/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/src/Serial.c
+END
+clkconfig.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/lpclib/!svn/ver/9067/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/src/clkconfig.c
+END
+nmi.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/lpclib/!svn/ver/9145/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/src/nmi.c
+END
+timer32.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/lpclib/!svn/ver/9067/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/src/timer32.c
+END
+timer16.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/lpclib/!svn/ver/9067/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/src/timer16.c
+END
+startup_LPC13Uxx.s
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lpclib/!svn/ver/9145/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/src/startup_LPC13Uxx.s
+END
+core_cm3.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/lpclib/!svn/ver/7475/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/src/core_cm3.c
+END
+system_LPC13Uxx.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lpclib/!svn/ver/7484/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/src/system_LPC13Uxx.c
+END
+uart.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lpclib/!svn/ver/9066/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/src/uart.c
+END
+Retarget.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/lpclib/!svn/ver/7475/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/src/Retarget.c
+END
+cr_startup_lpc13u.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lpclib/!svn/ver/9145/trunk/codebundle/examples/LPC13Uxx/keil_examples/Common/src/cr_startup_lpc13u.c
+END
